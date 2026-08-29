@@ -360,6 +360,16 @@ input, select {
 }
 .palette-hit:hover { background: var(--bg-row-hover); }
 
+.source-block {
+  margin-top: 12px;
+  background: #10261c;
+  border: 1px solid #245c42;
+  border-radius: 10px;
+  padding: 12px;
+}
+.source-block strong { display: block; color: var(--green); margin-bottom: 6px; }
+.source-block .copyable { margin: 0 0 6px; user-select: text; }
+
 .footer {
   border-top: 1px solid var(--line);
   color: var(--faint);

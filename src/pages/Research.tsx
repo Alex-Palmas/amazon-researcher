@@ -18,7 +18,8 @@ type SortKey =
   | "monthlyRevenue"
   | "fob"
   | "unit"
-  | "afterAdsMonthly";
+  | "afterAdsMonthly"
+  | "alibaba";
 
 const COLUMNS: { key: SortKey; label: string }[] = [
   { key: "title", label: "Product" },
@@ -32,6 +33,7 @@ const COLUMNS: { key: SortKey; label: string }[] = [
   { key: "fob", label: "FOB" },
   { key: "unit", label: "Unit" },
   { key: "afterAdsMonthly", label: "After ads" },
+  { key: "alibaba", label: "Alibaba" },
 ];
 
 interface Props {
@@ -208,6 +210,11 @@ export function Research({ catalog, onOpen }: Props) {
                   <td className="num">{formatMoney(row.fob)}</td>
                   <td className={`num ${pnlClass(row.unit)}`}>{formatMoney(row.unit)}</td>
                   <td className={`num ${pnlClass(row.afterAdsMonthly)}`}>{formatMoney(row.afterAdsMonthly)}</td>
+                  <td>
+                    <div className="clamp" title={row.alibaba ?? undefined}>
+                      {row.alibaba ?? "—"}
+                    </div>
+                  </td>
                 </tr>
               ))}
             </tbody>

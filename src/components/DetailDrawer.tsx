@@ -1,3 +1,4 @@
+import { OpenAlibaba } from "./OpenAlibaba";
 import { amazonUrl, formatMoney, formatNumber, formatPct, formatUnits, pnlClass } from "../lib/format";
 import type { Listing } from "../types";
 import { ProductBadges } from "./Badges";
@@ -50,13 +51,21 @@ export function DetailDrawer({ listing, onClose, onTrack }: Props) {
               cls={pnlClass(listing.afterAdsMonthly)}
             />
           </div>
-          {listing.alibaba && (
+          {listing.alibaba ? (
+            <div className="source-block">
+              <strong>Source found on Alibaba</strong>
+              <p className="copyable">{listing.alibaba}</p>
+              <p className="muted">
+                FOB {formatMoney(listing.fob)}
+                {listing.notes ? ` · ${listing.notes}` : ""}
+              </p>
+            </div>
+          ) : listing.sourced === "yes" ? (
             <p className="note" style={{ marginTop: 12 }}>
-              <strong>Alibaba · </strong>
-              {listing.alibaba}
+              Sourced, match text missing
             </p>
-          )}
-          {listing.notes && (
+          ) : null}
+          {listing.notes && listing.alibaba && (
             <p className="note" style={{ marginTop: 8 }}>
               {listing.notes}
             </p>
@@ -65,6 +74,7 @@ export function DetailDrawer({ listing, onClose, onTrack }: Props) {
             <a className="btn" href={amazonUrl(listing)} target="_blank" rel="noreferrer">
               Open Amazon
             </a>
+            <OpenAlibaba listing={listing} />
             {onTrack && (
               <button className="btn ghost" type="button" onClick={() => onTrack(listing.asin)}>
                 Watch

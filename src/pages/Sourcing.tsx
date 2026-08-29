@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { ProductThumb } from "../components/ProductThumb";
 import { categoriesOf } from "../lib/catalog";
+import { OpenAlibaba } from "../components/OpenAlibaba";
 import { amazonUrl, formatMoney, pnlClass } from "../lib/format";
 import type { Listing } from "../types";
 
@@ -83,6 +84,11 @@ export function Sourcing({ listings, onOpen }: Props) {
                           Amazon
                         </a>
                       </div>
+                      {row.alibaba && (
+                        <div onClick={(event) => event.stopPropagation()} style={{ marginTop: 6 }}>
+                          <OpenAlibaba listing={row} />
+                        </div>
+                      )}
                     </div>
                   </div>
                 </td>
@@ -94,7 +100,9 @@ export function Sourcing({ listings, onOpen }: Props) {
                 <td className={`num ${pnlClass(row.unit)}`}>{formatMoney(row.unit)}</td>
                 <td className={`num ${pnlClass(row.afterAdsMonthly)}`}>{formatMoney(row.afterAdsMonthly)}</td>
                 <td>
-                  <div className="clamp">{row.alibaba ?? "—"}</div>
+                  <div className="clamp" title={row.alibaba ?? undefined}>
+                    {row.alibaba ?? "—"}
+                  </div>
                   {row.notes && <div className="muted clamp">{row.notes}</div>}
                 </td>
               </tr>
