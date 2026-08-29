@@ -360,6 +360,30 @@ input, select {
 }
 .palette-hit:hover { background: var(--bg-row-hover); }
 
+.photo-picker { margin: 10px 0 14px; }
+.photo-picker-list {
+  max-height: 280px;
+  overflow: auto;
+  margin-top: 8px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #0e1626;
+}
+.photo-picker-hit {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  color: inherit;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+.photo-picker-hit:last-child { border-bottom: 0; }
+.photo-picker-hit:hover, .photo-picker-hit.active { background: var(--bg-row-hover); }
+
 .source-block {
   margin-top: 12px;
   background: #10261c;

@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { PhotoAsinPicker } from "../components/PhotoAsinPicker";
 import { ProductThumb } from "../components/ProductThumb";
 import { notChecked } from "../lib/format";
 import { ranksForAsin, type KeywordRanksFile } from "../lib/ranks";
@@ -167,22 +168,12 @@ export function Keywords({
           Amazon organic positions we scraped — not title tokens, not Magnet estimates. Missing stays not checked, never 0.
           {ranks?.checkedAt ? ` Checked ${ranks.checkedAt} ${ranks.timezone}.` : " No rank scrape loaded yet."}
         </p>
-        <select value={rankAsin} onChange={(event) => setRankAsin(event.target.value)}>
-          {listings.map((row) => (
-            <option key={row.asin} value={row.asin}>
-              {row.asin} — {row.title.slice(0, 80)}
-            </option>
-          ))}
-        </select>
-        {rankListing && (
-          <div className="card product-card" style={{ marginTop: 12, cursor: "default" }}>
-            <ProductThumb listing={rankListing} size="hero" />
-            <div>
-              <p className="asin">{rankListing.asin}</p>
-              <p className="product-title">{rankListing.title}</p>
-            </div>
-          </div>
-        )}
+        <PhotoAsinPicker
+          listings={listings}
+          value={rankAsin}
+          onChange={setRankAsin}
+          label="Competitor / catalog ASIN"
+        />
         {ranks == null ? (
           <p className="note" style={{ marginTop: 12 }}>Loading rank scrape…</p>
         ) : competitorRanks.length === 0 ? (
