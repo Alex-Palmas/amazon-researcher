@@ -1,10 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import {
-  MINE_ASINS,
-  SEED_KEYWORDS,
-  STORAGE_KEY,
-  type KeywordRow,
-} from "../types";
+import { KEYWORD_STORAGE, MINE_ASINS, SEED_KEYWORDS, type KeywordRow } from "../types";
 
 function seedRows(): KeywordRow[] {
   return SEED_KEYWORDS.map((phrase, index) => ({
@@ -18,7 +13,7 @@ function seedRows(): KeywordRow[] {
 
 function readStore(): KeywordRow[] {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = localStorage.getItem(KEYWORD_STORAGE);
     if (!raw) return seedRows();
     const parsed = JSON.parse(raw) as KeywordRow[];
     if (!Array.isArray(parsed)) return seedRows();
@@ -32,7 +27,7 @@ export function useKeywords() {
   const [keywords, setKeywords] = useState<KeywordRow[]>(readStore);
 
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(keywords));
+    localStorage.setItem(KEYWORD_STORAGE, JSON.stringify(keywords));
   }, [keywords]);
 
   const addKeyword = useCallback((phrase: string) => {
@@ -77,16 +72,5 @@ export function useKeywords() {
     );
   }, []);
 
-  const trackPhrase = useCallback((phrase: string) => {
-    addKeyword(phrase);
-  }, [addKeyword]);
-
-  return {
-    keywords,
-    addKeyword,
-    removeKeyword,
-    updateKeyword,
-    toggleWatch,
-    trackPhrase,
-  };
+  return { keywords, addKeyword, removeKeyword, updateKeyword, toggleWatch };
 }

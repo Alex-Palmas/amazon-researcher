@@ -1,13 +1,4 @@
-import {
-  amazonUrl,
-  formatMoney,
-  formatNumber,
-  formatRating,
-  formatUnits,
-  monthlyRevenue,
-  netAfterAdStress,
-  observedAcos,
-} from "../lib/catalog";
+import { amazonUrl, formatMoney, formatNumber, formatPct, formatUnits, pnlClass } from "../lib/format";
 import type { Listing } from "../types";
 import { ProductBadges } from "./Badges";
 import { ProductThumb } from "./ProductThumb";
@@ -15,13 +6,10 @@ import { ProductThumb } from "./ProductThumb";
 interface Props {
   listing: Listing;
   onClose: () => void;
+  onTrack?: (asin: string) => void;
 }
 
-export function DetailDrawer({ listing, onClose }: Props) {
-  const net = netAfterAdStress(listing);
-  const rev = monthlyRevenue(listing);
-  const acos = observedAcos(listing);
-
+export function DetailDrawer({ listing, onClose, onTrack }: Props) {
   return (
     <>
       <button className="drawer-backdrop" aria-label="Close drawer" onClick={onClose} />
@@ -31,75 +19,72 @@ export function DetailDrawer({ listing, onClose }: Props) {
           <div>
             <p className="asin">{listing.asin}</p>
             <h2 className="product-title">{listing.title}</h2>
-            {listing.brand && <p className="muted">{listing.brand}</p>}
+            <p className="muted">
+              {listing.brand ?? "—"} · {listing.category?.replaceAll("_", " ") ?? "—"}
+              {listing.rank != null ? ` · rank ${listing.rank}` : ""}
+            </p>
             <ProductBadges listing={listing} />
           </div>
         </div>
         <div className="drawer-body">
           <div className="stat-grid">
-            <div className="stat">
-              <span>Price</span>
-              <strong>{formatMoney(listing.price)}</strong>
-            </div>
-            <div className="stat">
-              <span>List / typical</span>
-              <strong>
-                {listing.listPrice
-                  ? formatMoney(listing.listPrice)
-                  : listing.typicalPrice
-                    ? formatMoney(listing.typicalPrice)
-                    : "—"}
-              </strong>
-            </div>
-            <div className="stat">
-              <span>Rating / reviews</span>
-              <strong>{formatRating(listing)}</strong>
-            </div>
-            <div className="stat">
-              <span>Units / mo</span>
-              <strong>{formatUnits(listing)}</strong>
-            </div>
-            <div className="stat">
-              <span>FOB</span>
-              <strong>{formatMoney(listing.fob)}</strong>
-            </div>
-            <div className="stat">
-              <span>Unit</span>
-              <strong>{formatMoney(listing.unit)}</strong>
-            </div>
-            <div className="stat">
-              <span>Ads / mo</span>
-              <strong>{formatMoney(listing.ads)}</strong>
-            </div>
-            <div className="stat">
-              <span>Observed ACOS</span>
-              <strong>{acos == null ? "—" : `${(acos * 100).toFixed(1)}%`}</strong>
-            </div>
-            <div className="stat">
-              <span>Revenue / mo</span>
-              <strong>{formatMoney(rev)}</strong>
-            </div>
-            <div className="stat">
-              <span>Net after 15% ads</span>
-              <strong className={net != null && net > 0 ? "pos" : net != null ? "neg" : undefined}>
-                {formatMoney(net)}
-              </strong>
-            </div>
+            <Stat label="Price" value={formatMoney(listing.price)} />
+            <Stat label="List" value={formatMoney(listing.listPrice)} />
+            <Stat label="Rating" value={listing.rating == null ? "—" : listing.rating.toFixed(1)} />
+            <Stat label="Reviews" value={formatNumber(listing.reviews)} />
+            <Stat label="Units / mo" value={formatUnits(listing)} />
+            <Stat label="Opportunity" value={formatNumber(listing.opportunity, 1)} />
+            <Stat label="FOB" value={formatMoney(listing.fob)} />
+            <Stat label="Freight" value={formatMoney(listing.freight)} />
+            <Stat label="Duty" value={formatMoney(listing.duty)} />
+            <Stat label="Landed" value={formatMoney(listing.landed)} />
+            <Stat label="Referral" value={formatMoney(listing.referral)} />
+            <Stat label="FBA" value={formatMoney(listing.fba)} />
+            <Stat label="Unit before ads" value={formatMoney(listing.unit)} cls={pnlClass(listing.unit)} />
+            <Stat label="Margin" value={formatPct(listing.margin, true)} />
+            <Stat label="Monthly revenue" value={formatMoney(listing.monthlyRevenue)} />
+            <Stat label="Monthly profit" value={formatMoney(listing.monthlyProfit)} cls={pnlClass(listing.monthlyProfit)} />
+            <Stat
+              label="After 15% TACOS"
+              value={formatMoney(listing.afterAdsMonthly)}
+              cls={pnlClass(listing.afterAdsMonthly)}
+            />
           </div>
-          <p className="note" style={{ marginTop: 14 }}>
-            15% ads stress = price − FOB − unit − 15% of price. No invented fees.
-            Missing FOB or unit stays blank. Reviews {formatNumber(listing.reviews)}.
-          </p>
+          {listing.alibaba && (
+            <p className="note" style={{ marginTop: 12 }}>
+              <strong>Alibaba · </strong>
+              {listing.alibaba}
+            </p>
+          )}
+          {listing.notes && (
+            <p className="note" style={{ marginTop: 8 }}>
+              {listing.notes}
+            </p>
+          )}
           <div className="form-row">
-            <a className="btn" href={amazonUrl(listing.asin)} target="_blank" rel="noreferrer">
+            <a className="btn" href={amazonUrl(listing)} target="_blank" rel="noreferrer">
               Open Amazon
             </a>
-            <button className="btn ghost" onClick={onClose}>
+            {onTrack && (
+              <button className="btn ghost" type="button" onClick={() => onTrack(listing.asin)}>
+                Watch
+              </button>
+            )}
+            <button className="btn ghost" type="button" onClick={onClose}>
               Close
             </button>
           </div>
         </div>
       </aside>
     </>
+  );
+}
+
+function Stat({ label, value, cls }: { label: string; value: string; cls?: string }) {
+  return (
+    <div className="stat">
+      <span>{label}</span>
+      <strong className={cls}>{value}</strong>
+    </div>
   );
 }

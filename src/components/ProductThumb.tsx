@@ -11,8 +11,8 @@ export function ProductThumb({ listing, size = "thumb" }: Props) {
       className={size === "hero" ? "hero-img" : "thumb"}
       src={listing.image}
       alt={listing.title}
-      width={size === "hero" ? 92 : 56}
-      height={size === "hero" ? 92 : 56}
+      width={size === "hero" ? 88 : 48}
+      height={size === "hero" ? 88 : 48}
       loading="lazy"
     />
   );

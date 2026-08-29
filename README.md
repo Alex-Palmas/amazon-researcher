@@ -1,6 +1,6 @@
 # Amazon Researcher
 
-Dark Jungle Scout-style seller dashboard for Roore pickleball listings, keyword tracking, and accessory research.
+Roore-first Amazon seller OS for pickleball accessories. Dark Jungle Scout energy, not a generic clone. Data is the 29 Aug 2026 PT scrape — no invented ASINs, prices, FOBs, ranks, or search volumes.
 
 ## Local
 
@@ -8,12 +8,25 @@ Dark Jungle Scout-style seller dashboard for Roore pickleball listings, keyword 
 npm i && npm run dev
 ```
 
-Vite `base` is `/amazon-researcher/`. Hash routes: `#research` `#mine` `#keywords` `#audit`.
+Vite `base` is `/amazon-researcher/`. Hash routes:
+
+| Route | Page | What it does |
+| --- | --- | --- |
+| `#overview` | Overview | Roore + research KPIs, alert rail, scrape stamp |
+| `#research` | Research | Opportunity finder, plays after 15% TACOS, trending, filters |
+| `#mine` | My listings | Four Roore SKUs, 292 / 4.31, parent pool, title coverage |
+| `#competitors` | Competitors | Tape and carry clusters from the catalog |
+| `#keywords` | Keywords | Tracker, reverse ASIN, tape title gaps |
+| `#studio` | Studio | Listing optimizer, default B0GDC2M73C |
+| `#profit` | Profit lab | Fee-stack calculator from scrape assumptions |
+| `#sourcing` | Sourcing | Sourced SKUs with Alibaba text |
+| `#track` | Track | Watchlist over listings.json |
+| `#settings` | Settings | Edit / reset fee assumptions |
+
+Command palette: ⌘K / Ctrl+K searches ASIN, title, or brand.
 
 ## Live
 
 https://alex-palmas.github.io/amazon-researcher/
 
-## Data
-
-`public/data/listings.json` is seeded from the 29 Aug 2026 PT scrape. My listings are exactly four Roore ASINs. Catalog reviews 292, weighted rating 4.31. B0DJ5M2MMW and B0GJTZW6L2 share a 115-review parent pool. Keyword ranks and volumes are not invented.
+Monthly profit in the scrape is 100% of that listing’s bought-past-month units, not a forecast. After ads = minus 15% TACOS.

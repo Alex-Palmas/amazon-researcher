@@ -1,25 +1,53 @@
 export type Sourced = "yes" | "no" | "unknown";
 
+export interface FeeAssumptions {
+  referralPct: number;
+  fbaFuelPct: number;
+  tacosPct: number;
+  dutyBagsPct: number;
+  dutyBallsPct: number;
+  dutyOtherSportsPct: number;
+  oceanDdpPerKg: number;
+  reciprocalOverlay: boolean;
+  monthlyProfitNote: string;
+}
+
 export interface Listing {
   asin: string;
-  brand?: string;
+  brand: string | null;
   title: string;
-  price: number;
-  listPrice?: number;
-  typicalPrice?: number;
-  rating?: number;
-  reviews?: number;
-  units?: number;
-  unitsLabel?: string;
+  price: number | null;
+  listPrice: number | null;
+  rating: number | null;
+  reviews: number | null;
+  units: number | null;
+  unitsLabel: string | null;
   image: string;
-  mine?: boolean;
-  trending?: boolean;
-  badge?: "BEST";
-  sourced?: Sourced;
-  fob?: number;
-  unit?: number;
-  ads?: number;
-  parentPool?: string;
+  url: string | null;
+  rank: number | null;
+  page: number | null;
+  category: string | null;
+  packQty: string | number | null;
+  mine: boolean;
+  trending: boolean;
+  sourced: Sourced;
+  fob: number | null;
+  freight: number | null;
+  duty: number | null;
+  landed: number | null;
+  referral: number | null;
+  fba: number | null;
+  unit: number | null;
+  margin: number | null;
+  monthlyRevenue: number | null;
+  monthlyProfit: number | null;
+  afterAdsMonthly: number | null;
+  alibaba: string | null;
+  notes: string | null;
+  profitExcluded: boolean;
+  opportunity: number | null;
+  badge?: "BEST" | null;
+  parentPool?: string | null;
 }
 
 export interface ParentPool {
@@ -34,6 +62,11 @@ export interface CatalogMeta {
   source: string;
   catalogReviews: number;
   weightedRating: number;
+  listingCount: number;
+  researchCount: number;
+  sourcedCount: number;
+  trendingCount: number;
+  feeAssumptions: FeeAssumptions;
   parentPools: ParentPool[];
 }
 
@@ -42,7 +75,36 @@ export interface Catalog {
   listings: Listing[];
 }
 
-export type RouteId = "research" | "mine" | "keywords" | "audit";
+export type RouteId =
+  | "overview"
+  | "research"
+  | "mine"
+  | "competitors"
+  | "keywords"
+  | "studio"
+  | "profit"
+  | "sourcing"
+  | "track"
+  | "settings";
+
+export interface NavItem {
+  id: RouteId;
+  label: string;
+  group: string;
+}
+
+export const ROUTES: NavItem[] = [
+  { id: "overview", label: "Overview", group: "Command" },
+  { id: "research", label: "Research", group: "Find" },
+  { id: "competitors", label: "Competitors", group: "Find" },
+  { id: "keywords", label: "Keywords", group: "Find" },
+  { id: "mine", label: "My listings", group: "Roore" },
+  { id: "studio", label: "Studio", group: "Roore" },
+  { id: "profit", label: "Profit lab", group: "Money" },
+  { id: "sourcing", label: "Sourcing", group: "Money" },
+  { id: "track", label: "Track", group: "Ops" },
+  { id: "settings", label: "Settings", group: "Ops" },
+];
 
 export interface KeywordRow {
   id: string;
@@ -52,18 +114,33 @@ export interface KeywordRow {
   watching: string[];
 }
 
-export const ROUTES: { id: RouteId; label: string }[] = [
-  { id: "research", label: "Research" },
-  { id: "mine", label: "My listings" },
-  { id: "keywords", label: "Keywords" },
-  { id: "audit", label: "Audit" },
-];
-
 export const MINE_ASINS = [
   "B0GDC2M73C",
   "B0H696X4G4",
   "B0DJ5M2MMW",
   "B0GJTZW6L2",
+] as const;
+
+export const ROORE_TAPE_ASINS = [
+  "B0GDC2M73C",
+  "B0DJ5M2MMW",
+  "B0GJTZW6L2",
+] as const;
+
+export const TRENDING_ASINS = [
+  "B0GW8PD7KT",
+  "B0FR1W6326",
+  "B0H1BMN3T9",
+  "B0GWRV7HTY",
+  "B0GSDNQ2YS",
+  "B0H41CDCMP",
+] as const;
+
+export const SEED_WATCH = [
+  ...MINE_ASINS,
+  "B0BY34Q2ML",
+  "B0972GTS8W",
+  ...TRENDING_ASINS,
 ] as const;
 
 export const SEED_KEYWORDS = [
@@ -84,5 +161,11 @@ export const AUDIT_SUGGESTIONS = [
   "thermoformed",
 ] as const;
 
-export const STORAGE_KEY = "amazon-researcher.keywords.v1";
-export const AD_STRESS = 0.15;
+export const TAPE_CATEGORIES = ["tungsten_tape", "lead_tape"] as const;
+export const CARRY_CATEGORIES = ["sling", "backpack", "tote", "bag"] as const;
+export const BAG_CATEGORIES = new Set(["sling", "backpack", "tote", "bag"]);
+
+export const KEYWORD_STORAGE = "amazon-researcher.keywords.v2";
+export const SETTINGS_STORAGE = "amazon-researcher.settings.v1";
+export const WATCH_STORAGE = "amazon-researcher.watchlist.v1";
+export const CLUSTER_STORAGE = "amazon-researcher.clusters.v1";
