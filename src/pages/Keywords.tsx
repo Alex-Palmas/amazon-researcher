@@ -1,10 +1,18 @@
 import { useMemo, useState } from "react";
 import { PhotoAsinPicker } from "../components/PhotoAsinPicker";
 import { ProductThumb } from "../components/ProductThumb";
-import { notChecked } from "../lib/format";
-import { ranksForAsin, type KeywordRanksFile } from "../lib/ranks";
+import { formatNumber, notChecked } from "../lib/format";
+import {
+  demandProxies,
+  maxDemandProxy,
+  ranksForAsin,
+  type DemandProxy,
+  type KeywordRanksFile,
+} from "../lib/ranks";
 import { titleHasPhrase, tokenFrequency, tokenize } from "../lib/tokens";
 import { MINE_ASINS, ROORE_TAPE_ASINS, TAPE_CATEGORIES, type KeywordRow, type Listing } from "../types";
+
+type RankSort = "position" | "page" | "roore" | "demand";
 
 interface Props {
   listings: Listing[];
@@ -31,10 +39,47 @@ export function Keywords({
   const mine = listings.filter((row) => row.mine);
   const rankListing = listings.find((row) => row.asin === rankAsin) ?? listings[0];
   const selected = listings.find((row) => row.asin === reverseAsin) ?? listings[0];
-  const competitorRanks = useMemo(
-    () => (ranks && rankListing ? ranksForAsin(ranks, rankListing.asin) : []),
-    [ranks, rankListing],
+  const [rankSort, setRankSort] = useState<RankSort>("position");
+  const [rankDir, setRankDir] = useState<"asc" | "desc">("asc");
+  const proxies = useMemo(
+    () => (ranks ? demandProxies(ranks, listings) : new Map<string, DemandProxy>()),
+    [ranks, listings],
   );
+  const proxyMax = useMemo(() => maxDemandProxy(proxies), [proxies]);
+  const competitorRanks = useMemo(() => {
+    const rows = ranks && rankListing ? ranksForAsin(ranks, rankListing.asin) : [];
+    return [...rows].sort((a, b) => {
+      const pa = proxies.get(a.phrase.toLowerCase());
+      const pb = proxies.get(b.phrase.toLowerCase());
+      const av =
+        rankSort === "demand"
+          ? (pa?.demandProxy ?? null)
+          : rankSort === "roore"
+            ? a.rooreBest
+            : rankSort === "page"
+              ? a.page
+              : a.position;
+      const bv =
+        rankSort === "demand"
+          ? (pb?.demandProxy ?? null)
+          : rankSort === "roore"
+            ? b.rooreBest
+            : rankSort === "page"
+              ? b.page
+              : b.position;
+      const cmp = av == null && bv == null ? 0 : av == null ? 1 : bv == null ? -1 : av - bv;
+      return rankDir === "asc" ? cmp : -cmp;
+    });
+  }, [ranks, rankListing, proxies, rankSort, rankDir]);
+
+  const onRankSort = (key: RankSort) => {
+    if (key === rankSort) {
+      setRankDir((prev) => (prev === "asc" ? "desc" : "asc"));
+      return;
+    }
+    setRankSort(key);
+    setRankDir(key === "demand" ? "desc" : "asc");
+  };
 
   const reverse = useMemo(() => {
     if (!selected) return [];
@@ -95,6 +140,10 @@ export function Keywords({
               <th>Keyword</th>
               <th>Rank</th>
               <th>Volume</th>
+              <th>
+                Demand proxy
+                <div className="muted">bought/mo of ranked catalog listings — not Amazon search volume</div>
+              </th>
               <th>Watching</th>
               <th></th>
             </tr>
@@ -134,6 +183,9 @@ export function Keywords({
                   />
                 </td>
                 <td>
+                  <DemandCell proxy={proxies.get(row.phrase.toLowerCase())} max={proxyMax} />
+                </td>
+                <td>
                   <div className="badge-row">
                     {mine.map((listing) => {
                       const on = row.watching.includes(listing.asin);
@@ -165,7 +217,8 @@ export function Keywords({
       <section className="section">
         <h2 className="section-title">Competitor keyword ranks</h2>
         <p className="lede">
-          Amazon organic positions we scraped — not title tokens, not Magnet estimates. Missing stays not checked, never 0.
+          Amazon organic positions we scraped — not title tokens, not Magnet estimates. Demand proxy sums
+          bought-past-month units of ranked catalog ASINs only. Missing units stay out of the sum.
           {ranks?.checkedAt ? ` Checked ${ranks.checkedAt} ${ranks.timezone}.` : " No rank scrape loaded yet."}
         </p>
         <PhotoAsinPicker
@@ -186,9 +239,19 @@ export function Keywords({
               <thead>
                 <tr>
                   <th>Keyword</th>
-                  <th>Their rank</th>
-                  <th>Page</th>
-                  <th>Best Roore rank</th>
+                  <th onClick={() => onRankSort("position")}>
+                    Their rank{rankSort === "position" ? (rankDir === "asc" ? " ↑" : " ↓") : ""}
+                  </th>
+                  <th onClick={() => onRankSort("page")}>
+                    Page{rankSort === "page" ? (rankDir === "asc" ? " ↑" : " ↓") : ""}
+                  </th>
+                  <th onClick={() => onRankSort("roore")}>
+                    Best Roore rank{rankSort === "roore" ? (rankDir === "asc" ? " ↑" : " ↓") : ""}
+                  </th>
+                  <th onClick={() => onRankSort("demand")}>
+                    Demand proxy{rankSort === "demand" ? (rankDir === "asc" ? " ↑" : " ↓") : ""}
+                    <div className="muted">bought/mo of ranked catalog listings — not Amazon search volume</div>
+                  </th>
                   <th></th>
                 </tr>
               </thead>
@@ -208,6 +271,9 @@ export function Keywords({
                     <td className="num">{row.position}</td>
                     <td className="num">{row.page}</td>
                     <td>{row.rooreBest == null ? "not in top results" : row.rooreBest}</td>
+                    <td>
+                      <DemandCell proxy={proxies.get(row.phrase.toLowerCase())} max={proxyMax} />
+                    </td>
                     <td>
                       <button className="btn" type="button" onClick={() => addKeyword(row.phrase)}>
                         Track
@@ -314,6 +380,34 @@ export function Keywords({
           </table>
         </div>
       </section>
+    </div>
+  );
+}
+
+function DemandCell({ proxy, max }: { proxy: DemandProxy | undefined; max: number }) {
+  if (!proxy) {
+    return <span className="muted">not checked</span>;
+  }
+  if (proxy.demandProxy == null) {
+    return (
+      <div>
+        <span className="muted">—</span>
+        <div className="muted">
+          {proxy.inCatalog}/{proxy.organicCount} in catalog · no units
+        </div>
+      </div>
+    );
+  }
+  const width = max > 0 ? `${(proxy.demandProxy / max) * 100}%` : "0%";
+  return (
+    <div>
+      <div className="num">{formatNumber(proxy.demandProxy)}</div>
+      <div className="spark" aria-hidden>
+        <span style={{ width }} />
+      </div>
+      <div className="muted">
+        {proxy.inCatalog}/{proxy.organicCount} in catalog
+      </div>
     </div>
   );
 }

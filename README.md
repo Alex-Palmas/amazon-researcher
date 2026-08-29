@@ -16,7 +16,7 @@ Vite `base` is `/amazon-researcher/`. Hash routes:
 | `#research` | Research | Opportunity finder, plays after 15% TACOS, trending, filters |
 | `#mine` | My listings | Four Roore SKUs, 292 / 4.31, parent pool, title coverage |
 | `#competitors` | Competitors | Tape and carry clusters from the catalog |
-| `#keywords` | Keywords | Tracker, competitor organic ranks, listing-copy reverse ASIN, tape gaps |
+| `#keywords` | Keywords | Tracker, competitor organic ranks, demand proxy (catalog units, not search volume), listing-copy reverse ASIN |
 | `#studio` | Studio | Listing optimizer, default B0GDC2M73C |
 | `#profit` | Profit lab | Fee-stack calculator from scrape assumptions |
 | `#sourcing` | Sourcing | Sourced SKUs with Alibaba text |
