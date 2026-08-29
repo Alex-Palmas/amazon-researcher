@@ -29,6 +29,6 @@ Command palette: ⌘K / Ctrl+K searches ASIN, title, or brand.
 
 https://alex-palmas.github.io/amazon-researcher/
 
-Optional listing fields `lists`, `bestsellerRank`, and `newReleaseRank` power the extra Amazon charts. Existing `rank` stays accessories popularity. BESTSELLER / NEW RELEASE badges appear only when those fields are present — empty until the scrape lands. Paddle sets stay profit-excluded from plays but may appear on Best Sellers / New Releases ranking views.
+Optional listing fields `lists`, `bestsellerRank`, and `newReleaseRank` power two extra Amazon charts on Pickleball Accessories node `213609101011` (not Equipment `13287931`). Existing `rank` stays the 10-page accessories popularity catalog. BESTSELLER / NEW RELEASE badges appear only when those fields are present — empty until the scrape lands. Paddle sets stay profit-excluded from plays but may appear on Best Sellers / New Releases ranking views.
 
 Monthly profit in the scrape is 100% of that listing’s bought-past-month units, not a forecast. After ads = minus 15% TACOS.

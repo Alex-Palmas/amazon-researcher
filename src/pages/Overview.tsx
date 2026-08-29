@@ -2,7 +2,13 @@ import { bestPlay, chartCounts, findAsin, hasChartFields, isRecommendedPlay, new
 import { formatMoney, formatNumber } from "../lib/format";
 import { Kpi } from "../components/Kpi";
 import { ProductCard } from "../components/ProductCard";
-import type { Catalog, Listing } from "../types";
+import {
+  ACCESSORIES_CHART_NODE,
+  BESTSELLERS_CHART_URL,
+  NEW_RELEASES_CHART_URL,
+  type Catalog,
+  type Listing,
+} from "../types";
 
 interface Props {
   catalog: Catalog;
@@ -62,10 +68,25 @@ export function Overview({ catalog, onOpen }: Props) {
         <Kpi
           label="Best Sellers"
           value={lists.bestsellers}
-          sub="Pickle Ball Equipment Best Sellers"
+          sub={`Pickleball Accessories · node ${ACCESSORIES_CHART_NODE}`}
         />
-        <Kpi label="New Releases" value={lists.newReleases} sub="New Releases chart" />
+        <Kpi
+          label="New Releases"
+          value={lists.newReleases}
+          sub={`Pickleball Accessories · node ${ACCESSORIES_CHART_NODE}`}
+        />
       </div>
+      <p className="note">
+        Charts are Pickleball Accessories (node {ACCESSORIES_CHART_NODE}), not Equipment.{" "}
+        <a href={BESTSELLERS_CHART_URL} target="_blank" rel="noreferrer">
+          Best Sellers
+        </a>
+        {" · "}
+        <a href={NEW_RELEASES_CHART_URL} target="_blank" rel="noreferrer">
+          New Releases
+        </a>
+        . No equipment list.
+      </p>
       {!chartsReady && (
         <p className="note">
           Best Seller and New Release counts stay 0 until the chart scrape lands. No ASINs invented.

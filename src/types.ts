@@ -28,7 +28,9 @@ export interface Listing {
   url: string | null;
   rank: number | null;
   lists?: ChartList[] | null;
+  /** Pickleball Accessories Best Sellers, node 213609101011 */
   bestsellerRank?: number | null;
+  /** Pickleball Accessories New Releases, node 213609101011 */
   newReleaseRank?: number | null;
   page: number | null;
   category: string | null;
@@ -170,6 +172,13 @@ export const AUDIT_SUGGESTIONS = [
 export const TAPE_CATEGORIES = ["tungsten_tape", "lead_tape"] as const;
 export const CARRY_CATEGORIES = ["sling", "backpack", "tote", "bag"] as const;
 export const BAG_CATEGORIES = new Set(["sling", "backpack", "tote", "bag"]);
+
+/** Amazon Browse node 213609101011 — Pickleball Accessories, not Equipment 13287931 */
+export const ACCESSORIES_CHART_NODE = "213609101011";
+export const BESTSELLERS_CHART_URL =
+  "https://www.amazon.com/Best-Sellers-Sports-Outdoors-Pickleball-Accessories/zgbs/sporting-goods/213609101011";
+export const NEW_RELEASES_CHART_URL =
+  "https://www.amazon.com/gp/new-releases/sporting-goods/213609101011";
 
 export const KEYWORD_STORAGE = "amazon-researcher.keywords.v2";
 export const SETTINGS_STORAGE = "amazon-researcher.settings.v1";
