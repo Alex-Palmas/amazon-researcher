@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { ProductThumb } from "../components/ProductThumb";
 import { notChecked } from "../lib/format";
+import { ranksForAsin, type KeywordRanksFile } from "../lib/ranks";
 import { titleHasPhrase, tokenFrequency, tokenize } from "../lib/tokens";
 import { MINE_ASINS, ROORE_TAPE_ASINS, TAPE_CATEGORIES, type KeywordRow, type Listing } from "../types";
 
@@ -11,6 +12,7 @@ interface Props {
   removeKeyword: (id: string) => void;
   updateKeyword: (id: string, patch: Partial<KeywordRow>) => void;
   toggleWatch: (id: string, asin: string) => void;
+  ranks: KeywordRanksFile | null;
 }
 
 export function Keywords({
@@ -20,11 +22,18 @@ export function Keywords({
   removeKeyword,
   updateKeyword,
   toggleWatch,
+  ranks,
 }: Props) {
   const [draft, setDraft] = useState("");
+  const [rankAsin, setRankAsin] = useState("B0BY34Q2ML");
   const [reverseAsin, setReverseAsin] = useState("B0GDC2M73C");
   const mine = listings.filter((row) => row.mine);
+  const rankListing = listings.find((row) => row.asin === rankAsin) ?? listings[0];
   const selected = listings.find((row) => row.asin === reverseAsin) ?? listings[0];
+  const competitorRanks = useMemo(
+    () => (ranks && rankListing ? ranksForAsin(ranks, rankListing.asin) : []),
+    [ranks, rankListing],
+  );
 
   const reverse = useMemo(() => {
     if (!selected) return [];
@@ -153,8 +162,79 @@ export function Keywords({
       <p className="note">Default watch list is all four Roore ASINs: {MINE_ASINS.join(", ")}.</p>
 
       <section className="section">
-        <h2 className="section-title">Reverse ASIN</h2>
-        <p className="lede">Title tokens from a catalog listing, counted across the same category. No invented volumes.</p>
+        <h2 className="section-title">Competitor keyword ranks</h2>
+        <p className="lede">
+          Amazon organic positions we scraped — not title tokens, not Magnet estimates. Missing stays not checked, never 0.
+          {ranks?.checkedAt ? ` Checked ${ranks.checkedAt} ${ranks.timezone}.` : " No rank scrape loaded yet."}
+        </p>
+        <select value={rankAsin} onChange={(event) => setRankAsin(event.target.value)}>
+          {listings.map((row) => (
+            <option key={row.asin} value={row.asin}>
+              {row.asin} — {row.title.slice(0, 80)}
+            </option>
+          ))}
+        </select>
+        {rankListing && (
+          <div className="card product-card" style={{ marginTop: 12, cursor: "default" }}>
+            <ProductThumb listing={rankListing} size="hero" />
+            <div>
+              <p className="asin">{rankListing.asin}</p>
+              <p className="product-title">{rankListing.title}</p>
+            </div>
+          </div>
+        )}
+        {ranks == null ? (
+          <p className="note" style={{ marginTop: 12 }}>Loading rank scrape…</p>
+        ) : competitorRanks.length === 0 ? (
+          <p className="note" style={{ marginTop: 12 }}>
+            No checked ranks for this listing yet. Ranks are Amazon organic positions we scraped, not estimates.
+          </p>
+        ) : (
+          <div className="table-wrap" style={{ marginTop: 12 }}>
+            <table className="table">
+              <thead>
+                <tr>
+                  <th>Keyword</th>
+                  <th>Their rank</th>
+                  <th>Page</th>
+                  <th>Best Roore rank</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                {competitorRanks.map((row) => (
+                  <tr key={row.phrase}>
+                    <td>
+                      <strong>{row.phrase}</strong>
+                      {row.searchUrl && (
+                        <div>
+                          <a href={row.searchUrl} target="_blank" rel="noreferrer">
+                            Amazon search
+                          </a>
+                        </div>
+                      )}
+                    </td>
+                    <td className="num">{row.position}</td>
+                    <td className="num">{row.page}</td>
+                    <td>{row.rooreBest == null ? "not in top results" : row.rooreBest}</td>
+                    <td>
+                      <button className="btn" type="button" onClick={() => addKeyword(row.phrase)}>
+                        Track
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </section>
+
+      <section className="section">
+        <h2 className="section-title">From listing copy</h2>
+        <p className="lede">
+          Reverse ASIN from title tokens in the same category. This is not Amazon rank data and not search volume.
+        </p>
         <select value={reverseAsin} onChange={(event) => setReverseAsin(event.target.value)}>
           {listings.map((row) => (
             <option key={row.asin} value={row.asin}>

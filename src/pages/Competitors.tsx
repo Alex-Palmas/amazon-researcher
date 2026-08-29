@@ -3,6 +3,7 @@ import { ProductThumb } from "../components/ProductThumb";
 import { ProductBadges } from "../components/Badges";
 import { formatMoney, formatNumber, formatUnits } from "../lib/format";
 import type { Cluster } from "../hooks/useClusters";
+import { checkedKeywordCount, type KeywordRanksFile } from "../lib/ranks";
 import type { Listing } from "../types";
 
 interface Props {
@@ -12,9 +13,10 @@ interface Props {
   removeAsin: (id: Cluster["id"], asin: string) => void;
   reset: () => void;
   onOpen: (listing: Listing) => void;
+  ranks: KeywordRanksFile | null;
 }
 
-export function Competitors({ listings, clusters, addAsin, removeAsin, reset, onOpen }: Props) {
+export function Competitors({ listings, clusters, addAsin, removeAsin, reset, onOpen, ranks }: Props) {
   const [active, setActive] = useState<Cluster["id"]>("tape");
   const [pick, setPick] = useState("");
   const byAsin = useMemo(() => new Map(listings.map((row) => [row.asin, row])), [listings]);
@@ -84,6 +86,7 @@ export function Competitors({ listings, clusters, addAsin, removeAsin, reset, on
               <th>Units</th>
               <th>Opp</th>
               <th>Src</th>
+              <th>Checked ranks</th>
               <th></th>
             </tr>
           </thead>
@@ -107,6 +110,11 @@ export function Competitors({ listings, clusters, addAsin, removeAsin, reset, on
                 <td className="num">{formatUnits(row)}</td>
                 <td className="num">{formatNumber(row.opportunity, 1)}</td>
                 <td>{row.sourced}</td>
+                <td className="num">
+                  {ranks
+                    ? (checkedKeywordCount(ranks, row.asin) ?? "not checked")
+                    : "not checked"}
+                </td>
                 <td>
                   <button
                     className="btn danger"

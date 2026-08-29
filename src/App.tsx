@@ -6,6 +6,7 @@ import { useClusters } from "./hooks/useClusters";
 import { useHashRoute } from "./hooks/useHashRoute";
 import { useKeywords } from "./hooks/useKeywords";
 import { useSettings } from "./hooks/useSettings";
+import { useKeywordRanks } from "./hooks/useKeywordRanks";
 import { useWatchlist } from "./hooks/useWatchlist";
 import { Competitors } from "./pages/Competitors";
 import { Keywords } from "./pages/Keywords";
@@ -61,6 +62,7 @@ function AppReady({
 }) {
   const settings = useSettings(catalog.meta.feeAssumptions);
   const clusters = useClusters(catalog.listings);
+  const { ranks } = useKeywordRanks();
 
   return (
     <AppShell catalog={catalog} route={route} navigate={navigate} onOpen={setOpen}>
@@ -68,9 +70,9 @@ function AppReady({
       {route === "research" && <Research catalog={catalog} onOpen={setOpen} />}
       {route === "mine" && <Mine catalog={catalog} onOpen={setOpen} />}
       {route === "competitors" && (
-        <Competitors listings={catalog.listings} onOpen={setOpen} {...clusters} />
+        <Competitors listings={catalog.listings} onOpen={setOpen} ranks={ranks} {...clusters} />
       )}
-      {route === "keywords" && <Keywords listings={catalog.listings} {...keywords} />}
+      {route === "keywords" && <Keywords listings={catalog.listings} ranks={ranks} {...keywords} />}
       {route === "studio" && (
         <Studio
           listings={catalog.listings}

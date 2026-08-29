@@ -1,3 +1,4 @@
+import { parseAlibabaMoq } from "../lib/alibaba";
 import { OpenAlibaba } from "./OpenAlibaba";
 import { amazonUrl, formatMoney, formatNumber, formatPct, formatUnits, pnlClass } from "../lib/format";
 import type { Listing } from "../types";
@@ -11,6 +12,7 @@ interface Props {
 }
 
 export function DetailDrawer({ listing, onClose, onTrack }: Props) {
+  const moq = listing.alibaba ? parseAlibabaMoq(listing.alibaba) : null;
   return (
     <>
       <button className="drawer-backdrop" aria-label="Close drawer" onClick={onClose} />
@@ -57,19 +59,15 @@ export function DetailDrawer({ listing, onClose, onTrack }: Props) {
               <p className="copyable">{listing.alibaba}</p>
               <p className="muted">
                 FOB {formatMoney(listing.fob)}
-                {listing.notes ? ` · ${listing.notes}` : ""}
+                {moq ? ` · MOQ/qty ${moq}` : ""}
               </p>
+              {listing.notes && <p className="muted">{listing.notes}</p>}
             </div>
           ) : listing.sourced === "yes" ? (
             <p className="note" style={{ marginTop: 12 }}>
               Sourced, match text missing
             </p>
           ) : null}
-          {listing.notes && listing.alibaba && (
-            <p className="note" style={{ marginTop: 8 }}>
-              {listing.notes}
-            </p>
-          )}
           <div className="form-row">
             <a className="btn" href={amazonUrl(listing)} target="_blank" rel="noreferrer">
               Open Amazon
