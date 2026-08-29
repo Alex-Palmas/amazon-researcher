@@ -12,8 +12,8 @@ Vite `base` is `/amazon-researcher/`. Hash routes:
 
 | Route | Page | What it does |
 | --- | --- | --- |
-| `#overview` | Overview | Roore + research KPIs, alert rail, scrape stamp |
-| `#research` | Research | Opportunity finder, plays after 15% TACOS, trending, filters |
+| `#overview` | Overview | Roore + research KPIs, Amazon chart counts, New Releases rail, alert rail, scrape stamp |
+| `#research` | Research | Chart chips (Accessories / Best Sellers / New Releases / All), plays after 15% TACOS, trending, filters |
 | `#mine` | My listings | Four Roore SKUs, 292 / 4.31, parent pool, title coverage |
 | `#competitors` | Competitors | Tape and carry clusters from the catalog |
 | `#keywords` | Keywords | Tracker, competitor organic ranks, demand proxy (catalog units, not search volume), listing-copy reverse ASIN |
@@ -28,5 +28,7 @@ Command palette: ⌘K / Ctrl+K searches ASIN, title, or brand.
 ## Live
 
 https://alex-palmas.github.io/amazon-researcher/
+
+Optional listing fields `lists`, `bestsellerRank`, and `newReleaseRank` power the extra Amazon charts. Existing `rank` stays accessories popularity. BESTSELLER / NEW RELEASE badges appear only when those fields are present — empty until the scrape lands. Paddle sets stay profit-excluded from plays but may appear on Best Sellers / New Releases ranking views.
 
 Monthly profit in the scrape is 100% of that listing’s bought-past-month units, not a forecast. After ads = minus 15% TACOS.

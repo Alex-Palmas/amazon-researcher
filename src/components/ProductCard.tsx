@@ -7,11 +7,15 @@ interface Props {
   listing: Listing;
   onOpen: (listing: Listing) => void;
   extra?: string;
+  layout?: "row" | "photo";
 }
 
-export function ProductCard({ listing, onOpen, extra }: Props) {
+export function ProductCard({ listing, onOpen, extra, layout = "row" }: Props) {
   return (
-    <button className="card product-card" onClick={() => onOpen(listing)}>
+    <button
+      className={`card product-card${layout === "photo" ? " photo-card" : ""}`}
+      onClick={() => onOpen(listing)}
+    >
       <ProductThumb listing={listing} size="hero" />
       <div className="product-copy">
         <p className="asin">{listing.asin}</p>

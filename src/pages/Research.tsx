@@ -3,14 +3,24 @@ import { ProductCard } from "../components/ProductCard";
 import { ProductThumb } from "../components/ProductThumb";
 import { ProductBadges } from "../components/Badges";
 import { Kpi } from "../components/Kpi";
-import { categoriesOf, compareValues, isRecommendedPlay, researchListings } from "../lib/catalog";
+import {
+  categoriesOf,
+  chartListings,
+  compareValues,
+  defaultChartSort,
+  hasChartFields,
+  isRecommendedPlay,
+  researchListings,
+} from "../lib/catalog";
 import { formatMoney, formatNumber, formatUnits, pnlClass } from "../lib/format";
-import type { Catalog, Listing, Sourced } from "../types";
+import type { Catalog, ChartView, Listing, Sourced } from "../types";
 
 type SortKey =
   | "title"
   | "opportunity"
   | "rank"
+  | "bestsellerRank"
+  | "newReleaseRank"
   | "price"
   | "rating"
   | "reviews"
@@ -24,7 +34,9 @@ type SortKey =
 const COLUMNS: { key: SortKey; label: string }[] = [
   { key: "title", label: "Product" },
   { key: "opportunity", label: "Opp" },
-  { key: "rank", label: "Rank" },
+  { key: "rank", label: "Pop. rank" },
+  { key: "bestsellerRank", label: "BS rank" },
+  { key: "newReleaseRank", label: "NR rank" },
   { key: "price", label: "Price" },
   { key: "rating", label: "Rating" },
   { key: "reviews", label: "Reviews" },
@@ -36,24 +48,45 @@ const COLUMNS: { key: SortKey; label: string }[] = [
   { key: "alibaba", label: "Alibaba" },
 ];
 
+const CHART_CHIPS: { id: ChartView; label: string }[] = [
+  { id: "accessories", label: "Accessories" },
+  { id: "bestsellers", label: "Best Sellers" },
+  { id: "newReleases", label: "New Releases" },
+  { id: "all", label: "All" },
+];
+
 interface Props {
   catalog: Catalog;
   onOpen: (listing: Listing) => void;
 }
 
 export function Research({ catalog, onOpen }: Props) {
-  const base = useMemo(() => researchListings(catalog.listings), [catalog.listings]);
+  const playsBase = useMemo(() => researchListings(catalog.listings), [catalog.listings]);
+  const [chart, setChart] = useState<ChartView>("accessories");
+  const base = useMemo(() => chartListings(catalog.listings, chart), [catalog.listings, chart]);
   const cats = useMemo(() => categoriesOf(base), [base]);
   const [query, setQuery] = useState("");
   const [sourced, setSourced] = useState<"all" | Sourced>("all");
   const [category, setCategory] = useState("all");
   const [hideLocked, setHideLocked] = useState(false);
   const [hideExcluded, setHideExcluded] = useState(true);
-  const [sortKey, setSortKey] = useState<SortKey>("afterAdsMonthly");
-  const [dir, setDir] = useState<"asc" | "desc">("desc");
+  const initialSort = defaultChartSort("accessories");
+  const [sortKey, setSortKey] = useState<SortKey>(initialSort.key);
+  const [dir, setDir] = useState<"asc" | "desc">(initialSort.dir);
+  const chartsReady = hasChartFields(catalog.listings);
+  const rankingView = chart === "bestsellers" || chart === "newReleases";
+  const chipCounts = useMemo(
+    () => ({
+      accessories: chartListings(catalog.listings, "accessories").length,
+      bestsellers: chartListings(catalog.listings, "bestsellers").length,
+      newReleases: chartListings(catalog.listings, "newReleases").length,
+      all: chartListings(catalog.listings, "all").length,
+    }),
+    [catalog.listings],
+  );
 
-  const plays = base.filter(isRecommendedPlay);
-  const trending = base.filter((row) => row.trending);
+  const plays = playsBase.filter(isRecommendedPlay);
+  const trending = playsBase.filter((row) => row.trending);
 
   const rows = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -61,7 +94,7 @@ export function Research({ catalog, onOpen }: Props) {
       if (sourced !== "all" && row.sourced !== sourced) return false;
       if (category !== "all" && row.category !== category) return false;
       if (hideLocked && row.sourced === "no") return false;
-      if (hideExcluded && row.profitExcluded) return false;
+      if (hideExcluded && !rankingView && row.profitExcluded) return false;
       if (
         q &&
         !row.asin.toLowerCase().includes(q) &&
@@ -77,7 +110,15 @@ export function Research({ catalog, onOpen }: Props) {
       return dir === "asc" ? cmp : -cmp;
     });
     return filtered;
-  }, [base, query, sourced, category, hideLocked, hideExcluded, sortKey, dir]);
+  }, [base, query, sourced, category, hideLocked, hideExcluded, rankingView, sortKey, dir]);
+
+  const onChart = (view: ChartView) => {
+    setChart(view);
+    setCategory("all");
+    const next = defaultChartSort(view);
+    setSortKey(next.key);
+    setDir(next.dir);
+  };
 
   const onSort = (key: SortKey) => {
     if (key === sortKey) {
@@ -85,7 +126,7 @@ export function Research({ catalog, onOpen }: Props) {
       return;
     }
     setSortKey(key);
-    setDir(key === "title" ? "asc" : "desc");
+    setDir(key === "title" || key === "rank" || key === "bestsellerRank" || key === "newReleaseRank" ? "asc" : "desc");
   };
 
   return (
@@ -94,7 +135,8 @@ export function Research({ catalog, onOpen }: Props) {
         <div>
           <h1>Research</h1>
           <p className="lede">
-            Opportunity finder on the {catalog.meta.researchCount}-row accessories set. Mine SKUs stay on My listings.
+            Opportunity finder. Accessories is the 10-page popularity catalog. Best Sellers and New Releases sort by
+            those chart ranks once the scrape lands.
           </p>
         </div>
       </div>
@@ -132,6 +174,22 @@ export function Research({ catalog, onOpen }: Props) {
             <p className="lede">Photo-first. Opportunity is the precomputed scrape score — not a new sales estimate.</p>
           </div>
         </div>
+        <div className="chip-row">
+          {CHART_CHIPS.map((chip) => (
+            <button
+              key={chip.id}
+              className={`chip ${chart === chip.id ? "active" : ""}`}
+              onClick={() => onChart(chip.id)}
+            >
+              {chip.label} · {chipCounts[chip.id]}
+            </button>
+          ))}
+        </div>
+        {!chartsReady && (
+          <p className="note">
+            Best Sellers and New Releases are empty until the chart scrape lands. No ASINs invented.
+          </p>
+        )}
         <div className="chip-row">
           <button className={`chip ${category === "all" ? "active" : ""}`} onClick={() => setCategory("all")}>
             all
@@ -171,10 +229,16 @@ export function Research({ catalog, onOpen }: Props) {
               type="checkbox"
               checked={hideExcluded}
               onChange={(event) => setHideExcluded(event.target.checked)}
+              disabled={rankingView}
             />
             Hide profit-excluded
           </label>
         </div>
+        {rankingView && (
+          <p className="note">
+            Paddle sets stay profit-excluded from plays, but they appear on Best Sellers and New Releases ranking views.
+          </p>
+        )}
         <div className="table-wrap">
           <table className="table">
             <thead>
@@ -188,6 +252,15 @@ export function Research({ catalog, onOpen }: Props) {
               </tr>
             </thead>
             <tbody>
+              {rows.length === 0 && (
+                <tr>
+                  <td colSpan={COLUMNS.length}>
+                    {chart === "bestsellers" || chart === "newReleases"
+                      ? "No rows on this chart yet. Waiting on the scrape — no ASINs invented."
+                      : "No rows match these filters."}
+                  </td>
+                </tr>
+              )}
               {rows.map((row) => (
                 <tr key={row.asin} onClick={() => onOpen(row)}>
                   <td>
@@ -202,6 +275,8 @@ export function Research({ catalog, onOpen }: Props) {
                   </td>
                   <td className="num">{formatNumber(row.opportunity, 1)}</td>
                   <td className="num">{formatNumber(row.rank)}</td>
+                  <td className="num">{formatNumber(row.bestsellerRank)}</td>
+                  <td className="num">{formatNumber(row.newReleaseRank)}</td>
                   <td className="num">{formatMoney(row.price)}</td>
                   <td className="num">{row.rating == null ? "—" : row.rating.toFixed(1)}</td>
                   <td className="num">{formatNumber(row.reviews)}</td>

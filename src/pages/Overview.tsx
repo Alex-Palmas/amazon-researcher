@@ -1,4 +1,4 @@
-import { bestPlay, findAsin, isRecommendedPlay } from "../lib/catalog";
+import { bestPlay, chartCounts, findAsin, hasChartFields, isRecommendedPlay, newReleaseRail } from "../lib/catalog";
 import { formatMoney, formatNumber } from "../lib/format";
 import { Kpi } from "../components/Kpi";
 import { ProductCard } from "../components/ProductCard";
@@ -16,6 +16,9 @@ export function Overview({ catalog, onOpen }: Props) {
   const strips = findAsin(listings, "B0GDC2M73C");
   const plays = listings.filter(isRecommendedPlay);
   const maxUnits = Math.max(...trending.map((row) => row.units ?? 0), 1);
+  const lists = chartCounts(listings);
+  const chartsReady = hasChartFields(listings);
+  const releases = newReleaseRail(listings);
 
   return (
     <div className="page">
@@ -50,6 +53,50 @@ export function Overview({ catalog, onOpen }: Props) {
         <Kpi label="Trending new" value={meta.trendingCount} sub="units ≥ 200 and reviews ≤ 80" />
         <Kpi label="Plays after 15% TACOS" value={plays.length} sub="sourced · not excluded · leftover > $0" />
       </div>
+
+      <h2 className="section-title" style={{ marginTop: 22 }}>
+        Amazon charts
+      </h2>
+      <div className="kpis">
+        <Kpi label="Accessories" value={lists.accessories} sub="10-page popularity catalog" />
+        <Kpi
+          label="Best Sellers"
+          value={lists.bestsellers}
+          sub="Pickle Ball Equipment Best Sellers"
+        />
+        <Kpi label="New Releases" value={lists.newReleases} sub="New Releases chart" />
+      </div>
+      {!chartsReady && (
+        <p className="note">
+          Best Seller and New Release counts stay 0 until the chart scrape lands. No ASINs invented.
+        </p>
+      )}
+
+      <section className="section">
+        <div className="section-head">
+          <div>
+            <h2 className="section-title">New Releases</h2>
+            <p className="lede">Photo-first rail sorted by New Releases chart rank.</p>
+          </div>
+        </div>
+        {releases.length === 0 ? (
+          <p className="note">Empty until the New Releases scrape lands.</p>
+        ) : (
+          <div className="play-grid">
+            {releases.map((listing) => (
+              <ProductCard
+                key={listing.asin}
+                listing={listing}
+                onOpen={onOpen}
+                layout="photo"
+                extra={
+                  listing.newReleaseRank != null ? `New release #${listing.newReleaseRank}` : undefined
+                }
+              />
+            ))}
+          </div>
+        )}
+      </section>
 
       <section className="section">
         <div className="section-head">

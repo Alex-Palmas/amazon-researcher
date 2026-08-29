@@ -211,7 +211,19 @@ a { color: var(--blue); }
   padding: 3px 7px;
 }
 .badge.best { background: #2d2410; color: var(--amber); }
+.badge.seller { background: #2c2010; color: #f0c36a; }
+.badge.release { background: #16233a; color: #8eb4ff; }
 .badge.trend { background: #132b40; color: var(--blue); }
+.photo-card {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.photo-card .hero-img {
+  width: 100%;
+  height: 148px;
+}
 .badge.ok { background: var(--green-dim); color: var(--green); }
 .badge.miss { background: #2a1b22; color: #f0a0a6; }
 .badge.watch { background: var(--chip); color: var(--muted); }

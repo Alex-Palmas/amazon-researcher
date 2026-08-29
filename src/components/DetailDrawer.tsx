@@ -24,7 +24,9 @@ export function DetailDrawer({ listing, onClose, onTrack }: Props) {
             <h2 className="product-title">{listing.title}</h2>
             <p className="muted">
               {listing.brand ?? "—"} · {listing.category?.replaceAll("_", " ") ?? "—"}
-              {listing.rank != null ? ` · rank ${listing.rank}` : ""}
+              {listing.rank != null ? ` · pop. ${listing.rank}` : ""}
+              {listing.bestsellerRank != null ? ` · bestseller #${listing.bestsellerRank}` : ""}
+              {listing.newReleaseRank != null ? ` · new release #${listing.newReleaseRank}` : ""}
             </p>
             <ProductBadges listing={listing} />
           </div>
@@ -37,6 +39,9 @@ export function DetailDrawer({ listing, onClose, onTrack }: Props) {
             <Stat label="Reviews" value={formatNumber(listing.reviews)} />
             <Stat label="Units / mo" value={formatUnits(listing)} />
             <Stat label="Opportunity" value={formatNumber(listing.opportunity, 1)} />
+            <Stat label="Popularity rank" value={formatNumber(listing.rank)} />
+            <Stat label="Best seller rank" value={formatNumber(listing.bestsellerRank)} />
+            <Stat label="New release rank" value={formatNumber(listing.newReleaseRank)} />
             <Stat label="FOB" value={formatMoney(listing.fob)} />
             <Stat label="Freight" value={formatMoney(listing.freight)} />
             <Stat label="Duty" value={formatMoney(listing.duty)} />

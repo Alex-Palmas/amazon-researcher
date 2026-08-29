@@ -1,4 +1,6 @@
 export type Sourced = "yes" | "no" | "unknown";
+export type ChartList = "accessories" | "bestsellers" | "newReleases";
+export type ChartView = ChartList | "all";
 
 export interface FeeAssumptions {
   referralPct: number;
@@ -25,6 +27,9 @@ export interface Listing {
   image: string;
   url: string | null;
   rank: number | null;
+  lists?: ChartList[] | null;
+  bestsellerRank?: number | null;
+  newReleaseRank?: number | null;
   page: number | null;
   category: string | null;
   packQty: string | number | null;

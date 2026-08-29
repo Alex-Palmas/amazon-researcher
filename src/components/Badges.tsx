@@ -1,9 +1,12 @@
+import { isBestseller, isNewRelease } from "../lib/catalog";
 import type { Listing } from "../types";
 
 export function ProductBadges({ listing }: { listing: Listing }) {
   return (
     <div className="badge-row">
       {listing.badge === "BEST" && <span className="badge best">BEST</span>}
+      {isBestseller(listing) && <span className="badge seller">BESTSELLER</span>}
+      {isNewRelease(listing) && <span className="badge release">NEW RELEASE</span>}
       {listing.trending && <span className="badge trend">TRENDING</span>}
       {listing.mine && <span className="badge mine">MINE</span>}
       {listing.sourced === "yes" && <span className="badge ok">SOURCED</span>}
