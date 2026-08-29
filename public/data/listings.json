@@ -2,11 +2,11 @@
   "meta": {
     "scrapedAt": "2026-08-29",
     "timezone": "PT",
-    "source": "29 Aug 2026 PT scrape \u00b7 10 pages pickleball accessories",
+    "source": "29 Aug 2026 PT scrape \u00b7 10 pages pickleball accessories \u00b7 accessories bestsellers + new releases 29 Aug 2026 PT",
     "catalogReviews": 292,
     "weightedRating": 4.31,
-    "listingCount": 243,
-    "researchCount": 239,
+    "listingCount": 266,
+    "researchCount": 262,
     "sourcedCount": 123,
     "trendingCount": 6,
     "feeAssumptions": {
@@ -29,7 +29,9 @@
         "reviews": 115,
         "note": "B0DJ5M2MMW and B0GJTZW6L2 share 115 reviews (parent pool)."
       }
-    ]
+    ],
+    "bestsellerCount": 80,
+    "newReleaseCount": 80
   },
   "listings": [
     {
@@ -65,7 +67,13 @@
       "alibaba": "Arronax/Hysenss MIC CSY565 lead tape $2.28 @ 1000+ (1-9 pc $8.88)",
       "notes": "lead-tape FOB is per factory piece/pack (not x strip count); 0.05 kg tape estimate; FBA Small Standard ~1.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sport",
       "profitExcluded": false,
-      "opportunity": 70.2
+      "opportunity": 70.2,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 3,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F37Y8MZ2",
@@ -100,7 +108,13 @@
       "alibaba": "",
       "notes": "brand-locked: selkirk; generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 4,
+      "newReleaseRank": null
     },
     {
       "asin": "B0972GTS8W",
@@ -135,7 +149,13 @@
       "alibaba": "sling-class $6.50 typical",
       "notes": "FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + 25% Sec.301); no reciprocal overlay in the number; cheap-FOB $4.50",
       "profitExcluded": false,
-      "opportunity": 73.2
+      "opportunity": 73.2,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 1,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GW8PD7KT",
@@ -170,7 +190,14 @@
       "alibaba": "SafeOne J140P Gen2 lens-free Alibaba $24 @ >=50 (Taiwan origin)",
       "notes": "lens-free pickleball frame FOB $24 @ 50+; generic $5-$8.55 safety glasses are a different BOM; FBA Small Standard ~3.5 oz, $10-50 + 3.5% fuel; duty warning: 11.",
       "profitExcluded": false,
-      "opportunity": 87.7
+      "opportunity": 87.7,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 11,
+      "newReleaseRank": 2
     },
     {
       "asin": "B0FR1W6326",
@@ -205,7 +232,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 1",
       "notes": "brand-locked: selkirk; PU overgrip pack_qty=1 from title; pack wt estimate 0.15 kg",
       "profitExcluded": false,
-      "opportunity": 52.5
+      "opportunity": 52.5,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 5,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F37Z7M4L",
@@ -240,7 +273,13 @@
       "alibaba": "Arronax MIC CSY558 paddle eraser $0.98 @ 1000+ x 1",
       "notes": "eraser FOB $0.98/pc volume x 1; 5x5x3 cm rubber, wt estimate 0.08 kg/pc; FBA Small Standard ~2.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%)",
       "profitExcluded": false,
-      "opportunity": 71.0
+      "opportunity": 71.0,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 14,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F7CNT6HN",
@@ -275,7 +314,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for weight_tape \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 38.7
+      "opportunity": 38.7,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 8,
+      "newReleaseRank": null
     },
     {
       "asin": "B0BR2WDBGS",
@@ -310,7 +355,13 @@
       "alibaba": "Arronax MIC CSY558 paddle eraser $0.98 @ 1000+ x 1",
       "notes": "brand-locked: CRBN; eraser FOB $0.98/pc volume x 1; 5x5x3 cm rubber, wt estimate 0.08 kg/pc",
       "profitExcluded": false,
-      "opportunity": 29.7
+      "opportunity": 29.7,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 12,
+      "newReleaseRank": null
     },
     {
       "asin": "B0D4KCH76B",
@@ -345,7 +396,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for trainer \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 36.1
+      "opportunity": 36.1,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 15,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DM4QRMP7",
@@ -381,7 +438,13 @@
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
       "opportunity": 64.7,
-      "badge": "BEST"
+      "badge": "BEST",
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 9,
+      "newReleaseRank": null
     },
     {
       "asin": "B0B2QNKZLD",
@@ -416,7 +479,13 @@
       "alibaba": "",
       "notes": "paddle_set_primary (excluded from PL profit screen; keep in ranking); no confirmed FOB in sourcing file for paddle_set \u2014 left unknown (do not invent)",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 16,
+      "newReleaseRank": null
     },
     {
       "asin": "B07VZZDFB1",
@@ -451,7 +520,13 @@
       "alibaba": "sling-class $6.50 typical",
       "notes": "brand-locked: franklin",
       "profitExcluded": false,
-      "opportunity": 22.7
+      "opportunity": 22.7,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 19,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CNBFLF9N",
@@ -486,7 +561,13 @@
       "alibaba": "Hesiway/XINPAI MIC tungsten weighted tape $14.10 @ 1000+",
       "notes": "tungsten FOB is per MIC piece (pack/roll class $14.10), not per 3g strip; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": 51.1
+      "opportunity": 51.1,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 7,
+      "newReleaseRank": null
     },
     {
       "asin": "B0D2JJJ69H",
@@ -521,7 +602,13 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 1",
       "notes": "brand-locked: selkirk; PICKLETECH-class $0.40/pc x 1; pack wt estimate 0.05 kg",
       "profitExcluded": false,
-      "opportunity": 34.7
+      "opportunity": 34.7,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 20,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H1BMN3T9",
@@ -556,7 +643,14 @@
       "alibaba": "Hesiway/XINPAI MIC tungsten weighted tape $14.10 @ 1000+",
       "notes": "tungsten FOB is per MIC piece (pack/roll class $14.10), not per 3g strip; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": 48.9
+      "opportunity": 48.9,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 10,
+      "newReleaseRank": 1
     },
     {
       "asin": "B0GWRV7HTY",
@@ -591,7 +685,14 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for weight_clips \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 45.6
+      "opportunity": 45.6,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 22,
+      "newReleaseRank": 3
     },
     {
       "asin": "B0DT5LRHC5",
@@ -626,7 +727,13 @@
       "alibaba": "",
       "notes": "paddle_set_primary (excluded from PL profit screen; keep in ranking); no confirmed FOB in sourcing file for paddle_set \u2014 left unknown (do not invent)",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 23,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DNDGWN1G",
@@ -661,7 +768,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 17,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GSDNQ2YS",
@@ -696,7 +809,13 @@
       "alibaba": "Arronax MIC CSY558 paddle eraser $0.98 @ 1000+ x 1",
       "notes": "eraser FOB $0.98/pc volume x 1; 5x5x3 cm rubber, wt estimate 0.08 kg/pc; FBA Small Standard ~2.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%)",
       "profitExcluded": false,
-      "opportunity": 67.6
+      "opportunity": 67.6,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 25,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DDNV8F89",
@@ -731,7 +850,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 4",
       "notes": "brand-locked: CRBN; PU overgrip pack_qty=4 from title; pack wt estimate 0.15 kg",
       "profitExcluded": false,
-      "opportunity": 22.7
+      "opportunity": 22.7,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 6,
+      "newReleaseRank": null
     },
     {
       "asin": "B0C2Y9S314",
@@ -766,7 +891,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 21,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DLCQ56FS",
@@ -801,7 +932,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 12",
       "notes": "PU overgrip pack_qty=12 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciproca",
       "profitExcluded": false,
-      "opportunity": 44.8
+      "opportunity": 44.8,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 18,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DX2198Y2",
@@ -836,7 +973,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 2",
       "notes": "PU overgrip pack_qty=2 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no recipro",
       "profitExcluded": false,
-      "opportunity": 53.3
+      "opportunity": 53.3,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 34,
+      "newReleaseRank": null
     },
     {
       "asin": "B0G37W9X8W",
@@ -871,7 +1014,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for weight_clips \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 34.4
+      "opportunity": 34.4,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 13,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H41CDCMP",
@@ -906,7 +1055,14 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for trainer \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 46.8
+      "opportunity": 46.8,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 48,
+      "newReleaseRank": 10
     },
     {
       "asin": "B0FH4JRZMH",
@@ -941,7 +1097,13 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": 57.7
+      "opportunity": 57.7,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 37,
+      "newReleaseRank": null
     },
     {
       "asin": "B0C7KQ6SZ4",
@@ -976,7 +1138,13 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 1",
       "notes": "PICKLETECH-class $0.40/pc x 1; pack wt estimate 0.05 kg; FBA Small Standard ~1.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal ",
       "profitExcluded": false,
-      "opportunity": 48.8
+      "opportunity": 48.8,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 2,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GDC2M73C",
@@ -1011,7 +1179,13 @@
       "alibaba": "Hesiway/XINPAI MIC tungsten weighted tape $14.10 @ 1000+",
       "notes": "tungsten FOB is per MIC piece (pack/roll class $14.10), not per 3g strip; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 42,
+      "newReleaseRank": null
     },
     {
       "asin": "B0C8BMZ51L",
@@ -1046,7 +1220,13 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "brand-locked: CRBN; backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg",
       "profitExcluded": false,
-      "opportunity": 27.5
+      "opportunity": 27.5,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 38,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CFG4NNFD",
@@ -1081,7 +1261,13 @@
       "alibaba": "Arronax/Hysenss MIC CSY565 lead tape $2.28 @ 1000+ (1-9 pc $8.88)",
       "notes": "brand-locked: CRBN; lead-tape FOB is per factory piece/pack (not x strip count); 0.05 kg tape estimate",
       "profitExcluded": false,
-      "opportunity": 20.1
+      "opportunity": 20.1,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 60,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DSPDKXQ8",
@@ -1116,7 +1302,13 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 1",
       "notes": "PICKLETECH-class $0.40/pc x 1; pack wt estimate 0.05 kg; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal ove",
       "profitExcluded": false,
-      "opportunity": 56.5
+      "opportunity": 56.5,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 24,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CJM14D66",
@@ -1151,7 +1343,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); court line tape is not the TPE spot-marker set ($0.46-$6.30) \u2014 FOB unknown, not mapped",
       "profitExcluded": false,
-      "opportunity": 31.1
+      "opportunity": 31.1,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 54,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H8QMVMTS",
@@ -1186,7 +1384,14 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for grip_insert \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 30.7
+      "opportunity": 30.7,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 28,
+      "newReleaseRank": 5
     },
     {
       "asin": "B0GDTCZHHG",
@@ -1221,7 +1426,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); court line tape is not the TPE spot-marker set ($0.46-$6.30) \u2014 FOB unknown, not mapped",
       "profitExcluded": false,
-      "opportunity": 30.4
+      "opportunity": 30.4,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 30,
+      "newReleaseRank": null
     },
     {
       "asin": "B0G337KYDT",
@@ -1256,7 +1467,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for end_cap_weights \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 31.7
+      "opportunity": 31.7,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 36,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GKGZCVX6",
@@ -1291,7 +1508,13 @@
       "alibaba": "Arronax MIC CSY558 paddle eraser $0.98 @ 1000+ x 2",
       "notes": "eraser FOB $0.98/pc volume x 2; 5x5x3 cm rubber, wt estimate 0.08 kg/pc; FBA Small Standard ~5.6 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%)",
       "profitExcluded": false,
-      "opportunity": 42.7
+      "opportunity": 42.7,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 51,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GZTX96Q7",
@@ -1326,7 +1549,14 @@
       "alibaba": "sling-class $6.50 typical",
       "notes": "FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + 25% Sec.301); no reciprocal overlay in the number; cheap-FOB $4.50",
       "profitExcluded": false,
-      "opportunity": 30.7
+      "opportunity": 30.7,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 27,
+      "newReleaseRank": 4
     },
     {
       "asin": "B0GVJC3BYV",
@@ -1361,7 +1591,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for trainer \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 29.7
+      "opportunity": 29.7,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 33,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FDSJ83HG",
@@ -1396,7 +1632,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for end_cap_weights \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 31.3
+      "opportunity": 31.3,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 26,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H1MC7PLB",
@@ -1431,7 +1673,14 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 47,
+      "newReleaseRank": 9
     },
     {
       "asin": "B0H615S8X1",
@@ -1466,7 +1715,14 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for trainer \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 29.1
+      "opportunity": 29.1,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 44,
+      "newReleaseRank": 8
     },
     {
       "asin": "B0HD5YT2FN",
@@ -1501,7 +1757,14 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for trainer \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 29,
+      "newReleaseRank": 6
     },
     {
       "asin": "B0CXBFMLCL",
@@ -1536,7 +1799,13 @@
       "alibaba": "sling-class $6.50 typical",
       "notes": "FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + 25% Sec.301); no reciprocal overlay in the number; cheap-FOB $4.50",
       "profitExcluded": false,
-      "opportunity": 35.5
+      "opportunity": 35.5,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 45,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FY6HVD9D",
@@ -1571,7 +1840,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 35,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GFCN5RVQ",
@@ -1606,7 +1881,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for grip_insert \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 28.9
+      "opportunity": 28.9,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 63,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GTGC1Q4V",
@@ -1641,7 +1922,13 @@
       "alibaba": "Hesiway/XINPAI MIC tungsten weighted tape $14.10 @ 1000+",
       "notes": "tungsten FOB is per MIC piece (pack/roll class $14.10), not per 3g strip; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": 31.9
+      "opportunity": 31.9,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 46,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CRQY6BSS",
@@ -1676,7 +1963,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 30.1
+      "opportunity": 30.1,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 75,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FB2RR4ML",
@@ -1711,7 +2004,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 72,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CH86N7MV",
@@ -1746,7 +2045,12 @@
       "alibaba": "sling-class $6.50 typical",
       "notes": "FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + 25% Sec.301); no reciprocal overlay in the number; cheap-FOB $4.50",
       "profitExcluded": false,
-      "opportunity": 50.7
+      "opportunity": 50.7,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DGD1MWYV",
@@ -1781,7 +2085,13 @@
       "alibaba": "foldable hopper/cart typical $25-$30; cheap basket $15",
       "notes": "hopper/cart pack wt estimate 3 kg; bulky FBA; FBA conservative Small Bulky $10.02 (Large Standard would be $8.73) ~6.6 lb + 3.5% fuel; duty warning: 11.5% sport",
       "profitExcluded": false,
-      "opportunity": 47.5
+      "opportunity": 47.5,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 56,
+      "newReleaseRank": null
     },
     {
       "asin": "B09XVH75GR",
@@ -1816,7 +2126,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for retriever_clip \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 17.8
+      "opportunity": 17.8,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 41,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CBRMYQFR",
@@ -1851,7 +2167,12 @@
       "alibaba": "Wuxi Layce Fostoy BOM $45 MOQ 50; generic $20-$23",
       "notes": "Fostoy-branded 22-ft wheeled BOM $45; net pack wt estimate 8 kg; FBA Large Standard AND Small Bulky \u2014 using bulky (conservative); WARNING: $2.50/kg x 8 kg = $20",
       "profitExcluded": false,
-      "opportunity": 19.9
+      "opportunity": 19.9,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CJCK842N",
@@ -1886,7 +2207,12 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 3",
       "notes": "PU overgrip pack_qty=3 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no recipro",
       "profitExcluded": false,
-      "opportunity": 46.5
+      "opportunity": 46.5,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DH6XB6XQ",
@@ -1921,7 +2247,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 28.9
+      "opportunity": 28.9,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 49,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F9Y1CPCX",
@@ -1956,7 +2288,12 @@
       "alibaba": "Hesiway/XINPAI MIC tungsten weighted tape $14.10 @ 1000+",
       "notes": "tungsten FOB is per MIC piece (pack/roll class $14.10), not per 3g strip; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": 32.1
+      "opportunity": 32.1,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CGYXLSX7",
@@ -1991,7 +2328,13 @@
       "alibaba": "sling-class $6.50 typical",
       "notes": "brand-locked: selkirk",
       "profitExcluded": false,
-      "opportunity": 27.3
+      "opportunity": 27.3,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 32,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CQJ1JQVL",
@@ -2026,7 +2369,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 1",
       "notes": "PU overgrip pack_qty=1 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal",
       "profitExcluded": false,
-      "opportunity": 48.1
+      "opportunity": 48.1,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 31,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GM7TCXS7",
@@ -2061,7 +2410,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 30.8
+      "opportunity": 30.8,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 58,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GSJP4DPN",
@@ -2096,7 +2451,12 @@
       "alibaba": "Hesiway/XINPAI MIC tungsten weighted tape $14.10 @ 1000+",
       "notes": "tungsten FOB is per MIC piece (pack/roll class $14.10), not per 3g strip; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": 29.9
+      "opportunity": 29.9,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GLGNSVG6",
@@ -2131,7 +2491,13 @@
       "alibaba": "fashion/PU/puffer tote class G9 $16.19 (not $6.50 sport sling)",
       "notes": "fashion/PU tote \u2014 using $16.19 puffer/fashion band, not $6.50 sport sling; FBA Large Standard ~21.2 oz (1.32 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.",
       "profitExcluded": false,
-      "opportunity": 44.8
+      "opportunity": 44.8,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 79,
+      "newReleaseRank": null
     },
     {
       "asin": "B0BY2F3RSL",
@@ -2166,7 +2532,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for replacement_net \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 78,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DQHK3JJ9",
@@ -2201,7 +2573,13 @@
       "alibaba": "Hesiway/XINPAI MIC tungsten weighted tape $14.10 @ 1000+",
       "notes": "tungsten FOB is per MIC piece (pack/roll class $14.10), not per 3g strip; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": 42.7
+      "opportunity": 42.7,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 77,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GSRDD1P1",
@@ -2236,7 +2614,12 @@
       "alibaba": "Arronax MIC CSY558 paddle eraser $0.98 @ 1000+ x 1",
       "notes": "eraser FOB $0.98/pc volume x 1; 5x5x3 cm rubber, wt estimate 0.08 kg/pc; FBA Small Standard ~2.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); n",
       "profitExcluded": false,
-      "opportunity": 52.8
+      "opportunity": 52.8,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GSFBZRXM",
@@ -2271,7 +2654,13 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": 30.8
+      "opportunity": 30.8,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 66,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H5Q7G4PS",
@@ -2306,7 +2695,14 @@
       "alibaba": "Hesiway/XINPAI MIC tungsten weighted tape $14.10 @ 1000+",
       "notes": "tungsten FOB is per MIC piece (pack/roll class $14.10), not per 3g strip; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": 30.6
+      "opportunity": 30.6,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 76,
+      "newReleaseRank": 17
     },
     {
       "asin": "B0GGDBSWT4",
@@ -2341,7 +2737,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); court line tape is not the TPE spot-marker set ($0.46-$6.30) \u2014 FOB unknown, not mapped",
       "profitExcluded": false,
-      "opportunity": 28.4
+      "opportunity": 28.4,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0HCP1L8XW",
@@ -2376,7 +2777,13 @@
       "alibaba": "SafeOne J140P Gen2 lens-free Alibaba $24 @ >=50 (Taiwan origin)",
       "notes": "lens-free pickleball frame FOB $24 @ 50+; generic $5-$8.55 safety glasses are a different BOM; FBA Small Standard ~3.5 oz, $10-50 + 3.5% fuel; duty warning: 11.",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 21
     },
     {
       "asin": "B0CTJ65HLH",
@@ -2411,7 +2818,12 @@
       "alibaba": "",
       "notes": "brand-locked: selkirk; no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 25.9
+      "opportunity": 25.9,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H7T192KB",
@@ -2446,7 +2858,14 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 29.9
+      "opportunity": 29.9,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 40,
+      "newReleaseRank": 7
     },
     {
       "asin": "B0GXTQJHL9",
@@ -2481,7 +2900,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 27
     },
     {
       "asin": "B0HC6TWZBM",
@@ -2516,7 +2941,13 @@
       "alibaba": "J&Q silicone logo wristband $0.06-$0.16 analogue for name-band SKU",
       "notes": "mapped to silicone wristband band \u2014 custom name printing may cost more; labeled analogue; FBA Small Standard ~0.7 oz, Low Price + 3.5% fuel; duty warning: 11.5%",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 23
     },
     {
       "asin": "B0H2DSW7GL",
@@ -2551,7 +2982,14 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for weight_clips \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 29.4
+      "opportunity": 29.4,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 70,
+      "newReleaseRank": 14
     },
     {
       "asin": "B0D2JJML61",
@@ -2586,7 +3024,12 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 1",
       "notes": "brand-locked: selkirk; PICKLETECH-class $0.40/pc x 1; pack wt estimate 0.05 kg",
       "profitExcluded": false,
-      "opportunity": 25.9
+      "opportunity": 25.9,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0HC3MXVCT",
@@ -2621,7 +3064,14 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for holder \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 61,
+      "newReleaseRank": 12
     },
     {
       "asin": "B0H42RV3XP",
@@ -2656,7 +3106,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for weight_tape \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 30.1
+      "opportunity": 30.1,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 32
     },
     {
       "asin": "B0GHSQGH9W",
@@ -2691,7 +3147,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 29.1
+      "opportunity": 29.1,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GQYW4RGB",
@@ -2726,7 +3187,13 @@
       "alibaba": "Changsha Yide silicone undergrip/overgrip $1.08-$2.70 typical ~$1.90",
       "notes": "silicone undergrip (not PU $0.22) \u2014 different BOM than 15-pk overgrip; FBA Small Standard ~2.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 18
     },
     {
       "asin": "B0CDGQVTJK",
@@ -2761,7 +3228,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 4",
       "notes": "PU overgrip pack_qty=4 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no recipro",
       "profitExcluded": false,
-      "opportunity": 44.5
+      "opportunity": 44.5,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 57,
+      "newReleaseRank": null
     },
     {
       "asin": "B0G6B48ZQ9",
@@ -2796,7 +3269,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for mini_net \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 29.4
+      "opportunity": 29.4,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H5BXTBN3",
@@ -2831,7 +3309,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for medal \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 29.9
+      "opportunity": 29.9,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 31
     },
     {
       "asin": "B0GYRVLM7L",
@@ -2866,7 +3350,14 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 1",
       "notes": "PICKLETECH-class $0.40/pc x 1; pack wt estimate 0.05 kg; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal ove",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 68,
+      "newReleaseRank": 13
     },
     {
       "asin": "B0H6F69PCY",
@@ -2901,7 +3392,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for grip_insert \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 29.1
+      "opportunity": 29.1,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 40
     },
     {
       "asin": "B0GFTJB1KD",
@@ -2936,7 +3433,12 @@
       "alibaba": "PATS/Lettro heavy wheeled pro net $77-$104 typical $88 (not Fostoy-class $35)",
       "notes": "heavy/pro/tournament net \u2014 using $77-$135 BOM, not $35 Fostoy clone; net pack wt estimate 8 kg; FBA Large Standard AND Small Bulky \u2014 using bulky (conservative);",
       "profitExcluded": false,
-      "opportunity": 47.4
+      "opportunity": 47.4,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F7RDPPY9",
@@ -2971,7 +3473,12 @@
       "alibaba": "foldable hopper/cart typical $25-$30; cheap basket $15",
       "notes": "hopper/cart pack wt estimate 3 kg; bulky FBA; FBA conservative Small Bulky $10.02 (Large Standard would be $8.46) ~6.6 lb + 3.5% fuel; duty warning: 11.5% sport",
       "profitExcluded": false,
-      "opportunity": 27.8
+      "opportunity": 27.8,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B09YPP2TGX",
@@ -3006,7 +3513,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); court line tape is not the TPE spot-marker set ($0.46-$6.30) \u2014 FOB unknown, not mapped",
       "profitExcluded": false,
-      "opportunity": 29.6
+      "opportunity": 29.6,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 74,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H5WKY73C",
@@ -3041,7 +3554,13 @@
       "alibaba": "J&Q silicone logo wristband $0.06-$0.16 analogue for name-band SKU",
       "notes": "mapped to silicone wristband band \u2014 custom name printing may cost more; labeled analogue; FBA Small Standard ~0.7 oz, Low Price + 3.5% fuel; duty warning: 11.5%",
       "profitExcluded": false,
-      "opportunity": 38.8
+      "opportunity": 38.8,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 48
     },
     {
       "asin": "B0DJVS7K7J",
@@ -3076,7 +3595,12 @@
       "alibaba": "J&Q silicone logo wristband $0.06-$0.16 analogue for name-band SKU",
       "notes": "mapped to silicone wristband band \u2014 custom name printing may cost more; labeled analogue; FBA Small Standard ~0.7 oz, Low Price + 3.5% fuel; duty warning: 11.5%",
       "profitExcluded": false,
-      "opportunity": 49.1
+      "opportunity": 49.1,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F53DMBMP",
@@ -3111,7 +3635,12 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 6",
       "notes": "PU overgrip pack_qty=6 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no recipro",
       "profitExcluded": false,
-      "opportunity": 51.1
+      "opportunity": 51.1,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DT71K4X5",
@@ -3146,7 +3675,13 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 65,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CWLV452J",
@@ -3181,7 +3716,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 1",
       "notes": "PU overgrip pack_qty=1 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal",
       "profitExcluded": false,
-      "opportunity": 48.5
+      "opportunity": 48.5,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 43,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H4K4VV2F",
@@ -3216,7 +3757,14 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); court line tape is not the TPE spot-marker set ($0.46-$6.30) \u2014 FOB unknown, not mapped",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 73,
+      "newReleaseRank": 16
     },
     {
       "asin": "B0DJL8K8Y4",
@@ -3251,7 +3799,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for trainer \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H2VDMVJF",
@@ -3286,7 +3839,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for grip_insert \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 29.4
+      "opportunity": 29.4,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 36
     },
     {
       "asin": "B0CHJ82ZM2",
@@ -3321,7 +3880,12 @@
       "alibaba": "foldable hopper/cart typical $25-$30; cheap basket $15",
       "notes": "hopper/cart pack wt estimate 3 kg; bulky FBA; FBA conservative Small Bulky $10.02 (Large Standard would be $8.73) ~6.6 lb + 3.5% fuel; duty warning: 11.5% sport",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DPXYL9TZ",
@@ -3356,7 +3920,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FPB3CP95",
@@ -3391,7 +3960,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for net_other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F5G9RSLN",
@@ -3426,7 +4000,12 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FSDYNXZJ",
@@ -3461,7 +4040,12 @@
       "alibaba": "sling-class $6.50 typical",
       "notes": "FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + 25% Sec.301); no reciprocal overlay in the number; cheap-FOB $4.50",
       "profitExcluded": false,
-      "opportunity": 43.8
+      "opportunity": 43.8,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GYBK2JVV",
@@ -3496,7 +4080,14 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for weight_tape \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 71,
+      "newReleaseRank": 15
     },
     {
       "asin": "B0H8JQDVDN",
@@ -3531,7 +4122,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 1",
       "notes": "PU overgrip pack_qty=1 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 19
     },
     {
       "asin": "B0H3M9ZCLT",
@@ -3566,7 +4163,13 @@
       "alibaba": "sling-class $6.50 typical",
       "notes": "FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + 25% Sec.301); no reciprocal overlay in the number; cheap-FOB $4.50",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 24
     },
     {
       "asin": "B0F8HN1SQL",
@@ -3601,7 +4204,12 @@
       "alibaba": "Hesiway/XINPAI MIC tungsten weighted tape $14.10 @ 1000+",
       "notes": "tungsten FOB is per MIC piece (pack/roll class $14.10), not per 3g strip; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F6YH49JT",
@@ -3636,7 +4244,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for holder \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": 29.4
+      "opportunity": 29.4,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H1M4FRLP",
@@ -3671,7 +4284,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for spray \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 47
     },
     {
       "asin": "B0H9YC3ZZG",
@@ -3706,7 +4325,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 1",
       "notes": "PU overgrip pack_qty=1 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 28
     },
     {
       "asin": "B0DSWNV28W",
@@ -3741,7 +4366,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GLP3TLWG",
@@ -3776,7 +4406,12 @@
       "alibaba": "foldable hopper/cart typical $25-$30; cheap basket $15",
       "notes": "hopper/cart pack wt estimate 3 kg; bulky FBA; FBA conservative Small Bulky $10.02 (Large Standard would be $8.46) ~6.6 lb + 3.5% fuel; duty warning: 11.5% sport",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FV8JZNS8",
@@ -3811,7 +4446,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for trainer \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0G4R4DMX9",
@@ -3846,7 +4486,13 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": 44.0
+      "opportunity": 44.0,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 49
     },
     {
       "asin": "B0GR4FHGBP",
@@ -3881,7 +4527,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for trainer \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 38
     },
     {
       "asin": "B0H3LNR89H",
@@ -3916,7 +4568,13 @@
       "alibaba": "generic no-wheel 22-ft $20-$23 typical $22",
       "notes": "net pack wt estimate 8 kg; FBA Large Standard AND Small Bulky \u2014 using bulky (conservative); WARNING: $2.50/kg x 8 kg = $20 freight; last week used ~$8 cube frei",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 25
     },
     {
       "asin": "B0BY23G2Z6",
@@ -3951,7 +4609,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for replacement_net \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H23N82GJ",
@@ -3986,7 +4649,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for retriever_clip \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 44
     },
     {
       "asin": "B0F9WRHT6T",
@@ -4021,7 +4690,12 @@
       "alibaba": "sling-class $6.50 typical",
       "notes": "FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + 25% Sec.301); no reciprocal overlay in the number; cheap-FOB $4.50",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0D8L96KQG",
@@ -4056,7 +4730,12 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F2H8WG22",
@@ -4091,7 +4770,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for holder \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GVS9L2P3",
@@ -4126,7 +4810,13 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 3",
       "notes": "PICKLETECH-class $0.40/pc x 3; pack wt estimate 0.05 kg; FBA Small Standard ~1.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 22
     },
     {
       "asin": "B0D7NPBNC7",
@@ -4161,7 +4851,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for barrier \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0C249RNFY",
@@ -4196,7 +4891,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for spray \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0D55H561S",
@@ -4231,7 +4931,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B07XMKF4NM",
@@ -4266,7 +4971,12 @@
       "alibaba": "",
       "notes": "brand-locked: franklin; no confirmed FOB in sourcing file for net_other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CBQHYRWF",
@@ -4301,7 +5011,12 @@
       "alibaba": "",
       "notes": "brand-locked: franklin; generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B09R3TCGRJ",
@@ -4336,7 +5051,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for net_other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GX9QK4NY",
@@ -4371,7 +5091,13 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 6",
       "notes": "PICKLETECH-class $0.40/pc x 6; pack wt estimate 0.05 kg; FBA Small Standard ~1.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 33
     },
     {
       "asin": "B0F9QV5355",
@@ -4406,7 +5132,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for spray \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GRG2FZX4",
@@ -4441,7 +5172,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 3",
       "notes": "PU overgrip pack_qty=3 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no recipro",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 50,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FRFMVTD6",
@@ -4476,7 +5213,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for net_other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DMKWXJ2R",
@@ -4511,7 +5253,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); court line tape is not the TPE spot-marker set ($0.46-$6.30) \u2014 FOB unknown, not mapped",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GMHG3QBQ",
@@ -4546,7 +5293,12 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 1",
       "notes": "PU overgrip pack_qty=1 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FCMY8PNG",
@@ -4581,7 +5333,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for glove \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GTTNDXPQ",
@@ -4616,7 +5373,12 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 1",
       "notes": "PU overgrip pack_qty=1 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0BH4XCCG1",
@@ -4651,7 +5413,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0D2JJQVSN",
@@ -4686,7 +5453,12 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 1",
       "notes": "brand-locked: selkirk; PICKLETECH-class $0.40/pc x 1; pack wt estimate 0.05 kg",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0D2W8Q6YB",
@@ -4721,7 +5493,13 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 69,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CG8WG6D8",
@@ -4756,7 +5534,12 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F7S9SBHY",
@@ -4791,7 +5574,12 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 3",
       "notes": "PICKLETECH-class $0.40/pc x 3; pack wt estimate 0.05 kg; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal ove",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DH5N3T6M",
@@ -4826,7 +5614,13 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 62,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H85JZ4C5",
@@ -4861,7 +5655,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for weight_clips \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 45
     },
     {
       "asin": "B0CDN2T7M4",
@@ -4896,7 +5696,12 @@
       "alibaba": "Ningbo Blueprint / Yimingshang sling-class $4.50-$8 typical $6.50",
       "notes": "brand-locked: CRBN; sling/tote typical FOB $6.50; bag duty 42.6%; pack wt estimate 0.5 kg",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GZVPSPQ3",
@@ -4931,7 +5736,13 @@
       "alibaba": "PATS/Lettro heavy wheeled pro net $77-$104 typical $88 (not Fostoy-class $35)",
       "notes": "heavy/pro/tournament net \u2014 using $77-$135 BOM, not $35 Fostoy clone; net pack wt estimate 8 kg; FBA Large Standard AND Small Bulky \u2014 using bulky (conservative);",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 57
     },
     {
       "asin": "B0GZZW7KGV",
@@ -4966,7 +5777,13 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 30
     },
     {
       "asin": "B0GWKLN7BW",
@@ -5001,7 +5818,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); court line tape is not the TPE spot-marker set ($0.46-$6.30) \u2014 FOB unknown, not mapped",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 53
     },
     {
       "asin": "B0GZ6KZC6G",
@@ -5036,7 +5859,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for weight_clips \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 39
     },
     {
       "asin": "B0G3YL3M4H",
@@ -5071,7 +5900,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0G6M7714Q",
@@ -5106,7 +5940,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for holder \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GY3GH439",
@@ -5141,7 +5980,13 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 34
     },
     {
       "asin": "B0DQKXB2GP",
@@ -5176,7 +6021,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for weight_tape \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GJZ72TPX",
@@ -5211,7 +6061,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for weight_clips \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0D3218J7V",
@@ -5246,7 +6101,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for towel \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F2F8FBMV",
@@ -5281,7 +6141,12 @@
       "alibaba": "Hesiway/XINPAI MIC tungsten weighted tape $14.10 @ 1000+",
       "notes": "tungsten FOB is per MIC piece (pack/roll class $14.10), not per 3g strip; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H9BX8V4L",
@@ -5316,7 +6181,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 3",
       "notes": "PU overgrip pack_qty=3 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no recipro",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 50
     },
     {
       "asin": "B0FNCCLQFG",
@@ -5351,7 +6222,12 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0BKP2JMD3",
@@ -5386,7 +6262,12 @@
       "alibaba": "",
       "notes": "brand-locked: franklin; no confirmed FOB in sourcing file for launcher \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GGC87B9Y",
@@ -5421,7 +6302,12 @@
       "alibaba": "",
       "notes": "paddle_set_primary (excluded from PL profit screen; keep in ranking); no confirmed FOB in sourcing file for paddle_set \u2014 left unknown (do not invent)",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GW5Y8PDB",
@@ -5456,7 +6342,13 @@
       "alibaba": "Arronax MIC CSY558 paddle eraser $0.98 @ 1000+ x 1",
       "notes": "eraser FOB $0.98/pc volume x 1; 5x5x3 cm rubber, wt estimate 0.08 kg/pc; FBA Small Standard ~2.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 61
     },
     {
       "asin": "B0DWMQBPX2",
@@ -5491,7 +6383,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for replacement_net \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FJMN7BRK",
@@ -5526,7 +6423,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); court line tape is not the TPE spot-marker set ($0.46-$6.30) \u2014 FOB unknown, not mapped",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0G6Z5J23Q",
@@ -5561,7 +6463,12 @@
       "alibaba": "Arronax MIC CSY558 paddle eraser $0.98 @ 1000+ x 1",
       "notes": "eraser FOB $0.98/pc volume x 1; 5x5x3 cm rubber, wt estimate 0.08 kg/pc; FBA Small Standard ~2.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GXJWLTH4",
@@ -5596,7 +6503,12 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 1",
       "notes": "PU overgrip pack_qty=1 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no recipro",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FLKLHHYM",
@@ -5631,7 +6543,12 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GT9BWXXV",
@@ -5666,7 +6583,12 @@
       "alibaba": "J&Q silicone logo wristband $0.06-$0.16 analogue for name-band SKU",
       "notes": "mapped to silicone wristband band \u2014 custom name printing may cost more; labeled analogue; FBA Small Standard ~0.7 oz, Low Price + 3.5% fuel; duty warning: 11.5%",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H25R16NQ",
@@ -5701,7 +6623,13 @@
       "alibaba": "sling-class $6.50 typical",
       "notes": "FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + 25% Sec.301); no reciprocal overlay in the number; cheap-FOB $4.50",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 29
     },
     {
       "asin": "B0GKZ9FBPQ",
@@ -5736,7 +6664,12 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 12",
       "notes": "PU overgrip pack_qty=12 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciproca",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0G1T746RV",
@@ -5771,7 +6704,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for trainer \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0BH4DQG5G",
@@ -5806,7 +6744,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GRXLRJYH",
@@ -5841,7 +6784,12 @@
       "alibaba": "Hesiway/XINPAI MIC tungsten weighted tape $14.10 @ 1000+",
       "notes": "tungsten FOB is per MIC piece (pack/roll class $14.10), not per 3g strip; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H4BWJHMF",
@@ -5876,7 +6824,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 35
     },
     {
       "asin": "B0GZDPNQ2H",
@@ -5911,7 +6865,14 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 3",
       "notes": "PICKLETECH-class $0.40/pc x 3; pack wt estimate 0.05 kg; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal ove",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers",
+        "newReleases"
+      ],
+      "bestsellerRank": 52,
+      "newReleaseRank": 11
     },
     {
       "asin": "B0HDMQH92V",
@@ -5946,7 +6907,13 @@
       "alibaba": "SafeOne J140P Gen2 lens-free Alibaba $24 @ >=50 (Taiwan origin)",
       "notes": "lens-free pickleball frame FOB $24 @ 50+; generic $5-$8.55 safety glasses are a different BOM; FBA Small Standard ~3.5 oz, $10-50 + 3.5% fuel; duty warning: 11.",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 43
     },
     {
       "asin": "B0DSZV6FSM",
@@ -5981,7 +6948,12 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 3",
       "notes": "PICKLETECH-class $0.40/pc x 3; pack wt estimate 0.05 kg; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal ove",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GZV2YGDX",
@@ -6016,7 +6988,13 @@
       "alibaba": "sling-class $6.50 typical",
       "notes": "FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + 25% Sec.301); no reciprocal overlay in the number; cheap-FOB $4.50",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 70
     },
     {
       "asin": "B0GVHQLZ5G",
@@ -6051,7 +7029,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for net_other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DDFBQFV9",
@@ -6086,7 +7069,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for holder \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H2YT2PZ6",
@@ -6121,7 +7109,13 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 60
     },
     {
       "asin": "B0DPM2QP2V",
@@ -6156,7 +7150,12 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 1",
       "notes": "PICKLETECH-class $0.40/pc x 1; pack wt estimate 0.05 kg; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal ove",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H7B66Y1K",
@@ -6191,7 +7190,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 65
     },
     {
       "asin": "B0DH63PYWF",
@@ -6226,7 +7231,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F14QT16N",
@@ -6261,7 +7271,12 @@
       "alibaba": "Arronax MIC CSY558 paddle eraser $0.98 @ 1000+ x 12",
       "notes": "eraser FOB $0.98/pc volume x 12; 5x5x3 cm rubber, wt estimate 0.08 kg/pc; FBA Small Standard ~33.9 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%);",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GC5B4SGF",
@@ -6296,7 +7311,12 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 3",
       "notes": "PICKLETECH-class $0.40/pc x 3; pack wt estimate 0.05 kg; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal ove",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GR7SB94F",
@@ -6331,7 +7351,12 @@
       "alibaba": "Ningbo Blueprint / Yimingshang sling-class $4.50-$8 typical $6.50",
       "notes": "sling/tote typical FOB $6.50; bag duty 42.6%; pack wt estimate 0.5 kg; FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% M",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0HB3BP8C5",
@@ -6366,7 +7391,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 46
     },
     {
       "asin": "B0FVRYSSFH",
@@ -6401,7 +7432,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GWT6B25N",
@@ -6436,7 +7472,13 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 3",
       "notes": "PICKLETECH-class $0.40/pc x 3; pack wt estimate 0.05 kg; FBA Small Standard ~1.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 26
     },
     {
       "asin": "B0CCW5T435",
@@ -6471,7 +7513,13 @@
       "alibaba": "Changsha Yide silicone undergrip/overgrip $1.08-$2.70 typical ~$1.90",
       "notes": "silicone undergrip (not PU $0.22) \u2014 different BOM than 15-pk overgrip; FBA Small Standard ~2.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "bestsellers"
+      ],
+      "bestsellerRank": 55,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H8S65HXP",
@@ -6506,7 +7554,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for stamp \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 76
     },
     {
       "asin": "B0CYLV82F6",
@@ -6541,7 +7595,12 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 2",
       "notes": "PU overgrip pack_qty=2 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no recipro",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0D939CHPT",
@@ -6576,7 +7635,12 @@
       "alibaba": "",
       "notes": "brand-locked: franklin; generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GRGRP1NM",
@@ -6611,7 +7675,12 @@
       "alibaba": "Arronax/Hysenss MIC CSY565 lead tape $2.28 @ 1000+ (1-9 pc $8.88)",
       "notes": "lead-tape FOB is per factory piece/pack (not x strip count); 0.05 kg tape estimate; FBA Small Standard ~1.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sport",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FVKVLBX7",
@@ -6646,7 +7715,12 @@
       "alibaba": "Ningbo Blueprint / Yimingshang sling-class $4.50-$8 typical $6.50",
       "notes": "sling/tote typical FOB $6.50; bag duty 42.6%; pack wt estimate 0.5 kg; FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% M",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H6J31197",
@@ -6681,7 +7755,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for trainer \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GHC6JXM7",
@@ -6716,7 +7795,12 @@
       "alibaba": "Ningbo Blueprint / Yimingshang sling-class $4.50-$8 typical $6.50",
       "notes": "brand-locked: CRBN; sling/tote typical FOB $6.50; bag duty 42.6%; pack wt estimate 0.5 kg",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H82NS5VG",
@@ -6751,7 +7835,13 @@
       "alibaba": "SafeOne J140P Gen2 lens-free Alibaba $24 @ >=50 (Taiwan origin)",
       "notes": "lens-free pickleball frame FOB $24 @ 50+; generic $5-$8.55 safety glasses are a different BOM; FBA Small Standard ~3.5 oz, $10-50 + 3.5% fuel; duty warning: 11.",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 59
     },
     {
       "asin": "B0DQ1YLX13",
@@ -6786,7 +7876,12 @@
       "alibaba": "Arronax pickleball safety glasses $6.55-$8.55 typical $7",
       "notes": "brand-locked: CRBN",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FMJH8J77",
@@ -6821,7 +7916,12 @@
       "alibaba": "J&Q silicone logo wristband $0.06-$0.16 analogue for name-band SKU",
       "notes": "mapped to silicone wristband band \u2014 custom name printing may cost more; labeled analogue; FBA Small Standard ~0.7 oz, Low Price + 3.5% fuel; duty warning: 11.5%",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H394N8DM",
@@ -6856,7 +7956,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 2",
       "notes": "PU overgrip pack_qty=2 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no recipro",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 54
     },
     {
       "asin": "B0DZ2F6HMP",
@@ -6891,7 +7997,12 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0D89MS46S",
@@ -6926,7 +8037,12 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 4",
       "notes": "PU overgrip pack_qty=4 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FS8SDYG5",
@@ -6961,7 +8077,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0G5V3FNTT",
@@ -6996,7 +8117,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for towel \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FWR75LMG",
@@ -7031,7 +8157,12 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GKQ6VNQV",
@@ -7066,7 +8197,12 @@
       "alibaba": "sling-class $6.50 typical",
       "notes": "FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + 25% Sec.301); no reciprocal overlay in the number; cheap-FOB $4.50",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GPY493GN",
@@ -7101,7 +8237,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for trainer \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GFWFLVPP",
@@ -7136,7 +8277,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for stamp \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GT2F5T7X",
@@ -7171,7 +8317,12 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 1",
       "notes": "PU overgrip pack_qty=1 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DHX5TYQH",
@@ -7206,7 +8357,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); court line tape is not the TPE spot-marker set ($0.46-$6.30) \u2014 FOB unknown, not mapped",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H6KFFMSP",
@@ -7241,7 +8397,12 @@
       "alibaba": "Bengbu Myway / Lettro pickup tube $7-$9 typical $8",
       "notes": "tube ~34 in often Small Bulky; modeled bulky conservative; pack wt estimate 1 kg; FBA conservative Small Bulky $8.29 (Large Standard would be $6.13) ~2.2 lb + 3",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GFCVMV5B",
@@ -7276,7 +8437,12 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FV6YCNWM",
@@ -7311,7 +8477,12 @@
       "alibaba": "PATS/Lettro heavy wheeled pro net $77-$104 typical $88 (not Fostoy-class $35)",
       "notes": "heavy/pro/tournament net \u2014 using $77-$135 BOM, not $35 Fostoy clone; net pack wt estimate 8 kg; FBA Large Standard AND Small Bulky \u2014 using bulky (conservative);",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GSK1TFC8",
@@ -7346,7 +8517,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for weight_clips \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0G2N15P39",
@@ -7381,7 +8557,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FY1TH6V3",
@@ -7416,7 +8597,12 @@
       "alibaba": "Ningbo Blueprint / Yimingshang sling-class $4.50-$8 typical $6.50",
       "notes": "sling/tote typical FOB $6.50; bag duty 42.6%; pack wt estimate 0.5 kg; FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% M",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H3KLMNX1",
@@ -7451,7 +8637,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for weight_clips \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F9YMMYX2",
@@ -7486,7 +8677,12 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 2",
       "notes": "PU overgrip pack_qty=2 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0G2L157BP",
@@ -7521,7 +8717,12 @@
       "alibaba": "PATS/Lettro heavy wheeled pro net $77-$104 typical $88 (not Fostoy-class $35)",
       "notes": "heavy/pro/tournament net \u2014 using $77-$135 BOM, not $35 Fostoy clone; net pack wt estimate 8 kg; FBA Large Standard AND Small Bulky \u2014 using bulky (conservative);",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0F1V2FRJN",
@@ -7556,7 +8757,12 @@
       "alibaba": "foldable hopper/cart typical $25-$30; cheap basket $15",
       "notes": "hopper/cart pack wt estimate 3 kg; bulky FBA; FBA conservative Small Bulky $10.02 (Large Standard would be $8.46) ~6.6 lb + 3.5% fuel; duty warning: 11.5% sport",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GXDJMX1G",
@@ -7591,7 +8797,13 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 67
     },
     {
       "asin": "B0H2WV9H5N",
@@ -7626,7 +8838,13 @@
       "alibaba": "Arronax MIC CSY558 paddle eraser $0.98 @ 1000+ x 1",
       "notes": "eraser FOB $0.98/pc volume x 1; 5x5x3 cm rubber, wt estimate 0.08 kg/pc; FBA Small Standard ~2.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); n",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 78
     },
     {
       "asin": "B0GSJNJLLL",
@@ -7661,7 +8879,12 @@
       "alibaba": "Hesiway/XINPAI MIC tungsten weighted tape $14.10 @ 1000+",
       "notes": "tungsten FOB is per MIC piece (pack/roll class $14.10), not per 3g strip; FBA Small Standard ~1.8 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H4T98Y83",
@@ -7696,7 +8919,13 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 6",
       "notes": "PU overgrip pack_qty=6 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no recipro",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 37
     },
     {
       "asin": "B0F8VD5PSR",
@@ -7731,7 +8960,12 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FRZQ7DZ2",
@@ -7766,7 +9000,12 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 1",
       "notes": "brand-locked: franklin; PICKLETECH-class $0.40/pc x 1; pack wt estimate 0.05 kg",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DY5HXJFQ",
@@ -7801,7 +9040,12 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0BGX4ZK75",
@@ -7836,7 +9080,12 @@
       "alibaba": "SDLINR-class backpack typical $8 (band $6-$12)",
       "notes": "backpack typical FOB $8; bag duty 42.6%; pack wt estimate 0.7 kg; FBA Large Standard ~24.7 oz (1.54 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% MFN + ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CJRC7LNT",
@@ -7871,7 +9120,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0G2JXPJSL",
@@ -7906,7 +9160,12 @@
       "alibaba": "",
       "notes": "brand-locked: branded paddle cover (Selkirk/Franklin); generic neoprene sleeve is sourceable in principle but no listed FOB this week \u2014 left unknown",
       "profitExcluded": true,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H2KM75CH",
@@ -7941,7 +9200,13 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 77
     },
     {
       "asin": "B0CWHL3M28",
@@ -7976,7 +9241,12 @@
       "alibaba": "Xiamen Mega PU $0.22 ea (10k-49k) x 1",
       "notes": "PU overgrip pack_qty=1 from title; pack wt estimate 0.15 kg; FBA Small Standard ~5.3 oz, $10-50 + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0G8YNVY1Y",
@@ -8011,7 +9281,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for holder \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GT6VM87P",
@@ -8046,7 +9321,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for other \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CMFG89HD",
@@ -8081,7 +9361,12 @@
       "alibaba": "J&Q silicone logo wristband $0.06-$0.16 analogue for name-band SKU",
       "notes": "brand-locked: tourna; mapped to silicone wristband band \u2014 custom name printing may cost more; labeled analogue",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0FF8S56WV",
@@ -8116,7 +9401,12 @@
       "alibaba": "J&Q silicone logo wristband $0.06-$0.16 analogue for name-band SKU",
       "notes": "mapped to silicone wristband band \u2014 custom name printing may cost more; labeled analogue; FBA Small Standard ~0.7 oz, Low Price + 3.5% fuel; duty warning: 11.5%",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DNMW3QW8",
@@ -8151,7 +9441,12 @@
       "alibaba": "Bengbu Myway / Lettro pickup tube $7-$9 typical $8",
       "notes": "tube ~34 in often Small Bulky; modeled bulky conservative; pack wt estimate 1 kg; FBA conservative Small Bulky $8.29 (Large Standard would be $6.13) ~2.2 lb + 3",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GTRR2R3R",
@@ -8186,7 +9481,13 @@
       "alibaba": "Zhongshan Lettro PU edge $0.30-$0.50/pc typical $0.40 x 1",
       "notes": "PICKLETECH-class $0.40/pc x 1; pack wt estimate 0.05 kg; FBA Small Standard ~1.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); no reciprocal ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 55
     },
     {
       "asin": "B0DFC6K1YL",
@@ -8221,7 +9522,12 @@
       "alibaba": "generic no-wheel 22-ft $20-$23 typical $22",
       "notes": "net pack wt estimate 8 kg; FBA Large Standard AND Small Bulky \u2014 using bulky (conservative); WARNING: $2.50/kg x 8 kg = $20 freight; last week used ~$8 cube frei",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0CSK1PVCQ",
@@ -8256,7 +9562,12 @@
       "alibaba": "Ningbo Blueprint / Yimingshang sling-class $4.50-$8 typical $6.50",
       "notes": "sling/tote typical FOB $6.50; bag duty 42.6%; pack wt estimate 0.5 kg; FBA Large Standard ~17.6 oz (1.10 lb) + 3.5% fuel; duty warning: 42.6% bag stack (17.6% M",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H1VRSGWT",
@@ -8291,7 +9602,13 @@
       "alibaba": "Arronax/Hysenss MIC CSY565 lead tape $2.28 @ 1000+ (1-9 pc $8.88)",
       "notes": "lead-tape FOB is per factory piece/pack (not x strip count); 0.05 kg tape estimate; FBA Small Standard ~1.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sport",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 68
     },
     {
       "asin": "B0GWPWN8DC",
@@ -8326,7 +9643,12 @@
       "alibaba": "Bengbu Myway / Lettro pickup tube $7-$9 typical $8",
       "notes": "tube ~34 in often Small Bulky; modeled bulky conservative; pack wt estimate 1 kg; FBA conservative Small Bulky $8.29 (Large Standard would be $6.13) ~2.2 lb + 3",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0H6KXKX8M",
@@ -8361,7 +9683,12 @@
       "alibaba": "",
       "notes": "sourceable=unknown (no listed FOB \u2014 not invented); no confirmed FOB in sourcing file for trainer \u2014 left unknown (do not invent)",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0HF4DYJTV",
@@ -8396,7 +9723,13 @@
       "alibaba": "J&Q silicone logo wristband $0.06-$0.16 analogue for name-band SKU",
       "notes": "mapped to silicone wristband band \u2014 custom name printing may cost more; labeled analogue; FBA Small Standard ~0.7 oz, Low Price + 3.5% fuel; duty warning: 11.5%",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 75
     },
     {
       "asin": "B0H9Y461KP",
@@ -8431,7 +9764,13 @@
       "alibaba": "Changsha Yide silicone undergrip/overgrip $1.08-$2.70 typical ~$1.90",
       "notes": "silicone undergrip (not PU $0.22) \u2014 different BOM than 15-pk overgrip; FBA Small Standard ~2.8 oz, Low Price + 3.5% fuel; duty warning: 11.5% sports (4%+7.5%); ",
       "profitExcluded": false,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [
+        "accessories",
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 71
     },
     {
       "asin": "B0H696X4G4",
@@ -8467,7 +9806,10 @@
       "notes": null,
       "profitExcluded": true,
       "parentPool": null,
-      "opportunity": null
+      "opportunity": null,
+      "lists": [],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0DJ5M2MMW",
@@ -8503,7 +9845,10 @@
       "notes": null,
       "profitExcluded": false,
       "parentPool": "B0DJ5M2MMW/B0GJTZW6L2",
-      "opportunity": null
+      "opportunity": null,
+      "lists": [],
+      "bestsellerRank": null,
+      "newReleaseRank": null
     },
     {
       "asin": "B0GJTZW6L2",
@@ -8539,7 +9884,930 @@
       "notes": null,
       "profitExcluded": false,
       "parentPool": "B0DJ5M2MMW/B0GJTZW6L2",
-      "opportunity": null
+      "opportunity": null,
+      "lists": [],
+      "bestsellerRank": null,
+      "newReleaseRank": null
+    },
+    {
+      "asin": "B0F5SC6SSC",
+      "brand": "Palms-O-Aces Pickleball",
+      "title": "Palms-O-Aces Pickleball Paddle Cover | Canvas Padded Pickleball Paddles Sleeve with Zipper | Lightweight Protective Paddle Case for Standard Paddles | Paddle Cover Accessory",
+      "price": 19.99,
+      "listPrice": null,
+      "rating": 4.7,
+      "reviews": 504,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81oWRan7pZL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.com/dp/B0F5SC6SSC",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": true,
+      "opportunity": null,
+      "lists": [
+        "bestsellers"
+      ],
+      "bestsellerRank": 39,
+      "newReleaseRank": null
+    },
+    {
+      "asin": "B0FSDY867Y",
+      "brand": "Alveroya Pickleball",
+      "title": "Alveroya Pickleball Sling Bag with Shoe Compartment - Crossbody Backpack Fits 2 Paddles, 32oz Bottle & Fence Hook, Sports Bag for Men & Women (Shoe Limit: up to US Men's 10 / Women's 11.5)",
+      "price": 29.99,
+      "listPrice": null,
+      "rating": 4.5,
+      "reviews": 77,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81drjMWHRcL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0FSDY867Y",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "bestsellers"
+      ],
+      "bestsellerRank": 53,
+      "newReleaseRank": null
+    },
+    {
+      "asin": "B0DSZRX6NW",
+      "brand": "Amoswiz Pickleball",
+      "title": "Amoswiz Pickleball Edge Guard Tape, 3 Pcs, No Wrinkle | Protects Paddle Edges, 23mm and 26mm Width, Fits 13mm, 16mm and 20mm Paddles",
+      "price": 12.99,
+      "listPrice": null,
+      "rating": 4.4,
+      "reviews": 137,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/712yoTj1D5L._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0DSZRX6NW",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "bestsellers"
+      ],
+      "bestsellerRank": 59,
+      "newReleaseRank": null
+    },
+    {
+      "asin": "B0D8LFLM3S",
+      "brand": "HAMBOLY Large",
+      "title": "HAMBOLY Large Pickleball Backpack Bag for Men Women with Shoe Compartment | Insulated Cooler Pocket & Water Bottle Holder, Fence Hook | Water-Resistant 900D Polyester | Court, Gym & Travel Ready",
+      "price": 32.98,
+      "listPrice": null,
+      "rating": 4.5,
+      "reviews": 243,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71dMYKFb5SL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0D8LFLM3S",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "bestsellers"
+      ],
+      "bestsellerRank": 64,
+      "newReleaseRank": null
+    },
+    {
+      "asin": "B0GQJYRHS2",
+      "brand": "JAYA Pickleball",
+      "title": "JAYA Pickleball Grip Tape, Extra-Length Overgrip for Pickleball Paddle, Sweat-Absorbing, Non-Slip Replacement Grip Wrap, Easy to Install",
+      "price": 9.99,
+      "listPrice": null,
+      "rating": 4.6,
+      "reviews": 408,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81kR9AZVjzL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0GQJYRHS2",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "bestsellers"
+      ],
+      "bestsellerRank": 67,
+      "newReleaseRank": null
+    },
+    {
+      "asin": "B0GTTTG8F6",
+      "brand": "SOCITECO Pickleball",
+      "title": "SOCITECO Pickleball Overgrip, Tacky Pickleball Grip Tape for Paddle | Anti-Sweat Pickleball Paddle Grip Tape, Non-Slip Pickleball Handle Wrap for Sweaty Hands, Secure Grip & Consistent Control",
+      "price": 10.99,
+      "listPrice": null,
+      "rating": 4.5,
+      "reviews": 14,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71u3Nc8fi+L._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0GTTTG8F6",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "bestsellers"
+      ],
+      "bestsellerRank": 80,
+      "newReleaseRank": null
+    },
+    {
+      "asin": "B0HBV2QYPT",
+      "brand": "Tanwater Lensless",
+      "title": "Tanwater Lensless Pickleball Glasses for Women, Light Transparent Gray No-Lens Pickleball Glasses, No-Fog Open-View Sports Eyewear with No-Slip Fit for Pickleball Tennis Indoor Outdoor Play",
+      "price": 21.99,
+      "listPrice": null,
+      "rating": null,
+      "reviews": null,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51dwdKPsMNL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0HBV2QYPT",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 20
+    },
+    {
+      "asin": "B0H8BJPWGT",
+      "brand": "Sigouyinei Pickleball",
+      "title": "Sigouyinei Pickleball Paddle Cover Protective Paddle Sleeve Case Pocket | Neoprene Paddle Cover Protects From Scratches. Mesh Pocket Holds Balls, Towels And Gear",
+      "price": 12.98,
+      "listPrice": null,
+      "rating": 4.9,
+      "reviews": 21,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51blBvxZOLL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.com/dp/B0H8BJPWGT",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": true,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 41
+    },
+    {
+      "asin": "B0H7M4LK7C",
+      "brand": "2.0 Sparkle",
+      "title": "2.0 Sparkle Pickleball Edge Guard Tape 3-Pack - Thickened TPU Protection Tape for 16mm Paddles - 30mm x 760mm - Glitter Scratch-Resistant No Residue Adhesive - Easy Install",
+      "price": 12.99,
+      "listPrice": null,
+      "rating": null,
+      "reviews": null,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71V2pkIPZAL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.com/dp/B0H7M4LK7C",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 42
+    },
+    {
+      "asin": "B0H6X8LHN6",
+      "brand": "FREEHOTU Neoprene",
+      "title": "FREEHOTU Neoprene Pickleball Paddle Cover, Zipper Racket Sleeve Case | Universal Lightweight Neoprene Pickleball Racket Sleeve Case With Zipper, Protective Bag for Men Women",
+      "price": 16.99,
+      "listPrice": null,
+      "rating": 4.8,
+      "reviews": 7,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61FQXEl+2UL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0H6X8LHN6",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": true,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 51
+    },
+    {
+      "asin": "B0GWH5X62L",
+      "brand": "Pickleball Paddle",
+      "title": "Pickleball Paddle Weights, Lead and Tungsten Tape for Pickleball Paddles | Pickleball weights tape strips for balance,stability,power,sweet spot tuning, high density weighted tape for tennis&golf",
+      "price": 7.49,
+      "listPrice": null,
+      "rating": 5,
+      "reviews": 3,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71m6fpuyUUL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0GWH5X62L",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 52
+    },
+    {
+      "asin": "B0H79L1XRX",
+      "brand": "Heyplan Pickleball",
+      "title": "Heyplan Pickleball Tote Bag with Paddle Pocket, Ball Bag & Adjustable Strap for Men Women",
+      "price": 29.99,
+      "listPrice": null,
+      "rating": 5,
+      "reviews": 2,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71uuApVSeKL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0H79L1XRX",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 56
+    },
+    {
+      "asin": "B0GYCHRSCG",
+      "brand": "Goferwu Pickleball",
+      "title": "Goferwu Pickleball Bag Men Women W/Shoe Compartment Fence Hook | 2 Paddle Pockets, Tumbler Pocket, 30L Capacity, Adjustable Straps, Breathable Back Panel & Multiple Storage Pockets",
+      "price": 32.99,
+      "listPrice": null,
+      "rating": 4.9,
+      "reviews": 12,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/810BaneFXUL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0GYCHRSCG",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 58
+    },
+    {
+      "asin": "B0H2CGWYFT",
+      "brand": "GRSECPO",
+      "title": "GRSECPO 2 Pack Neoprene Pickleball Paddle Covers, Universal Zippered Racket Sleeve Storage Bag, Protective Racquet Case for Standard Pickleball Paddles",
+      "price": 13.99,
+      "listPrice": null,
+      "rating": 4.4,
+      "reviews": 19,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61XvSc6YuXL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0H2CGWYFT",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": true,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 62
+    },
+    {
+      "asin": "B0H6X36SVV",
+      "brand": "LUMANSITTER Pickleball",
+      "title": "LUMANSITTER Pickleball Paddle Cover for Men & Women, Neoprene Protective Sleeve for Pickleball Paddle, Durable Zippered Storage Case with Mesh Pocket and Carabiner",
+      "price": 14.99,
+      "listPrice": null,
+      "rating": 4.2,
+      "reviews": 4,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71AyLfuS6KL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0H6X36SVV",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": true,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 63
+    },
+    {
+      "asin": "B0H6FDXC5B",
+      "brand": "RefindWin Pickleball",
+      "title": "RefindWin Pickleball Bag for Men Women Pickle Ball Backpack Sports Bag | Pickleball Backpack Pickle Ball Paddle Bag Tennis Bag Tennis Backpack Adjustable Sling Bag Backpack for Tennis & Pickleball",
+      "price": 25.8,
+      "listPrice": null,
+      "rating": 4.7,
+      "reviews": 20,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81WbhVxIUJL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0H6FDXC5B",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": true,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 64
+    },
+    {
+      "asin": "B0H9RHM8WX",
+      "brand": "Silicone Grip",
+      "title": "Silicone Grip Bands for Pickleball Paddle and Tennis Racquet, Sweat Resistant Reusable Overgrip Rings Fit Most Handles",
+      "price": null,
+      "listPrice": null,
+      "rating": null,
+      "reviews": null,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51uz8JFhqwL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0H9RHM8WX",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 66
+    },
+    {
+      "asin": "B0GXCFVSK4",
+      "brand": "Lilly Pulitzer",
+      "title": "Lilly Pulitzer Pickleball Bag with Crossbody Strap, In All Her Glory | Pink & Blue Floral Sports Storage for 2 Paddles, Zipper Pocket, Waterbottle Sleeve, Adjustable Strap and Gold Details",
+      "price": 72.0,
+      "listPrice": null,
+      "rating": 5,
+      "reviews": 7,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/816mPGj3hgL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0GXCFVSK4",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 69
+    },
+    {
+      "asin": "B0HBVQXP79",
+      "brand": "Tanwater Lensless",
+      "title": "Tanwater Lensless Pickleball Glasses for Women, Transparent Purple Frame No-Lens Pickleball Eye Guard, Lightweight No-Fog No-Slip Sports Eyewear for Pickleball Tennis Racquetball Indoor Outdoor Play",
+      "price": 19.99,
+      "listPrice": null,
+      "rating": null,
+      "reviews": null,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51bfB1H7iJL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0HBVQXP79",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 72
+    },
+    {
+      "asin": "B0H41JLHGD",
+      "brand": "Custom Pickleball",
+      "title": "Custom Pickleball Team Shirts Personalized Dink Squad Matching Tees | Pickleball Team Dink Squad Matching design with custom text; fabric varies by selected style and color.",
+      "price": 9.98,
+      "listPrice": null,
+      "rating": 4,
+      "reviews": 1,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71HSo4QslyL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0H41JLHGD",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 73
+    },
+    {
+      "asin": "B0HDPGYDTG",
+      "brand": "Solo Pickleball",
+      "title": "Solo Pickleball Trainer, Adjustable Bounce-Back Training System with Fillable Water Base, Practice Solo Anywhere, Portable Rebounder for Backyard, Park, Garage, Indoor Outdoor Practice | PE base, 4m elastic rope. Water-filled, auto-return. Durable ball. For backyard, indoor, solo",
+      "price": 8.59,
+      "listPrice": null,
+      "rating": null,
+      "reviews": null,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61TEKK5zYzL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0HDPGYDTG",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 74
+    },
+    {
+      "asin": "B0GT1PBLW4",
+      "brand": "CRBN Counter",
+      "title": "CRBN Counter Coins Pickleball Paddle Weights \u2013 2 Pack (Black & Gold) | Brass Butt Cap Counterbalance, 6g & 12g \u2013 Boost Power, Control & Maneuverability",
+      "price": 16.99,
+      "listPrice": null,
+      "rating": 5,
+      "reviews": 5,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/714ARNgW6xL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0GT1PBLW4",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 79
+    },
+    {
+      "asin": "B0H4Z3XT78",
+      "brand": "Pickleball Bag",
+      "title": "Pickleball Bag Backpack & Duffle Bag for Pickleball Paddles & Accessories | Two Separate Paddle Pockets,Ventilated Shoe Compartment,Wet\u2011Dry Separated Storage,Water Repellent Fabric,4\u2011Way Carry Design",
+      "price": 89.99,
+      "listPrice": null,
+      "rating": 5,
+      "reviews": 2,
+      "units": null,
+      "unitsLabel": null,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71paKlR+vOL._AC_UL600_SR600,400_.jpg",
+      "url": "https://www.amazon.com/dp/B0H4Z3XT78",
+      "rank": null,
+      "page": null,
+      "category": null,
+      "packQty": null,
+      "mine": false,
+      "trending": false,
+      "sourced": "unknown",
+      "fob": null,
+      "freight": null,
+      "duty": null,
+      "landed": null,
+      "referral": null,
+      "fba": null,
+      "unit": null,
+      "margin": null,
+      "monthlyRevenue": null,
+      "monthlyProfit": null,
+      "afterAdsMonthly": null,
+      "alibaba": null,
+      "notes": null,
+      "profitExcluded": false,
+      "opportunity": null,
+      "lists": [
+        "newReleases"
+      ],
+      "bestsellerRank": null,
+      "newReleaseRank": 80
     }
   ]
 }
