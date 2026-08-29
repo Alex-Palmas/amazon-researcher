@@ -39,8 +39,10 @@ export function SettingsPage({ meta, fees, update, reset }: Props) {
       <p className="note">
         Scrape stamp: {meta.source}. Catalog reviews {meta.catalogReviews}, weighted {meta.weightedRating.toFixed(2)}.{" "}
         {meta.listingCount} rows · {meta.researchCount} research · {meta.sourcedCount} sourced · {meta.trendingCount}{" "}
-        trending. Accessories popularity rank is `rank`. Best Seller / New Release ranks are Pickleball Accessories
-        node 213609101011 (not Equipment) and land with the next scrape.
+        trending
+        {meta.bestsellerCount != null ? ` · ${meta.bestsellerCount} Best Sellers` : ""}
+        {meta.newReleaseCount != null ? ` · ${meta.newReleaseCount} New Releases` : ""}. Accessories popularity rank is
+        `rank`. Best Seller / New Release ranks are Pickleball Accessories node 213609101011 (not Equipment).
       </p>
     </div>
   );

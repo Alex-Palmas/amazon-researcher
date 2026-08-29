@@ -54,7 +54,11 @@ export function Overview({ catalog, onOpen }: Props) {
         Research scrape
       </h2>
       <div className="kpis">
-        <Kpi label="Accessories + Roore" value={meta.listingCount} sub={`${meta.researchCount} after hiding mine`} />
+        <Kpi
+          label="Catalog rows"
+          value={meta.listingCount}
+          sub={`${meta.researchCount} after hiding mine · accessories + chart ASINs`}
+        />
         <Kpi label="Sourced" value={meta.sourcedCount} sub="FOB stack present" />
         <Kpi label="Trending new" value={meta.trendingCount} sub="units ≥ 200 and reviews ≤ 80" />
         <Kpi label="Plays after 15% TACOS" value={plays.length} sub="sourced · not excluded · leftover > $0" />

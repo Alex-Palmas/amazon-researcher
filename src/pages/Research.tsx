@@ -136,7 +136,7 @@ export function Research({ catalog, onOpen }: Props) {
           <h1>Research</h1>
           <p className="lede">
             Opportunity finder. Accessories is the 10-page popularity catalog. Best Sellers and New Releases are
-            Pickleball Accessories charts (node 213609101011), sorted by those ranks once the scrape lands.
+            Pickleball Accessories charts (node 213609101011), sorted by those chart ranks.
           </p>
         </div>
       </div>

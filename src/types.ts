@@ -74,6 +74,8 @@ export interface CatalogMeta {
   researchCount: number;
   sourcedCount: number;
   trendingCount: number;
+  bestsellerCount?: number;
+  newReleaseCount?: number;
   feeAssumptions: FeeAssumptions;
   parentPools: ParentPool[];
 }
