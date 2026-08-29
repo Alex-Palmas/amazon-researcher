@@ -43,6 +43,7 @@ export interface Listing {
   monthlyProfit: number | null;
   afterAdsMonthly: number | null;
   alibaba: string | null;
+  alibabaUrl?: string | null;
   notes: string | null;
   profitExcluded: boolean;
   opportunity: number | null;
