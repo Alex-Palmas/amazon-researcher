@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "scrapedAt": "2026-08-29",
+    "timezone": "PT",
+    "source": "29 Aug 2026 PT scrape",
+    "catalogReviews": 292,
+    "weightedRating": 4.31,
+    "parentPools": [
+      {
+        "asins": ["B0DJ5M2MMW", "B0GJTZW6L2"],
+        "reviews": 115,
+        "note": "B0DJ5M2MMW and B0GJTZW6L2 share 115 reviews (parent pool)."
+      }
+    ]
+  },
+  "listings": [
+    {
+      "asin": "B0GDC2M73C",
+      "brand": "Roore",
+      "title": "Roore tungsten strips 30g",
+      "price": 11.95,
+      "listPrice": 14.95,
+      "rating": 4.3,
+      "reviews": 46,
+      "units": 100,
+      "unitsLabel": "100+/mo",
+      "image": "https://m.media-amazon.com/images/I/81T8BfJIL4L._AC_UL320_.jpg",
+      "mine": true
+    },
+    {
+      "asin": "B0H696X4G4",
+      "brand": "Roore",
+      "title": "Roore Gen 4 foam paddle",
+      "price": 54.95,
+      "rating": 4.4,
+      "reviews": 16,
+      "image": "https://m.media-amazon.com/images/I/61gqxgIjePL._AC_UL320_.jpg",
+      "mine": true
+    },
+    {
+      "asin": "B0DJ5M2MMW",
+      "brand": "Roore",
+      "title": "Roore tungsten 1g/in",
+      "price": 9.99,
+      "typicalPrice": 10.95,
+      "rating": 4.3,
+      "reviews": 115,
+      "units": 50,
+      "unitsLabel": "50+/mo",
+      "image": "https://m.media-amazon.com/images/I/71qlkzz5ZyL._AC_UL320_.jpg",
+      "mine": true,
+      "parentPool": "tungsten-1g-in"
+    },
+    {
+      "asin": "B0GJTZW6L2",
+      "brand": "Roore",
+      "title": "Roore tungsten 1g/in",
+      "price": 14.99,
+      "rating": 4.3,
+      "reviews": 115,
+      "image": "https://m.media-amazon.com/images/I/510JaPkAm3L._AC_UL320_.jpg",
+      "mine": true,
+      "parentPool": "tungsten-1g-in"
+    },
+    {
+      "asin": "B0BY34Q2ML",
+      "brand": "Neobadge",
+      "title": "Neobadge lead tape",
+      "price": 7.59,
+      "rating": 4.6,
+      "reviews": 646,
+      "units": 1000,
+      "image": "https://m.media-amazon.com/images/I/61q5+DI2uZL._AC_UL320_.jpg",
+      "sourced": "yes",
+      "fob": 2.28,
+      "unit": 1.27,
+      "ads": 130.75
+    },
+    {
+      "asin": "B0F37Y8MZ2",
+      "brand": "Selkirk",
+      "title": "Selkirk cover",
+      "price": 11.99,
+      "reviews": 1474,
+      "units": 1000,
+      "image": "https://m.media-amazon.com/images/I/813o8OSSifL._AC_UL320_.jpg",
+      "sourced": "no"
+    },
+    {
+      "asin": "B0972GTS8W",
+      "brand": "Mangrove",
+      "title": "Mangrove sling",
+      "price": 22.99,
+      "reviews": 3493,
+      "units": 1000,
+      "image": "https://m.media-amazon.com/images/I/61kO0v-eAeL._AC_UL320_.jpg",
+      "sourced": "yes",
+      "fob": 6.5,
+      "unit": 3.81,
+      "ads": 358
+    },
+    {
+      "asin": "B0GW8PD7KT",
+      "brand": "2Hands",
+      "title": "2Hands glasses",
+      "price": 45,
+      "reviews": 36,
+      "units": 700,
+      "image": "https://m.media-amazon.com/images/I/51GLmCw94rL._AC_UL320_.jpg",
+      "trending": true,
+      "sourced": "yes",
+      "fob": 24,
+      "unit": 7.7,
+      "ads": 665
+    },
+    {
+      "asin": "B0FR1W6326",
+      "brand": "Selkirk",
+      "title": "Selkirk grip",
+      "price": 6.99,
+      "reviews": 9,
+      "units": 500,
+      "image": "https://m.media-amazon.com/images/I/615mb415MmL._AC_UL320_.jpg",
+      "trending": true,
+      "sourced": "no"
+    },
+    {
+      "asin": "B0F37Z7M4L",
+      "brand": "Professor",
+      "title": "Professor eraser",
+      "price": 6.99,
+      "reviews": 162,
+      "units": 600,
+      "image": "https://m.media-amazon.com/images/I/71KQr1CN3yL._AC_UL320_.jpg",
+      "sourced": "yes",
+      "fob": 0.98,
+      "unit": 2.07,
+      "ads": 614
+    },
+    {
+      "asin": "B0DM4QRMP7",
+      "brand": "SDLINR",
+      "title": "SDLINR backpack",
+      "price": 34.19,
+      "reviews": 339,
+      "units": 500,
+      "image": "https://m.media-amazon.com/images/I/61kcIprJecL._AC_UL320_.jpg",
+      "badge": "BEST",
+      "sourced": "yes",
+      "fob": 8,
+      "unit": 10.14,
+      "ads": 2505
+    },
+    {
+      "asin": "B0DX2198Y2",
+      "title": "Overgrip 2pk",
+      "price": 9.99,
+      "units": 300,
+      "image": "https://m.media-amazon.com/images/I/71+NNeJyd5L._AC_UL320_.jpg",
+      "sourced": "yes",
+      "unit": 4.98,
+      "ads": 1043
+    },
+    {
+      "asin": "B0C7KQ6SZ4",
+      "brand": "PICKLETECH",
+      "title": "PICKLETECH",
+      "price": 9.99,
+      "reviews": 1061,
+      "units": 200,
+      "image": "https://m.media-amazon.com/images/I/71cfbWxRT9L._AC_UL320_.jpg",
+      "sourced": "yes",
+      "fob": 0.4,
+      "unit": 5.41,
+      "ads": 781
+    },
+    {
+      "asin": "B0H41CDCMP",
+      "title": "Solo trainer",
+      "price": 21.49,
+      "reviews": 20,
+      "units": 400,
+      "image": "https://m.media-amazon.com/images/I/51KSTWH+KYL._AC_UL320_.jpg",
+      "trending": true,
+      "sourced": "unknown"
+    }
+  ]
+}
