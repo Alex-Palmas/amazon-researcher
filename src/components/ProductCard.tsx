@@ -1,4 +1,4 @@
-import { formatMoney, formatRating, formatUnits, netAfterAdStress } from "../lib/catalog";
+import { formatMoney, formatRating, formatUnits, pnlClass } from "../lib/format";
 import type { Listing } from "../types";
 import { ProductBadges } from "./Badges";
 import { ProductThumb } from "./ProductThumb";
@@ -10,7 +10,6 @@ interface Props {
 }
 
 export function ProductCard({ listing, onOpen, extra }: Props) {
-  const net = netAfterAdStress(listing);
   return (
     <button className="card product-card" onClick={() => onOpen(listing)}>
       <ProductThumb listing={listing} size="hero" />
@@ -20,15 +19,16 @@ export function ProductCard({ listing, onOpen, extra }: Props) {
         <p className="muted">
           {formatMoney(listing.price)}
           {listing.listPrice ? ` list ${formatMoney(listing.listPrice)}` : ""}
-          {listing.typicalPrice ? ` typical ${formatMoney(listing.typicalPrice)}` : ""}
           {" · "}
           {formatRating(listing)}
           {" · "}
           {formatUnits(listing)}
         </p>
         {extra && <p className="muted">{extra}</p>}
-        {net != null && (
-          <p className={net > 0 ? "pos" : "neg"}>Net after 15% ads {formatMoney(net)}</p>
+        {listing.afterAdsMonthly != null && (
+          <p className={pnlClass(listing.afterAdsMonthly)}>
+            After 15% TACOS {formatMoney(listing.afterAdsMonthly)}
+          </p>
         )}
         <ProductBadges listing={listing} />
       </div>
