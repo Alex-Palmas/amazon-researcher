@@ -168,6 +168,25 @@ a { color: var(--blue); }
   cursor: pointer;
 }
 .alert-card p { margin: 6px 0; color: var(--muted); font-size: 13px; }
+.alert-card.photo-alert {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: 12px;
+  align-items: start;
+}
+.alert-card.sev-info { border-left: 3px solid var(--blue); }
+.alert-card.sev-watch { border-left: 3px solid var(--amber); }
+.alert-card.sev-warn { border-left: 3px solid var(--red); }
+.badge.info { background: #132b40; color: var(--blue); }
+.badge.warn { background: #3a1d24; color: #ffc4c8; }
+.table.static th { cursor: default; }
+.slot-list {
+  margin: 0;
+  padding-left: 16px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.sparkline { color: var(--green); display: block; }
 .spark {
   height: 6px;
   background: #0e1626;

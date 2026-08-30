@@ -1,21 +1,25 @@
 import { bestPlay, chartCounts, findAsin, hasChartFields, isRecommendedPlay, newReleaseRail } from "../lib/catalog";
 import { formatMoney, formatNumber } from "../lib/format";
+import { AlertCard } from "../components/AlertCard";
 import { Kpi } from "../components/Kpi";
 import { ProductCard } from "../components/ProductCard";
 import {
   ACCESSORIES_CHART_NODE,
   BESTSELLERS_CHART_URL,
   NEW_RELEASES_CHART_URL,
+  type AlertsFile,
   type Catalog,
   type Listing,
 } from "../types";
 
 interface Props {
   catalog: Catalog;
+  alerts: AlertsFile | null;
+  alertsReady: boolean;
   onOpen: (listing: Listing) => void;
 }
 
-export function Overview({ catalog, onOpen }: Props) {
+export function Overview({ catalog, alerts, alertsReady, onOpen }: Props) {
   const { meta, listings } = catalog;
   const trending = listings.filter((row) => row.trending);
   const best = bestPlay(listings);
@@ -25,6 +29,8 @@ export function Overview({ catalog, onOpen }: Props) {
   const lists = chartCounts(listings);
   const chartsReady = hasChartFields(listings);
   const releases = newReleaseRail(listings);
+  const byAsin = new Map(listings.map((row) => [row.asin, row]));
+  const weekAlerts = alerts?.alerts ?? [];
 
   return (
     <div className="page">
@@ -49,6 +55,33 @@ export function Overview({ catalog, onOpen }: Props) {
         />
       </div>
       <p className="note">{meta.parentPools[0]?.note}</p>
+
+      <section className="section">
+        <div className="section-head">
+          <div>
+            <h2 className="section-title">Alerts</h2>
+            <p className="lede">
+              Photo-first when the ASIN is in listings.json. Color is severity. First week — no fake deltas.
+            </p>
+          </div>
+        </div>
+        {!alertsReady ? (
+          <p className="note">Loading alerts…</p>
+        ) : !alerts ? (
+          <p className="note">alerts.json is missing. Nothing invented.</p>
+        ) : (
+          <div className="alert-rail">
+            {weekAlerts.map((alert) => (
+              <AlertCard
+                key={alert.id}
+                alert={alert}
+                listing={alert.asin ? byAsin.get(alert.asin) ?? null : null}
+                onOpen={onOpen}
+              />
+            ))}
+          </div>
+        )}
+      </section>
 
       <h2 className="section-title" style={{ marginTop: 22 }}>
         Research scrape
@@ -126,8 +159,8 @@ export function Overview({ catalog, onOpen }: Props) {
       <section className="section">
         <div className="section-head">
           <div>
-            <h2 className="section-title">Alert rail</h2>
-            <p className="lede">This-week snapshot only — no invented history.</p>
+            <h2 className="section-title">This-week snapshot</h2>
+            <p className="lede">Catalog highlights from listings.json — not week-over-week history.</p>
           </div>
         </div>
         <div className="alert-rail">

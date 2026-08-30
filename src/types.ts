@@ -87,6 +87,7 @@ export interface Catalog {
 
 export type RouteId =
   | "overview"
+  | "alerts"
   | "research"
   | "mine"
   | "competitors"
@@ -94,6 +95,7 @@ export type RouteId =
   | "studio"
   | "profit"
   | "sourcing"
+  | "history"
   | "track"
   | "settings";
 
@@ -105,6 +107,7 @@ export interface NavItem {
 
 export const ROUTES: NavItem[] = [
   { id: "overview", label: "Overview", group: "Command" },
+  { id: "alerts", label: "Alerts", group: "Command" },
   { id: "research", label: "Research", group: "Find" },
   { id: "competitors", label: "Competitors", group: "Find" },
   { id: "keywords", label: "Keywords", group: "Find" },
@@ -112,9 +115,84 @@ export const ROUTES: NavItem[] = [
   { id: "studio", label: "Studio", group: "Roore" },
   { id: "profit", label: "Profit lab", group: "Money" },
   { id: "sourcing", label: "Sourcing", group: "Money" },
+  { id: "history", label: "History", group: "Ops" },
   { id: "track", label: "Track", group: "Ops" },
   { id: "settings", label: "Settings", group: "Ops" },
 ];
+
+export type AlertSeverity = "info" | "watch" | "warn";
+
+export interface AppAlert {
+  id: string;
+  severity: AlertSeverity;
+  kind: string;
+  title: string;
+  body: string;
+  asin: string | null;
+  date: string;
+}
+
+export interface AlertsFile {
+  generatedAt: string;
+  timezone?: string;
+  note: string;
+  alerts: AppAlert[];
+}
+
+export interface HistoryKeywordSlots {
+  [phrase: string]: number | null;
+}
+
+export interface HistoryRooreSku {
+  asin: string;
+  title: string;
+  image: string;
+  price: number | null;
+  rating: number | null;
+  reviews: number | null;
+  units: number | null;
+  bestsellerRank: number | null;
+  newReleaseRank: number | null;
+  keywords: HistoryKeywordSlots;
+}
+
+export interface SerpHit {
+  position: number;
+  asin: string;
+  title: string;
+}
+
+export interface NewReleaseTapeRow {
+  asin: string;
+  title: string;
+  image: string;
+  newReleaseRank: number | null;
+  reviews: number | null;
+  price: string | number | null;
+  mine: boolean;
+}
+
+export interface HistoryCounts {
+  listings: number;
+  bestsellers: number;
+  newReleases: number;
+  catalogReviews: number;
+  weightedRating: number;
+}
+
+export interface HistorySnapshot {
+  date: string;
+  timezone: string;
+  source: string;
+  counts: HistoryCounts;
+  roore: HistoryRooreSku[];
+  serpTop10: Record<string, SerpHit[]>;
+  newReleaseTape: NewReleaseTapeRow[];
+}
+
+export interface HistoryFile {
+  snapshots: HistorySnapshot[];
+}
 
 export interface KeywordRow {
   id: string;
