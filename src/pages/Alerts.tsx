@@ -21,8 +21,8 @@ export function Alerts({ file, ready, listings, onOpen }: Props) {
         <div>
           <h1>Alerts</h1>
           <p className="lede">
-            This week&apos;s baseline plus SERP occupancy, Best Seller #42, and New Release tape/weights. No invented
-            week-over-week deltas.
+            This week vs the prior snapshot. SERP occupancy, Best Seller rank, and New Release tape/weights. No invented
+            ranks.
           </p>
         </div>
       </div>

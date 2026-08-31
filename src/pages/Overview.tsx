@@ -61,7 +61,8 @@ export function Overview({ catalog, alerts, alertsReady, onOpen }: Props) {
           <div>
             <h2 className="section-title">Alerts</h2>
             <p className="lede">
-              Photo-first when the ASIN is in listings.json. Color is severity. First week — no fake deltas.
+              Photo-first when the ASIN is in listings.json. Color is severity. Week-over-week from alerts.json — no
+              invented ranks.
             </p>
           </div>
         </div>

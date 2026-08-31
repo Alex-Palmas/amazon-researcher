@@ -21,7 +21,7 @@ Vite `base` is `/amazon-researcher/`. Hash routes:
 | `#studio` | Studio | Listing optimizer, default B0GDC2M73C |
 | `#profit` | Profit lab | Fee-stack calculator from scrape assumptions |
 | `#sourcing` | Sourcing | Sourced SKUs with Alibaba text |
-| `#history` | History | 29 Aug 2026 PT baseline: Roore four SKUs, “tungsten pickleball tape” top 10, New Release tape/weights. Delta column is “next Monday” until week two. |
+| `#history` | History | Weekly snapshots from `history.json`: Roore four SKUs, “tungsten pickleball tape” top 10, New Release tape/weights. Δ is “next Monday” until a second week exists, then real week-over-week. |
 | `#track` | Track | Watchlist over listings.json |
 | `#settings` | Settings | Edit / reset fee assumptions |
 

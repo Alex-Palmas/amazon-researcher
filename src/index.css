@@ -187,6 +187,7 @@ a { color: var(--blue); }
   font-size: 12px;
 }
 .sparkline { color: var(--green); display: block; }
+.delta { font-size: 11px; font-weight: 650; }
 .spark {
   height: 6px;
   background: #0e1626;

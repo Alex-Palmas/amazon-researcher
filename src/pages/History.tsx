@@ -2,14 +2,16 @@ import { ProductThumb } from "../components/ProductThumb";
 import { Kpi } from "../components/Kpi";
 import { formatMoney, formatNumber } from "../lib/format";
 import {
+  STRIPS_PHRASE,
   TUNGSTEN_SERP_PHRASE,
   canSpark,
-  deltaLabel,
+  changeSummary,
   isRooreAsin,
-  keywordSlots,
+  keywordSlotDiffs,
   latestSnapshot,
   previousSnapshot,
   rooreOf,
+  signedDelta,
 } from "../lib/weekly";
 import { MINE_ASINS, type HistoryFile, type Listing } from "../types";
 
@@ -28,6 +30,9 @@ export function History({ file, ready, listings, onOpen }: Props) {
   const byAsin = new Map(listings.map((row) => [row.asin, row]));
   const serp = snapshot?.serpTop10[TUNGSTEN_SERP_PHRASE] ?? [];
   const tape = snapshot?.newReleaseTape ?? [];
+  const priorSerp = new Map(
+    (prior?.serpTop10[TUNGSTEN_SERP_PHRASE] ?? []).map((hit) => [hit.asin, hit.position]),
+  );
 
   return (
     <div className="page">
@@ -35,8 +40,9 @@ export function History({ file, ready, listings, onOpen }: Props) {
         <div>
           <h1>History</h1>
           <p className="lede">
-            Weekly snapshot. First week is {snapshot?.date ?? "—"} {snapshot?.timezone ?? "PT"}. No prior week, so no
-            fake deltas.
+            {hasPriorWeek && prior
+              ? `This week ${snapshot?.date} ${snapshot?.timezone} vs ${prior.date}. Deltas are from those two snapshots only.`
+              : `Weekly snapshot. First week is ${snapshot?.date ?? "—"} ${snapshot?.timezone ?? "PT"}. No prior week, so no fake deltas.`}
           </p>
         </div>
       </div>
@@ -58,8 +64,9 @@ export function History({ file, ready, listings, onOpen }: Props) {
             />
           </div>
           <p className="note">
-            Delta column stays &quot;next Monday&quot; until a second snapshot lands. Sparklines only appear with two or
-            more weeks. No invented search volume.
+            {hasPriorWeek
+              ? "Sparklines use Best Seller rank when present, else reviews. No invented search volume."
+              : "Delta column stays \"next Monday\" until a second snapshot lands. Sparklines only appear with two or more weeks. No invented search volume."}
           </p>
 
           <section className="section">
@@ -67,8 +74,8 @@ export function History({ file, ready, listings, onOpen }: Props) {
               <div>
                 <h2 className="section-title">Roore this week</h2>
                 <p className="lede">
-                  Reviews, rating, price, units, Best Seller rank, keyword slots. B0GDC2M73C is Best Seller #42.
-                  B0DJ5M2MMW is not on Best Sellers.
+                  Reviews, rating, price, units, Best Seller rank, keyword slots. B0DJ5M2MMW stays off Best Sellers.
+                  {hasPriorWeek ? " Δ is vs last snapshot." : ""}
                 </p>
               </div>
             </div>
@@ -99,7 +106,11 @@ export function History({ file, ready, listings, onOpen }: Props) {
                         </tr>
                       );
                     }
-                    const slots = keywordSlots(row);
+                    const slots = keywordSlotDiffs(row, prev);
+                    const sparkValues = (file?.snapshots ?? []).map((snap) => {
+                      const sku = rooreOf(snap, asin);
+                      return sku?.bestsellerRank ?? sku?.reviews ?? null;
+                    });
                     return (
                       <tr
                         key={asin}
@@ -119,11 +130,17 @@ export function History({ file, ready, listings, onOpen }: Props) {
                             </div>
                           </div>
                         </td>
-                        <td className="num">{formatNumber(row.reviews)}</td>
+                        <td className="num">
+                          {formatNumber(row.reviews)}
+                          <DeltaText value={signedDelta(row.reviews, prev?.reviews)} />
+                        </td>
                         <td className="num">{row.rating == null ? "—" : row.rating.toFixed(1)}</td>
                         <td className="num">{formatMoney(row.price)}</td>
                         <td className="num">{formatNumber(row.units)}</td>
-                        <td className="num">{formatNumber(row.bestsellerRank)}</td>
+                        <td className="num">
+                          {formatNumber(row.bestsellerRank)}
+                          <DeltaText value={signedDelta(row.bestsellerRank, prev?.bestsellerRank)} invert />
+                        </td>
                         <td>
                           {slots.length === 0 ? (
                             <span className="muted">not in checked SERP top 10</span>
@@ -131,20 +148,19 @@ export function History({ file, ready, listings, onOpen }: Props) {
                             <ul className="slot-list">
                               {slots.map((slot) => (
                                 <li key={slot.phrase}>
-                                  #{slot.rank} {slot.phrase}
+                                  {slot.rank == null ? "off" : `#${slot.rank}`} {slot.phrase}
+                                  {hasPriorWeek && slot.prevRank != null && slot.prevRank !== slot.rank
+                                    ? ` (was #${slot.prevRank})`
+                                    : ""}
                                 </li>
                               ))}
                             </ul>
                           )}
                         </td>
-                        <td className="muted">{deltaLabel(row.reviews, prev?.reviews, hasPriorWeek)}</td>
+                        <td className="muted">{changeSummary(row, prev, hasPriorWeek)}</td>
                         {sparkOk && (
                           <td>
-                            <Sparkline
-                              values={(file?.snapshots ?? []).map(
-                                (snap) => rooreOf(snap, asin)?.reviews ?? null,
-                              )}
-                            />
+                            <Sparkline values={sparkValues} />
                           </td>
                         )}
                       </tr>
@@ -160,8 +176,10 @@ export function History({ file, ready, listings, onOpen }: Props) {
               <div>
                 <h2 className="section-title">“{TUNGSTEN_SERP_PHRASE}” top 10</h2>
                 <p className="lede">
-                  This week from serpTop10. Roore rows highlighted — strips #4, 1 g/in tape #10. B0GDC2M73C is also
-                  organic #1 for “tungsten tape strips pickleball”.
+                  This week from serpTop10. Roore rows highlighted. Strips #
+                  {serp.find((hit) => hit.asin === "B0GDC2M73C")?.position ?? "—"}
+                  ; 1 g/in tape #{serp.find((hit) => hit.asin === "B0DJ5M2MMW")?.position ?? "—"}. B0GDC2M73C is also
+                  organic #{rooreOf(snapshot, "B0GDC2M73C")?.keywords[STRIPS_PHRASE] ?? "—"} for “{STRIPS_PHRASE}”.
                 </p>
               </div>
             </div>
@@ -172,6 +190,7 @@ export function History({ file, ready, listings, onOpen }: Props) {
                     <th>#</th>
                     <th>Product</th>
                     <th>ASIN</th>
+                    {hasPriorWeek && <th>Last week</th>}
                   </tr>
                 </thead>
                 <tbody>
@@ -191,6 +210,11 @@ export function History({ file, ready, listings, onOpen }: Props) {
                           </div>
                         </td>
                         <td className="asin">{hit.asin}</td>
+                        {hasPriorWeek && (
+                          <td className="num">
+                            {priorSerp.has(hit.asin) ? `#${priorSerp.get(hit.asin)}` : "new"}
+                          </td>
+                        )}
                       </tr>
                     );
                   })}
@@ -250,6 +274,13 @@ export function History({ file, ready, listings, onOpen }: Props) {
       )}
     </div>
   );
+}
+
+function DeltaText({ value, invert }: { value: string | null; invert?: boolean }) {
+  if (!value || value === "0") return null;
+  const up = value.startsWith("+");
+  const good = invert ? !up : up;
+  return <div className={`delta ${good ? "pos" : "neg"}`}>{value}</div>;
 }
 
 function Sparkline({ values }: { values: (number | null)[] }) {
