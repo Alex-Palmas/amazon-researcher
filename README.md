@@ -20,6 +20,7 @@ Vite `base` is `/amazon-researcher/`. Hash routes:
 | `#keywords` | Keywords | Tracker, competitor organic ranks, demand proxy (catalog units, not search volume), listing-copy reverse ASIN |
 | `#studio` | Studio | Listing optimizer, default B0GDC2M73C |
 | `#profit` | Profit lab | Fee-stack calculator from scrape assumptions |
+| `#ppc` | PPC | Auto→Exact harvest loop from Sponsored Products Search Term Report CSV. No Amazon Ads API — queues + classifier only. Seed rows are Sample, not live Roore Ads data. |
 | `#sourcing` | Sourcing | Sourced SKUs with Alibaba text |
 | `#history` | History | Weekly snapshots from `history.json`: Roore four SKUs, “tungsten pickleball tape” top 10, New Release tape/weights. Δ is “next Monday” until a second week exists, then real week-over-week. |
 | `#track` | Track | Watchlist over listings.json |
@@ -36,3 +37,7 @@ Optional listing fields `lists`, `bestsellerRank`, and `newReleaseRank` power tw
 `history.json` and `alerts.json` load next to `listings.json`. A 404 leaves History / Alerts empty — the app does not crash. First snapshot is 29 Aug 2026 PT; week-over-week deltas wait for the next Monday scrape.
 
 Monthly profit in the scrape is 100% of that listing’s bought-past-month units, not a forecast. After ads = minus 15% TACOS.
+
+## PPC
+
+`#ppc` is a seller-OS harvest desk, not a connected Ads account. There are no Ads API credentials. Weekly flow: download Search Term Report (last 14–30 days) → upload CSV → harvest Exact winners (≥2 orders and ACoS ≤ target) → negative-exact those terms on Auto (keep Auto on). Negate 0-order spenders at 2× break-even CPA, or at 15 clicks when CPA is unknown. Example rows in `public/data/ppc.json` are tagged `example: true` and badge as Sample — they are not live Roore Ads spend, ACoS, or orders.

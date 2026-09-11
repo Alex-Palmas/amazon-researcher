@@ -94,6 +94,7 @@ export type RouteId =
   | "keywords"
   | "studio"
   | "profit"
+  | "ppc"
   | "sourcing"
   | "history"
   | "track"
@@ -114,6 +115,7 @@ export const ROUTES: NavItem[] = [
   { id: "mine", label: "My listings", group: "Roore" },
   { id: "studio", label: "Studio", group: "Roore" },
   { id: "profit", label: "Profit lab", group: "Money" },
+  { id: "ppc", label: "PPC", group: "Money" },
   { id: "sourcing", label: "Sourcing", group: "Money" },
   { id: "history", label: "History", group: "Ops" },
   { id: "track", label: "Track", group: "Ops" },
@@ -264,3 +266,84 @@ export const KEYWORD_STORAGE = "amazon-researcher.keywords.v2";
 export const SETTINGS_STORAGE = "amazon-researcher.settings.v1";
 export const WATCH_STORAGE = "amazon-researcher.watchlist.v1";
 export const CLUSTER_STORAGE = "amazon-researcher.clusters.v1";
+export const PPC_STORAGE = "amazon-researcher.ppc.v1";
+
+export type PpcTag = "harvest_exact" | "phrase_expand" | "negate" | "watch" | "ignore";
+export type PpcNegativeType = "exact" | "phrase";
+export type PpcHarvestDestination = "exact" | "phrase";
+export type PpcNegateTarget = "auto" | "broad" | "auto_and_broad";
+
+export interface PpcSettings {
+  targetAcosPct: number;
+  negateSpendMultiplier: number;
+  negateClicksZeroOrders: number;
+  lookbackDays: number;
+}
+
+export interface PpcBlueprintSeed {
+  asin: string;
+  short: string;
+  family: string | null;
+  note: string | null;
+}
+
+export interface SearchTermRow {
+  id: string;
+  searchTerm: string;
+  impressions: number | null;
+  clicks: number | null;
+  spend: number | null;
+  sales: number | null;
+  orders: number | null;
+  acosPct: number | null;
+  cvr: number | null;
+  campaignName: string | null;
+  matchType: string | null;
+  advertisedAsin: string | null;
+  example: boolean;
+}
+
+export interface HarvestQueueItem {
+  id: string;
+  searchTerm: string;
+  destination: PpcHarvestDestination;
+  asin: string | null;
+  sourceCampaign: string | null;
+  addedAt: string;
+  example: boolean;
+}
+
+export interface NegateQueueItem {
+  id: string;
+  searchTerm: string;
+  negativeType: PpcNegativeType;
+  applyTo: PpcNegateTarget;
+  asin: string | null;
+  sourceCampaign: string | null;
+  reason: string;
+  addedAt: string;
+  example: boolean;
+}
+
+export interface PpcImportMeta {
+  fileName: string;
+  importedAt: string;
+  rowCount: number;
+}
+
+export interface PpcFile {
+  settings: PpcSettings;
+  blueprints: PpcBlueprintSeed[];
+  harvestQueue: HarvestQueueItem[];
+  negateQueue: NegateQueueItem[];
+  importedSearchTerms: SearchTermRow[];
+  lastImportMeta: PpcImportMeta | null;
+  dismissedIds: string[];
+}
+
+export const DEFAULT_PPC_SETTINGS: PpcSettings = {
+  targetAcosPct: 30,
+  negateSpendMultiplier: 2,
+  negateClicksZeroOrders: 15,
+  lookbackDays: 14,
+};

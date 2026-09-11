@@ -1,0 +1,115 @@
+{
+  "settings": {
+    "targetAcosPct": 30,
+    "negateSpendMultiplier": 2,
+    "negateClicksZeroOrders": 15,
+    "lookbackDays": 14
+  },
+  "blueprints": [
+    {
+      "asin": "B0GDC2M73C",
+      "short": "Strips",
+      "family": "strips",
+      "note": "One ASIN per ad group. Auto stays on as discovery (close / loose / complements / substitutes)."
+    },
+    {
+      "asin": "B0DJ5M2MMW",
+      "short": "1g Tape 9.99",
+      "family": "1g-tape",
+      "note": "Shares a parent pool with B0GJTZW6L2 — tight ASIN family, one ASIN per ad group."
+    },
+    {
+      "asin": "B0GJTZW6L2",
+      "short": "1g Tape 14.99",
+      "family": "1g-tape",
+      "note": "Shares a parent pool with B0DJ5M2MMW — tight ASIN family, one ASIN per ad group."
+    },
+    {
+      "asin": "B0H696X4G4",
+      "short": "Foam Paddle",
+      "family": "foam-paddle",
+      "note": "One ASIN per ad group. Keep Auto on; harvest winners into Exact."
+    }
+  ],
+  "harvestQueue": [],
+  "negateQueue": [],
+  "importedSearchTerms": [
+    {
+      "id": "example-1",
+      "searchTerm": "tungsten pickleball tape",
+      "impressions": 1840,
+      "clicks": 42,
+      "spend": 21.6,
+      "sales": 90.0,
+      "orders": 3,
+      "acosPct": 24.0,
+      "cvr": 7.14,
+      "campaignName": "EXAMPLE | Auto Discovery",
+      "matchType": "CLOSE_MATCH",
+      "advertisedAsin": "B0GDC2M73C",
+      "example": true
+    },
+    {
+      "id": "example-2",
+      "searchTerm": "pickleball paddle weights",
+      "impressions": 960,
+      "clicks": 28,
+      "spend": 16.8,
+      "sales": 59.9,
+      "orders": 2,
+      "acosPct": 28.0,
+      "cvr": 7.14,
+      "campaignName": "EXAMPLE | Auto Discovery",
+      "matchType": "LOOSE_MATCH",
+      "advertisedAsin": "B0GDC2M73C",
+      "example": true
+    },
+    {
+      "id": "example-3",
+      "searchTerm": "tungsten tape for paddle",
+      "impressions": 410,
+      "clicks": 11,
+      "spend": 6.4,
+      "sales": 11.95,
+      "orders": 1,
+      "acosPct": 53.6,
+      "cvr": 9.09,
+      "campaignName": "EXAMPLE | Auto Discovery",
+      "matchType": "SUBSTITUTES",
+      "advertisedAsin": "B0GDC2M73C",
+      "example": true
+    },
+    {
+      "id": "example-4",
+      "searchTerm": "used pickleball paddle rental",
+      "impressions": 220,
+      "clicks": 18,
+      "spend": 22.5,
+      "sales": 0,
+      "orders": 0,
+      "acosPct": null,
+      "cvr": 0,
+      "campaignName": "EXAMPLE | Auto Discovery",
+      "matchType": "LOOSE_MATCH",
+      "advertisedAsin": "B0H696X4G4",
+      "example": true
+    },
+    {
+      "id": "example-5",
+      "searchTerm": "lead tape alternative pickleball",
+      "impressions": 150,
+      "clicks": 8,
+      "spend": 4.1,
+      "sales": 0,
+      "orders": 0,
+      "acosPct": null,
+      "cvr": 0,
+      "campaignName": "EXAMPLE | Auto Discovery",
+      "matchType": "COMPLEMENTS",
+      "advertisedAsin": "B0DJ5M2MMW",
+      "example": true
+    }
+  ],
+  "lastImportMeta": null,
+  "dismissedIds": []
+}

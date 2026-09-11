@@ -10,12 +10,14 @@ import { useKeywords } from "./hooks/useKeywords";
 import { useSettings } from "./hooks/useSettings";
 import { useKeywordRanks } from "./hooks/useKeywordRanks";
 import { useWatchlist } from "./hooks/useWatchlist";
+import { usePpc } from "./hooks/usePpc";
 import { Alerts } from "./pages/Alerts";
 import { Competitors } from "./pages/Competitors";
 import { History } from "./pages/History";
 import { Keywords } from "./pages/Keywords";
 import { Mine } from "./pages/Mine";
 import { Overview } from "./pages/Overview";
+import { Ppc } from "./pages/Ppc";
 import { Profit } from "./pages/Profit";
 import { Research } from "./pages/Research";
 import { SettingsPage } from "./pages/SettingsPage";
@@ -81,6 +83,7 @@ function AppReady({
   const settings = useSettings(catalog.meta.feeAssumptions);
   const clusters = useClusters(catalog.listings);
   const { ranks } = useKeywordRanks();
+  const ppc = usePpc();
 
   return (
     <AppShell catalog={catalog} route={route} navigate={navigate} onOpen={setOpen}>
@@ -106,6 +109,7 @@ function AppReady({
         />
       )}
       {route === "profit" && <Profit listings={catalog.listings} fees={settings.fees} />}
+      {route === "ppc" && <Ppc listings={catalog.listings} {...ppc} />}
       {route === "sourcing" && <Sourcing listings={catalog.listings} onOpen={setOpen} />}
       {route === "history" && (
         <History file={history} ready={historyReady} listings={catalog.listings} onOpen={setOpen} />
