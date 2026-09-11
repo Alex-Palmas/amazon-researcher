@@ -174,6 +174,13 @@ export function Overview({ catalog, alerts, alertsReady, onOpen }: Props) {
               </p>
             </button>
           )}
+          <a className="card alert-card" href="#ppc">
+            <strong>PPC harvest loop</strong>
+            <p>
+              Auto stays on as discovery. Upload a Search Term Report CSV to harvest Exact and negate Auto. No Ads
+              API — this card is not live ACoS or spend.
+            </p>
+          </a>
           {best && (
             <button className="card alert-card" onClick={() => onOpen(best)}>
               <strong>BEST play</strong>

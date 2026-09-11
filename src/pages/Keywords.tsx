@@ -213,6 +213,10 @@ export function Keywords({
         </table>
       </div>
       <p className="note">Default watch list is all four Roore ASINs: {MINE_ASINS.join(", ")}.</p>
+      <p className="note">
+        Organic tracker only. Sponsored Products search-term harvest lives on{" "}
+        <a href="#ppc">PPC</a> (CSV import — no Ads API, no live ACoS in this app).
+      </p>
 
       <section className="section">
         <h2 className="section-title">Competitor keyword ranks</h2>
