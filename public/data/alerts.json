@@ -1,79 +1,61 @@
 {
-  "generatedAt": "2026-09-07",
+  "generatedAt": "2026-09-21",
   "timezone": "PT",
-  "note": "Week-over-week vs 29 Aug 2026 PT snapshot. No invented ranks or review counts.",
+  "note": "Week-over-week vs 7 Sep 2026 PT snapshot. No invented ranks or review counts.",
   "alerts": [
     {
-      "id": "strips-bs-48",
-      "severity": "info",
+      "id": "strips-bs-drop",
+      "severity": "warn",
       "kind": "bestsellers",
-      "title": "Roore strips are Best Seller #37",
-      "body": "B0GDC2M73C is on the accessories Best Sellers chart at #37 (was #48 last week, -11).",
+      "title": "Roore strips dropped 34 spots on Best Sellers",
+      "body": "B0GDC2M73C moved from Best Seller #37 (7 Sep) to #71 (21 Sep).",
       "asin": "B0GDC2M73C",
-      "date": "2026-09-07"
+      "date": "2026-09-21"
     },
     {
-      "id": "serp-new-B0H1BMN3T9",
+      "id": "serp-new-B0F7CNT6HN",
       "severity": "watch",
       "kind": "serp",
       "title": "New ASIN entered organic #2 on \u201ctungsten pickleball tape\u201d",
-      "body": "B0H1BMN3T9 \u00b7 Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape | Tungsten Weights. Was not in last week\u2019s positions 1\u20134 (B0CNBFLF9N, B0D2PLZYW8, B0F7CNT6HN, B0GDC2M73C).",
-      "asin": "B0H1BMN3T9",
-      "date": "2026-09-07"
+      "body": "B0F7CNT6HN \u00b7 Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1/. Was not in last week\u2019s positions 1\u20134 (B0CNBFLF9N, B0D2PLZYW8, B0GDC2M73C, B0H1BMN3T9).",
+      "asin": "B0F7CNT6HN",
+      "date": "2026-09-21"
     },
     {
-      "id": "nr-tape-new-B0H1BMN3T9",
+      "id": "nr-tape-new-B0HD84Y2BM",
       "severity": "watch",
       "kind": "new_release",
-      "title": "New Release #1: tape/weights (new this week)",
-      "body": "Pickleball Paddle Weights - Lead-Free Alternative to Lead Tape | Tungsten Weights",
-      "asin": "B0H1BMN3T9",
-      "date": "2026-09-07"
+      "title": "New Release #34: tape/weights (new this week)",
+      "body": "Roore Pickleball Snap Weights for 16mm Paddles, 3g Clip-On Weight Clips 6-Pack (18g) | Lead-Free Paddle Weights, No-Residue Tuning Clips for Balance, Power & Sw",
+      "asin": "B0HD84Y2BM",
+      "date": "2026-09-21"
     },
     {
-      "id": "nr-tape-new-B0GXZZD2YW",
+      "id": "nr-tape-new-B0H4L46C28",
       "severity": "watch",
       "kind": "new_release",
-      "title": "New Release #9: tape/weights (new this week)",
-      "body": "TOYVTOO Pickleball Paddle Snap Weights",
-      "asin": "B0GXZZD2YW",
-      "date": "2026-09-07"
+      "title": "New Release #56: tape/weights (new this week)",
+      "body": "5Pcs PPickleball Paddle Weights Clip,Fit for 16mm Performance Shock AbsorptionTraining Edge Protector for Pickleball Paddles",
+      "asin": "B0H4L46C28",
+      "date": "2026-09-21"
     },
     {
-      "id": "nr-tape-new-B0GYBK2JVV",
+      "id": "nr-tape-new-B0GZ6R2Y4F",
       "severity": "watch",
       "kind": "new_release",
-      "title": "New Release #36: tape/weights (new this week)",
-      "body": "Pickleball Effect Tuning Clamps Powered by SLYCE SLYDRS | Reusable Adjustable Pa\u2026",
-      "asin": "B0GYBK2JVV",
-      "date": "2026-09-07"
+      "title": "New Release #67: tape/weights (new this week)",
+      "body": "FTSports Pickleball Paddle Weight Clips (5-Pack) | 3g Snap-On Weights for 16mm Paddles | Premium 3M Adhesive Included | Lead-Free Tuning for Power, Control & Sw",
+      "asin": "B0GZ6R2Y4F",
+      "date": "2026-09-21"
     },
     {
-      "id": "nr-tape-new-B0H2DZW4HF",
+      "id": "strips-kw-lead-alt-off",
       "severity": "watch",
-      "kind": "new_release",
-      "title": "New Release #48: tape/weights (new this week)",
-      "body": "Pickleball Paddle Weights Clip On, 6 Pack 3.3g with Adhesive Backing Dual Locking System, Fits 16mm or 14mm Edged Paddles, Tuning Clips for Power Control Sweet ",
-      "asin": "B0H2DZW4HF",
-      "date": "2026-09-07"
-    },
-    {
-      "id": "nr-tape-new-B0H68CSCNB",
-      "severity": "watch",
-      "kind": "new_release",
-      "title": "New Release #51: tape/weights (new this week)",
-      "body": "PickleClips Pickleball Overgrips White",
-      "asin": "B0H68CSCNB",
-      "date": "2026-09-07"
-    },
-    {
-      "id": "nr-tape-new-B0GZ6KZC6G",
-      "severity": "watch",
-      "kind": "new_release",
-      "title": "New Release #63: tape/weights (new this week)",
-      "body": "FTSports Pickleball Paddle Weight Clips 5-Pack",
-      "asin": "B0GZ6KZC6G",
-      "date": "2026-09-07"
+      "kind": "serp",
+      "title": "Strips fell out of top 20 for \u201clead tape alternative pickleball\u201d",
+      "body": "B0GDC2M73C was organic #8 last week and is not in the first 20 organic results this week.",
+      "asin": "B0GDC2M73C",
+      "date": "2026-09-21"
     }
   ]
 }
