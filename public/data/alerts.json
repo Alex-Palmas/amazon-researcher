@@ -1,79 +1,134 @@
 {
-  "generatedAt": "2026-10-05",
+  "generatedAt": "2026-10-19",
   "timezone": "PT",
-  "note": "Week-over-week vs 2026-09-28 PT snapshot. No invented ranks or review counts.",
+  "note": "Comparison is vs 2026-10-05 PT snapshot (two weeks) because the 2026-10-12 run failed and produced no files. No invented ranks or review counts.",
+  "comparedTo": "2026-10-05",
   "alerts": [
     {
-      "id": "strips-bs-drop",
-      "severity": "warn",
-      "kind": "bestsellers",
-      "title": "Roore strips dropped 23 spots on Best Sellers",
-      "body": "B0GDC2M73C moved from Best Seller #66 (2026-09-28) to #89 (2026-10-05).",
-      "asin": "B0GDC2M73C",
-      "date": "2026-10-05"
+      "id": "baseline-compare-1005",
+      "severity": "info",
+      "kind": "baseline",
+      "title": "Comparison window is two weeks (vs 2026-10-05)",
+      "body": "The 2026-10-12 Monday run failed and produced no files, so every delta in this week's alerts and history is vs the 2026-10-05 PT snapshot (two weeks).",
+      "asin": null,
+      "date": "2026-10-19"
     },
     {
-      "id": "serp-new-B0F7CNT6HN",
+      "id": "strips-bs-off",
+      "severity": "warn",
+      "kind": "bestsellers",
+      "title": "Roore strips fell off accessories Best Sellers",
+      "body": "B0GDC2M73C was Best Seller #89 on 2026-10-05 (two weeks ago; 10-12 run failed) and is not on the accessories Best Sellers chart this week (captured 100 ranks).",
+      "asin": "B0GDC2M73C",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "serp-new-B0H8JXBC7L",
       "severity": "watch",
       "kind": "serp",
       "title": "New ASIN entered organic #3 on \u201ctungsten pickleball tape\u201d",
-      "body": "B0F7CNT6HN \u00b7 Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1/. Was not in last week\u2019s positions 1\u20134 (B0CNBFLF9N, B0D2PLZYW8, B0GDC2M73C, B0H1BMN3T9); it was organic #5 on 2026-09-28.",
-      "asin": "B0F7CNT6HN",
-      "date": "2026-10-05"
+      "body": "B0H8JXBC7L \u00b7 Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for . Was not in 2026-10-05 positions 1\u20134 (B0CNBFLF9N, B0D2PLZYW8, B0F7CNT6HN, B0GDC2M73C); it was organic #7 on 2026-10-05.",
+      "asin": "B0H8JXBC7L",
+      "date": "2026-10-19"
     },
     {
-      "id": "nr-tape-new-B0HJJPC46L",
+      "id": "nr-tape-new-B0H85JZ4C5",
       "severity": "watch",
       "kind": "new_release",
-      "title": "New Release #45: tape/weights (new this week)",
-      "body": "Pickleball Weighted Tape Strips Variety Pack, 5g,3g and 1g Strips",
-      "asin": "B0HJJPC46L",
-      "date": "2026-10-05"
+      "title": "New Release #29: tape/weights (not in 2026-10-05 NR tape list)",
+      "body": "FTSports Pickleball Paddle Snap Weights, 6-Pack 4g Clip-On for 16mm Paddles | 24g total in 3 matched pairs, reusable lead tape alternative, 3M tape pre-applied,",
+      "asin": "B0H85JZ4C5",
+      "date": "2026-10-19"
     },
     {
-      "id": "nr-tape-new-B0H4Y1TY4Q",
+      "id": "nr-tape-new-B0HG19DH5F",
       "severity": "watch",
       "kind": "new_release",
-      "title": "New Release #75: tape/weights (new this week)",
-      "body": "PickleClips Pickleball Paddle Weights | 3-Gram White Clips (6-Pack) | Adjustable Tuning Clips for 16mm Paddles, Lead-Free, Customize Power, Control & Sweet Spot",
-      "asin": "B0H4Y1TY4Q",
-      "date": "2026-10-05"
+      "title": "New Release #40: tape/weights (not in 2026-10-05 NR tape list)",
+      "body": "DZrudun Pickleball Paddle Weights, 3 Each of 6g/9g/12g End Cap Coins Bulk",
+      "asin": "B0HG19DH5F",
+      "date": "2026-10-19"
     },
     {
-      "id": "nr-tape-new-B0H3KLMNX1",
+      "id": "nr-tape-new-B0HF7F1LML",
       "severity": "watch",
       "kind": "new_release",
-      "title": "New Release #86: tape/weights (new this week)",
-      "body": "Pickleball Paddle Weights, 6 Packs Snap Weight Clips for Pickleball Paddle",
-      "asin": "B0H3KLMNX1",
-      "date": "2026-10-05"
+      "title": "New Release #47: tape/weights (not in 2026-10-05 NR tape list)",
+      "body": "Lintringuingly Pickleball Paddle Weights for 16mm, 6-Pack Clip-On 4g & 3g",
+      "asin": "B0HF7F1LML",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "nr-tape-new-B0H8JNV3QF",
+      "severity": "watch",
+      "kind": "new_release",
+      "title": "New Release #66: tape/weights (not in 2026-10-05 NR tape list)",
+      "body": "YELARXI Pickleball Paddle Weights 3g for Paddles Weighter Clip | Adjustable No-Residue Pickleball Paddle Snap Weights Clip for Power Control Sweet Spot",
+      "asin": "B0H8JNV3QF",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "nr-tape-new-B0HKX3PM28",
+      "severity": "watch",
+      "kind": "new_release",
+      "title": "New Release #68: tape/weights (not in 2026-10-05 NR tape list)",
+      "body": "Bodhi Performance PROtune\u2122 Weighted PODS for Pickleball Paddles, 1.5G Strips \u2013 Precision Paddle Weight Customization for Balance, Stability, Swing Weight & Powe",
+      "asin": "B0HKX3PM28",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "nr-tape-new-B0HKWXV2MG",
+      "severity": "watch",
+      "kind": "new_release",
+      "title": "New Release #74: tape/weights (not in 2026-10-05 NR tape list)",
+      "body": "Bodhi Performance PROtune\u2122 Weighted PODS for Pickleball Paddles, 2.5G Strips \u2013 Precision Paddle Weight Customization for Balance, Stability, Swing Weight & Powe",
+      "asin": "B0HKWXV2MG",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "nr-tape-new-B0HKWZMZTS",
+      "severity": "watch",
+      "kind": "new_release",
+      "title": "New Release #92: tape/weights (not in 2026-10-05 NR tape list)",
+      "body": "PROtune\u2122 Weighted PODS for Pickleball Paddles, 3G Strips \u2013 Precision Paddle Weight Customization for Balance, Stability, Swing Weight & Power \u2013 Easy Peel & Stic",
+      "asin": "B0HKWZMZTS",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "reviews-jump-B0GDC2M73C",
+      "severity": "watch",
+      "kind": "reviews",
+      "title": "Review count +2 on B0GDC2M73C",
+      "body": "50 \u2192 52 vs 2026-10-05.",
+      "asin": "B0GDC2M73C",
+      "date": "2026-10-19"
     },
     {
       "id": "reviews-jump-B0H696X4G4",
       "severity": "watch",
       "kind": "reviews",
-      "title": "Review count +11 on B0H696X4G4",
-      "body": "16 \u2192 27 vs 2026-09-28.",
+      "title": "Review count +1 on B0H696X4G4",
+      "body": "27 \u2192 28 vs 2026-10-05.",
       "asin": "B0H696X4G4",
-      "date": "2026-10-05"
+      "date": "2026-10-19"
     },
     {
-      "id": "rating-drop-B0H696X4G4",
-      "severity": "warn",
-      "kind": "reviews",
-      "title": "Rating dropped on B0H696X4G4",
-      "body": "4.4 \u2192 4.0 vs 2026-09-28 (27 reviews now).",
-      "asin": "B0H696X4G4",
-      "date": "2026-10-05"
-    },
-    {
-      "id": "strips-kw-lead-alt-off",
+      "id": "reviews-jump-B0DJ5M2MMW",
       "severity": "watch",
-      "kind": "serp",
-      "title": "Strips fell out of top 20 for \u201clead tape alternative pickleball\u201d",
-      "body": "B0GDC2M73C was organic #12 last week and is not in the first 20 organic results this week (organic #47 on the full first SERP page).",
-      "asin": "B0GDC2M73C",
-      "date": "2026-10-05"
+      "kind": "reviews",
+      "title": "Review count +1 on B0DJ5M2MMW",
+      "body": "117 \u2192 118 vs 2026-10-05. Parent review pool shared with B0GJTZW6L2 (counted once).",
+      "asin": "B0DJ5M2MMW",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "rating-dip-B0DJ5M2MMW",
+      "severity": "watch",
+      "kind": "reviews",
+      "title": "Rating dipped on B0DJ5M2MMW",
+      "body": "4.3 \u2192 4.2 vs 2026-10-05 (118 reviews now). Parent review pool shared with B0GJTZW6L2 (counted once).",
+      "asin": "B0DJ5M2MMW",
+      "date": "2026-10-19"
     }
   ]
 }
