@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-19",
+  "checkedAt": "2026-10-26",
   "timezone": "PT",
   "source": "Amazon search organic positions",
   "keywords": [
@@ -21,56 +21,56 @@
         },
         {
           "position": 3,
-          "asin": "B0H8JXBC7L",
-          "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
-          "sponsored": false
-        },
-        {
-          "position": 4,
-          "asin": "B0GDC2M73C",
-          "title": "Tungsten Weighted Tape Strips for Pickleball Paddles Pickleball Paddle Weights Pickleball Paddle Weights - Weighted Tungsten Tape Roll Non-Toxic Lead Alternative (30 g Strips)",
-          "sponsored": false
-        },
-        {
-          "position": 5,
           "asin": "B0H1BMN3T9",
           "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
           "sponsored": false
         },
         {
-          "position": 6,
+          "position": 4,
+          "asin": "B0H8JXBC7L",
+          "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
+          "sponsored": false
+        },
+        {
+          "position": 5,
           "asin": "B0F7CNT6HN",
           "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1/2 Gram Per Inch)",
           "sponsored": false
         },
         {
+          "position": 6,
+          "asin": "B0H1BVR98P",
+          "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
+          "sponsored": false
+        },
+        {
           "position": 7,
+          "asin": "B0GDC2M73C",
+          "title": "Tungsten Weighted Tape Strips for Pickleball Paddles Pickleball Paddle Weights Pickleball Paddle Weights - Weighted Tungsten Tape Roll Non-Toxic Lead Alternative (30 g Strips)",
+          "sponsored": false
+        },
+        {
+          "position": 8,
           "asin": "B0FPDLPJKC",
           "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1 Gram Per Inch)",
           "sponsored": false
         },
         {
-          "position": 8,
+          "position": 9,
           "asin": "B0DJ5M2MMW",
           "title": "Tungsten Weighted Tape for Pickleball Paddles Golf Clubs Fishing Tennis Racket \u2013 1 Gram per Inch - Weighted Tungsten Tape Roll Non -Toxic Lead Tape Alternative",
           "sponsored": false
         },
         {
-          "position": 9,
+          "position": 10,
           "asin": "B0F9Y1CPCX",
           "title": "Tungsten Weights for Pickleball Paddles, Safe Lead Tape Alternative",
           "sponsored": false
         },
         {
-          "position": 10,
+          "position": 11,
           "asin": "B0FS7Z9R7K",
           "title": "Weighted Tungsten Tape for Pickleball Paddles | Ultra Thin 1 Gram Per Inch | Twice as Much Tape as Tape Strips",
-          "sponsored": false
-        },
-        {
-          "position": 11,
-          "asin": "B0DNQ16W63",
-          "title": "THE GOLFER STORE Weighted Tungsten Tape for Pickleball Paddles -Enhance Pickleball Paddles Performance, Customizable Non-Toxic Tungsten Strap, Suitable for A Many Kinds of Racquets",
           "sponsored": false
         },
         {
@@ -81,32 +81,32 @@
         },
         {
           "position": 13,
+          "asin": "B0DNQ16W63",
+          "title": "Weighted Tungsten Tape for Pickleball Paddles -Enhance Pickleball Paddles Performance, Customizable Non-Toxic Tungsten Strap, Suitable for A Many Kinds of Racquets",
+          "sponsored": false
+        },
+        {
+          "position": 14,
+          "asin": "B0F53LQ91L",
+          "title": "Weighted Tungsten Tape for Pickleball Paddles -Enhance Pickleball Paddles Performance, Customizable Non-Toxic Tungsten Strap, Suitable for A Many Kinds of Racquets",
+          "sponsored": false
+        },
+        {
+          "position": 15,
           "asin": "B0F2F8FBMV",
           "title": "TRINKA 10pcs 3g Tungsten Tape Strips with Extra Strength 3M Adhesive",
           "sponsored": false
         },
         {
-          "position": 14,
-          "asin": "B0H1F3K8WJ",
-          "title": "LiyaTech Tungsten Weighted Tape for Pickleball Paddles, 0.5 inch x 60 inch Roll - Lead-Free Lead Tape Alternative with High-Tack Adhesive Backing",
-          "sponsored": false
-        },
-        {
-          "position": 15,
+          "position": 16,
           "asin": "B0GM7CJ9JY",
           "title": "Tungsten Tape Strips for Pickleball Paddle Lead-Free Weights 3gx10",
           "sponsored": false
         },
         {
-          "position": 16,
-          "asin": "B0H7CS117V",
-          "title": "Tungsten Tape for Pickleball Paddles 3g Strips 10 Pack Weighted",
-          "sponsored": false
-        },
-        {
           "position": 17,
-          "asin": "B0H1BVR98P",
-          "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
+          "asin": "B0H68WBYT8",
+          "title": "20 PCS Pickleball Paddle Weights, Lead-Free Alternative to Lead Tape",
           "sponsored": false
         },
         {
@@ -117,14 +117,14 @@
         },
         {
           "position": 19,
-          "asin": "B0GRXLRJYH",
-          "title": "Pickleball Paddle Weights, 10 Pack 3g Tungsten Tape for Pickleball Paddles",
+          "asin": "B0H42RV3XP",
+          "title": "Paddle Tuning Tape for Pickleball Paddles, Ultra-Thin Weighted Tape for Power and Stability | 2X More Tape Than Strips | 1/2 g per inch | Non Toxic Alternative to Lead Tape",
           "sponsored": false
         },
         {
           "position": 20,
-          "asin": "B0H42RV3XP",
-          "title": "Paddle Tuning Tape for Pickleball Paddles, Ultra-Thin Weighted Tape for Power and Stability | 2X More Tape Than Strips | 1/2 g per inch | Non Toxic Alternative to Lead Tape",
+          "asin": "B0F8HN1SQL",
+          "title": "DZrudun Pickleball Paddle Weights, 10Pc Tungsten Tape for Pickleball Paddle",
           "sponsored": false
         }
       ],
@@ -148,8 +148,8 @@
         },
         {
           "position": 3,
-          "asin": "B0HJJPC46L",
-          "title": "Pickleball Weighted Tape Strips Variety Pack, 5g,3g and 1g Strips",
+          "asin": "B0HKPZJ6JB",
+          "title": "Pickleball Paddle, T700 Carbon Fiber, 16mm EPP Core, Thermoformed",
           "sponsored": false
         },
         {
@@ -172,32 +172,32 @@
         },
         {
           "position": 7,
-          "asin": "B0CPLSBXKK",
-          "title": "20pcs Pickleball Lead Tape - 3M Adhesive Lead Tape for Pickleball Paddles with Storage Box, Weighted 3g Adhesive Strips for Golf Clubs Tennis Racket Increase Control & Power",
+          "asin": "B0HJJPC46L",
+          "title": "Pickleball Weighted Tape Strips Variety Pack, 5g,3g and 1g Strips",
           "sponsored": false
         },
         {
           "position": 8,
-          "asin": "B0F9Y1CPCX",
-          "title": "Tungsten Weights for Pickleball Paddles, Safe Lead Tape Alternative",
+          "asin": "B0G381LX7M",
+          "title": "Snap Weights for 16mm Pickleball Paddles, No-Residue Clip-On Design",
           "sponsored": false
         },
         {
           "position": 9,
-          "asin": "B0DHL8B24P",
-          "title": "20 Pcs Weight Tape for Pickleball Paddles, 3g Pickleball Weight Tape Adhesive Pickleball Weights for Paddles Pickleball Paddle Weights Accessory for Paddle Edge Guard, to Increase Power Swing Speed",
-          "sponsored": false
-        },
-        {
-          "position": 10,
           "asin": "B0H1BVR98P",
           "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
           "sponsored": false
         },
         {
+          "position": 10,
+          "asin": "B0CPLSBXKK",
+          "title": "20pcs Pickleball Lead Tape - 3M Adhesive Lead Tape for Pickleball Paddles with Storage Box, Weighted 3g Adhesive Strips for Golf Clubs Tennis Racket Increase Control & Power",
+          "sponsored": false
+        },
+        {
           "position": 11,
-          "asin": "B0H1BMN3T9",
-          "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
+          "asin": "B0F9Y1CPCX",
+          "title": "Tungsten Weights for Pickleball Paddles, Safe Lead Tape Alternative",
           "sponsored": false
         },
         {
@@ -208,26 +208,26 @@
         },
         {
           "position": 13,
+          "asin": "B0H1BMN3T9",
+          "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
+          "sponsored": false
+        },
+        {
+          "position": 14,
+          "asin": "B0DHL8B24P",
+          "title": "20 Pcs Weight Tape for Pickleball Paddles, 3g Pickleball Weight Tape Adhesive Pickleball Weights for Paddles Pickleball Paddle Weights Accessory for Paddle Edge Guard, to Increase Power Swing Speed",
+          "sponsored": false
+        },
+        {
+          "position": 15,
           "asin": "B0F1XQX351",
           "title": "Lead Tape for Pickleball Paddles with High-Performance Adhesive.",
           "sponsored": false
         },
         {
-          "position": 14,
-          "asin": "B0CKDFNH66",
-          "title": "20pcs Pickleball Lead Tape - 3M Adhesive Lead Tape for Pickleball Paddles with Storage Box, Weighted 3g Adhesive Strips for Golf Clubs Tennis Racket Increase Control & Power",
-          "sponsored": false
-        },
-        {
-          "position": 15,
-          "asin": "B0GXZZD2YW",
-          "title": "Pickleball Paddle Snap Weights, Clip-On for 16mm Paddles",
-          "sponsored": false
-        },
-        {
           "position": 16,
-          "asin": "B0G337KYDT",
-          "title": "Cap Weights for Pickleball Paddles, Weighted End Cap Counterbalance Set",
+          "asin": "B0CNBFLF9N",
+          "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
           "sponsored": false
         },
         {
@@ -238,8 +238,8 @@
         },
         {
           "position": 18,
-          "asin": "B0G381LX7M",
-          "title": "Snap Weights for 16mm Pickleball Paddles, No-Residue Clip-On Design",
+          "asin": "B0HD84Y2BM",
+          "title": "Roore Pickleball Snap Weights for 16mm Paddles, 3g Clip-On Weight Clips 6-Pack (18g) | Lead-Free Paddle Weights, No-Residue Tuning Clips for Balance, Power & Sweet Spot",
           "sponsored": false
         },
         {
@@ -250,8 +250,8 @@
         },
         {
           "position": 20,
-          "asin": "B0CNBFLF9N",
-          "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
+          "asin": "B0CFG4NNFD",
+          "title": "CRBN Pickleball - Tungsten and Lead Tape for Pickleball Paddles",
           "sponsored": false
         }
       ],
@@ -263,68 +263,68 @@
       "organic": [
         {
           "position": 1,
-          "asin": "B0F7CNT6HN",
-          "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1/2 Gram Per Inch)",
-          "sponsored": false
-        },
-        {
-          "position": 2,
           "asin": "B0H68WBYT8",
           "title": "20 PCS Pickleball Paddle Weights, Lead-Free Alternative to Lead Tape",
           "sponsored": false
         },
         {
-          "position": 3,
-          "asin": "B0FPDLPJKC",
-          "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1 Gram Per Inch)",
-          "sponsored": false
-        },
-        {
-          "position": 4,
-          "asin": "B0CNBFLF9N",
-          "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
-          "sponsored": false
-        },
-        {
-          "position": 5,
+          "position": 2,
           "asin": "B0H1BVR98P",
           "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
           "sponsored": false
         },
         {
-          "position": 6,
+          "position": 3,
+          "asin": "B0CNBFLF9N",
+          "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
+          "sponsored": false
+        },
+        {
+          "position": 4,
+          "asin": "B0FPDLPJKC",
+          "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1 Gram Per Inch)",
+          "sponsored": false
+        },
+        {
+          "position": 5,
           "asin": "B0F9WCZ72V",
           "title": "30PCS Lead Tapes, 3g High Adhesive Lead Tape for Pickleballs,Tennis, Golf Clubs, Adjust The Paddle Weighted Lead Tape and Add Swing Weight",
           "sponsored": false
         },
         {
-          "position": 7,
-          "asin": "B0H1BMN3T9",
-          "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
-          "sponsored": false
-        },
-        {
-          "position": 8,
-          "asin": "B0H8JXBC7L",
-          "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
-          "sponsored": false
-        },
-        {
-          "position": 9,
+          "position": 6,
           "asin": "B0BY34Q2ML",
           "title": "Lead Tape for Pickleball Paddles with High-Performance Adhesive.",
           "sponsored": false
         },
         {
-          "position": 10,
+          "position": 7,
+          "asin": "B0BYRRSN9R",
+          "title": "2 Grams Per Inch Golf Lead Tape | 1/2''x 60'' Adhesive Lead Tape | Add Swing Weight for Golf Tennis Racket Pickleball Paddle Adjust Weight",
+          "sponsored": false
+        },
+        {
+          "position": 8,
+          "asin": "B0H42RV3XP",
+          "title": "Paddle Tuning Tape for Pickleball Paddles, Ultra-Thin Weighted Tape for Power and Stability | 2X More Tape Than Strips | 1/2 g per inch | Non Toxic Alternative to Lead Tape",
+          "sponsored": false
+        },
+        {
+          "position": 9,
           "asin": "B0F2F8FBMV",
           "title": "TRINKA 10pcs 3g Tungsten Tape Strips with Extra Strength 3M Adhesive",
           "sponsored": false
         },
         {
+          "position": 10,
+          "asin": "B0DQKYF8TB",
+          "title": "Tin Weights for Pickleball Paddles, Lead-Free Alternative to Lead Tape",
+          "sponsored": false
+        },
+        {
           "position": 11,
-          "asin": "B0BYRRSN9R",
-          "title": "2 Grams Per Inch Golf Lead Tape | 1/2''x 60'' Adhesive Lead Tape | Add Swing Weight for Golf Tennis Racket Pickleball Paddle Adjust Weight",
+          "asin": "B0DJ5M2MMW",
+          "title": "Tungsten Weighted Tape for Pickleball Paddles Golf Clubs Fishing Tennis Racket \u2013 1 Gram per Inch - Weighted Tungsten Tape Roll Non -Toxic Lead Tape Alternative",
           "sponsored": false
         },
         {
@@ -335,50 +335,50 @@
         },
         {
           "position": 13,
-          "asin": "B0CCVFTBLM",
-          "title": "30pcs 3g Black Lead Tape for Pickleball Paddles - Pickleball Lead Tape/Golf Clubs/Tennis Racket/Squash Racquet",
-          "sponsored": false
-        },
-        {
-          "position": 14,
-          "asin": "B0F9WBCN3D",
-          "title": "30PCS Lead Tapes, 3g High Adhesive Lead Tape for Pickleballs,Tennis, Golf Clubs, Adjust The Paddle Weighted Lead Tape and Add Swing Weight",
-          "sponsored": false
-        },
-        {
-          "position": 15,
-          "asin": "B018LTIB1G",
-          "title": "Pickleball Paddle Lead Tape",
-          "sponsored": false
-        },
-        {
-          "position": 16,
-          "asin": "B0FVRX2NL6",
-          "title": "WILSON Pickleball Paddle Lead Tape - Black",
-          "sponsored": false
-        },
-        {
-          "position": 17,
           "asin": "B0D7NXJY6X",
           "title": "Enhance Pickleball Balance Pods, Tungsten Tape for Pickleball Paddles, Premium Quality Lead Tape Alternative for Pickleball Paddles, Easy Application Pickleball Paddle Weights, Gold",
           "sponsored": false
         },
         {
+          "position": 14,
+          "asin": "B0GM7CJ9JY",
+          "title": "Tungsten Tape Strips for Pickleball Paddle Lead-Free Weights 3gx10",
+          "sponsored": false
+        },
+        {
+          "position": 15,
+          "asin": "B0GDC2M73C",
+          "title": "Tungsten Weighted Tape Strips for Pickleball Paddles Pickleball Paddle Weights Pickleball Paddle Weights - Weighted Tungsten Tape Roll Non-Toxic Lead Alternative (30 g Strips)",
+          "sponsored": false
+        },
+        {
+          "position": 16,
+          "asin": "B0H1F3K8WJ",
+          "title": "LiyaTech Tungsten Weighted Tape for Pickleball Paddles, 0.5 inch x 60 inch Roll - Lead-Free Lead Tape Alternative with High-Tack Adhesive Backing",
+          "sponsored": false
+        },
+        {
+          "position": 17,
+          "asin": "B0CFG4NNFD",
+          "title": "CRBN Pickleball - Tungsten and Lead Tape for Pickleball Paddles",
+          "sponsored": false
+        },
+        {
           "position": 18,
-          "asin": "B0F8HN1SQL",
-          "title": "DZrudun Pickleball Paddle Weights, 10Pc Tungsten Tape for Pickleball Paddle",
+          "asin": "B0CMD7VSS4",
+          "title": "30pcs 3g Silver Lead Tape for Pickleball Paddles - Pickleball Lead Tape Golf Clubs/Tennis Racket/Squash Racquet",
           "sponsored": false
         },
         {
           "position": 19,
-          "asin": "B0DJ5M2MMW",
-          "title": "Tungsten Weighted Tape for Pickleball Paddles Golf Clubs Fishing Tennis Racket \u2013 1 Gram per Inch - Weighted Tungsten Tape Roll Non -Toxic Lead Tape Alternative",
+          "asin": "B0CCVFTBLM",
+          "title": "30pcs 3g Black Lead Tape for Pickleball Paddles - Pickleball Lead Tape/Golf Clubs/Tennis Racket/Squash Racquet",
           "sponsored": false
         },
         {
           "position": 20,
-          "asin": "B0H42RV3XP",
-          "title": "Paddle Tuning Tape for Pickleball Paddles, Ultra-Thin Weighted Tape for Power and Stability | 2X More Tape Than Strips | 1/2 g per inch | Non Toxic Alternative to Lead Tape",
+          "asin": "B0GRXLRJYH",
+          "title": "Pickleball Paddle Weights, 10 Pack 3g Tungsten Tape for Pickleball Paddles",
           "sponsored": false
         }
       ],
@@ -390,38 +390,38 @@
       "organic": [
         {
           "position": 1,
-          "asin": "B0H696X4G4",
-          "title": "Roore Gen 4 100% EPP Foam Core With EVA Foam Ring Pickleball Paddles T700 Carbon Fiber Pickleball Paddle 16mm Thermoformed Pickleball Racket and Pickleball Rackets Pickle Ball Paddle (Gen 4 Elongated)",
-          "sponsored": false
-        },
-        {
-          "position": 2,
           "asin": "B0HFMVYRXK",
           "title": "USAPA Approved All-Foam Core Carbon Fiber Pickleball Paddles",
           "sponsored": false
         },
         {
+          "position": 2,
+          "asin": "B0FQ8JFKGF",
+          "title": "Vatic Pro - V-Sol Pro 16mm - Foam Core - Includes Paddle Cover",
+          "sponsored": false
+        },
+        {
           "position": 3,
-          "asin": "B0FQ5F9HGN",
-          "title": "Pickleball Paddle \u2013 Carbon Fiber Pickleball Paddle \u2013 100% Foam Core Performance Paddle",
+          "asin": "B0HKPZJ6JB",
+          "title": "Pickleball Paddle, T700 Carbon Fiber, 16mm EPP Core, Thermoformed",
           "sponsored": false
         },
         {
           "position": 4,
-          "asin": "B0FY3T44CR",
-          "title": "Pickleball Paddles, Toray T700 Raw Carbon Fiber, 100% Foam Core",
-          "sponsored": false
-        },
-        {
-          "position": 5,
           "asin": "B0GZ9BKZ4H",
           "title": "CPX Hyper+ Series Full Foam Professional Pickleball with Hyperfoam X Core\u2122 Technology",
           "sponsored": false
         },
         {
+          "position": 5,
+          "asin": "B0H696X4G4",
+          "title": "Roore Gen 4 100% EPP Foam Core With EVA Foam Ring Pickleball Paddles T700 Carbon Fiber Pickleball Paddle 16mm Thermoformed Pickleball Racket and Pickleball Rackets Pickle Ball Paddle (Gen 4 Elongated)",
+          "sponsored": false
+        },
+        {
           "position": 6,
-          "asin": "B0FQ8JFKGF",
-          "title": "Vatic Pro - V-Sol Pro 16mm - Foam Core - Includes Paddle Cover",
+          "asin": "B0FQ5F9HGN",
+          "title": "Pickleball Paddle \u2013 Carbon Fiber Pickleball Paddle \u2013 100% Foam Core Performance Paddle",
           "sponsored": false
         },
         {
@@ -432,74 +432,74 @@
         },
         {
           "position": 8,
-          "asin": "B0FQ8SPCTL",
-          "title": "Vatic Pro - V-Sol Pro 16mm - Foam Core - Includes Paddle Cover",
+          "asin": "B0HMXW8Q7S",
+          "title": "Enhance MPP Turbo Foam Core Pickleball Paddle with ArmorGrit",
           "sponsored": false
         },
         {
           "position": 9,
-          "asin": "B0HLX1TZKF",
-          "title": "Roore Gen 4 Tough Grit 100% MPP Foam Core with EVA Foam Ring Pickleball Paddles T700 Carbon Fiber Pickleball Paddle 16mm Thermoformed Pickleball Racket and Pickleball Rackets (Gen 4 Grit Elongated)",
-          "sponsored": false
-        },
-        {
-          "position": 10,
-          "asin": "B0H26181YW",
-          "title": "VANWIN Pickleball Paddles Raw Carbon Fiber USAPA Approved for Intermediate",
-          "sponsored": false
-        },
-        {
-          "position": 11,
-          "asin": "B0HK1K7T7L",
-          "title": "JOOLA Perseus Power FX Foam Pickleball Paddle, High-Grit 16mm Raw Carbon Fiber Surface, Adaptive Propulsion Core, UPA-A and USAP Approved, NFC Chip Enabled",
-          "sponsored": false
-        },
-        {
-          "position": 12,
-          "asin": "B0GZVNKCKT",
-          "title": "Pickleball Paddles Set of 2 Carbon Fiber 16mm Grip Tape Power Core",
-          "sponsored": false
-        },
-        {
-          "position": 13,
-          "asin": "B0CT92CGZP",
-          "title": "JOJOLEMON Pickleball Paddles, Carbon Fiber Pickleball Paddle with a 16mm Shark Power Polymer Core, The Pickleball Rackets Designed for Ultimate Spin & Consistency",
-          "sponsored": false
-        },
-        {
-          "position": 14,
-          "asin": "B0GYDXFN26",
-          "title": "USAP Approved Pickleball Paddle, T700 Carbon Fiber, Wide Sweet Spot",
-          "sponsored": false
-        },
-        {
-          "position": 15,
-          "asin": "B0BYMGYVTR",
-          "title": "Vatic Pro Prism Carbon Fiber 16mm - Foam Injected Walls - Includes Paddle Cover",
-          "sponsored": false
-        },
-        {
-          "position": 16,
-          "asin": "B0HF7G2VCL",
-          "title": "Pickleball Paddles - Professional Carbon Fiber Paddle with Honeycomb Core Pickleball Rackets - Lightweight Precision & Enhanced Shock Absorption for High Spin",
-          "sponsored": false
-        },
-        {
-          "position": 17,
           "asin": "B0GXBFVVGS",
           "title": "Paddletek Honeyfoam TKO-X Pickleball Paddle \u2013 Multi-Foam Core with PT-700 Raw Carbon Fiber Surface \u2013 Shock Arrestor Edge Guard \u2013 Elongated Pickleball Paddles for Power, Spin, Control & Reach",
           "sponsored": false
         },
         {
+          "position": 10,
+          "asin": "B0HK1K7T7L",
+          "title": "JOOLA Perseus Power FX Foam Pickleball Paddle, High-Grit 16mm Raw Carbon Fiber Surface, Adaptive Propulsion Core, UPA-A and USAP Approved, NFC Chip Enabled",
+          "sponsored": false
+        },
+        {
+          "position": 11,
+          "asin": "B0DQ5XXPML",
+          "title": "JOOLA Pro IV Pickleball Paddles \u2013 Raw Carbon Fiber Surface \u2013 Perseus, Hyperion, Scorpeus & Magnus Shapes \u2013 14mm/16mm \u2013 Tech Flex Power \u2013 Propulsion Core \u2013 Wide or Elongated \u2013 UPA-A and USAP Approved",
+          "sponsored": false
+        },
+        {
+          "position": 12,
+          "asin": "B0FY3T44CR",
+          "title": "Pickleball Paddles, Toray T700 Raw Carbon Fiber, 100% Foam Core",
+          "sponsored": false
+        },
+        {
+          "position": 13,
+          "asin": "B0H26181YW",
+          "title": "VANWIN Pickleball Paddles Raw Carbon Fiber USAPA Approved for Intermediate",
+          "sponsored": false
+        },
+        {
+          "position": 14,
+          "asin": "B0HLX1TZKF",
+          "title": "Roore Gen 4 Tough Grit 100% MPP Foam Core with EVA Foam Ring Pickleball Paddles T700 Carbon Fiber Pickleball Paddle 16mm Thermoformed Pickleball Racket and Pickleball Rackets (Gen 4 Grit Elongated)",
+          "sponsored": false
+        },
+        {
+          "position": 15,
+          "asin": "B0GYDXFN26",
+          "title": "USAP Approved Pickleball Paddle, T700 Carbon Fiber, Wide Sweet Spot",
+          "sponsored": false
+        },
+        {
+          "position": 16,
+          "asin": "B0GQJHTGNT",
+          "title": "CRBN Pickleball - TruFoam Barrage - Carbon Fiber Pickleball Paddle",
+          "sponsored": false
+        },
+        {
+          "position": 17,
+          "asin": "B0FQ8SPCTL",
+          "title": "Vatic Pro - V-Sol Pro 16mm - Foam Core - Includes Paddle Cover",
+          "sponsored": false
+        },
+        {
           "position": 18,
-          "asin": "B0GGC1JXGH",
-          "title": "UNILEAF Pickleball Paddle,T800 Carbon Fiber,6-Month Warranty",
+          "asin": "B0HJ7LXJNG",
+          "title": "Ronbus Ripple V2 Pickleball Paddle with 4th Generation FIRE Core - R1.14/R2.14/R4.14/R5.14",
           "sponsored": false
         },
         {
           "position": 19,
-          "asin": "B0H83BC1B4",
-          "title": "T700 Carbon Fiber Pickleball Paddle, 16mm Foam Core Thermoformed One-Piece",
+          "asin": "B0CT92CGZP",
+          "title": "JOJOLEMON Pickleball Paddles, Carbon Fiber Pickleball Paddle with a 16mm Shark Power Polymer Core, The Pickleball Rackets Designed for Ultimate Spin & Consistency",
           "sponsored": false
         },
         {
@@ -523,7 +523,7 @@
         },
         {
           "position": 2,
-          "asin": "B0D2PLZYW8",
+          "asin": "B0CNBFLF9N",
           "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
           "sponsored": false
         },
@@ -535,8 +535,8 @@
         },
         {
           "position": 4,
-          "asin": "B0CNBFLF9N",
-          "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
+          "asin": "B0FS7Z9R7K",
+          "title": "Weighted Tungsten Tape for Pickleball Paddles | Ultra Thin 1 Gram Per Inch | Twice as Much Tape as Tape Strips",
           "sponsored": false
         },
         {
@@ -547,68 +547,68 @@
         },
         {
           "position": 6,
-          "asin": "B0F7CNT6HN",
-          "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1/2 Gram Per Inch)",
-          "sponsored": false
-        },
-        {
-          "position": 7,
-          "asin": "B0FS7Z9R7K",
-          "title": "Weighted Tungsten Tape for Pickleball Paddles | Ultra Thin 1 Gram Per Inch | Twice as Much Tape as Tape Strips",
-          "sponsored": false
-        },
-        {
-          "position": 8,
           "asin": "B0H8JXBC7L",
           "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
           "sponsored": false
         },
         {
+          "position": 7,
+          "asin": "B0F7CNT6HN",
+          "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1/2 Gram Per Inch)",
+          "sponsored": false
+        },
+        {
+          "position": 8,
+          "asin": "B0D2PLZYW8",
+          "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
+          "sponsored": false
+        },
+        {
           "position": 9,
-          "asin": "B0F53LQ91L",
-          "title": "THE GOLFER STORE Weighted Tungsten Tape for Pickleball Paddles -Enhance Pickleball Paddles Performance, Customizable Non-Toxic Tungsten Strap, Suitable for A Many Kinds of Racquets",
+          "asin": "B0DY6FQ9R9",
+          "title": "PRO-Grade Weighted Tungsten Tape for Pickleball Paddles, Tennis Rackets or Golf Clubs | Non-Toxic | 60inches",
           "sponsored": false
         },
         {
           "position": 10,
+          "asin": "B0F53LQ91L",
+          "title": "Weighted Tungsten Tape for Pickleball Paddles -Enhance Pickleball Paddles Performance, Customizable Non-Toxic Tungsten Strap, Suitable for A Many Kinds of Racquets",
+          "sponsored": false
+        },
+        {
+          "position": 11,
           "asin": "B0H1DQ3MQR",
           "title": "LiyaTech Tungsten Weighted Tape for Pickleball Paddles, 0.5 inch x 60 inch Roll - Lead-Free Lead Tape Alternative with High-Tack Adhesive Backing",
           "sponsored": false
         },
         {
-          "position": 11,
+          "position": 12,
           "asin": "B0DNQ16W63",
-          "title": "THE GOLFER STORE Weighted Tungsten Tape for Pickleball Paddles -Enhance Pickleball Paddles Performance, Customizable Non-Toxic Tungsten Strap, Suitable for A Many Kinds of Racquets",
+          "title": "Weighted Tungsten Tape for Pickleball Paddles -Enhance Pickleball Paddles Performance, Customizable Non-Toxic Tungsten Strap, Suitable for A Many Kinds of Racquets",
           "sponsored": false
         },
         {
-          "position": 12,
+          "position": 13,
           "asin": "B0CCHGLWD5",
           "title": "0.5 Grams Per Inch High Density Lead Tape | 1/2''x 100'' Adhesive Lead Tape | Add Swing Weight for Golf Tennis Racket Pickleball Paddle Adjust Weight",
           "sponsored": false
         },
         {
-          "position": 13,
+          "position": 14,
           "asin": "B0GDC2M73C",
           "title": "Tungsten Weighted Tape Strips for Pickleball Paddles Pickleball Paddle Weights Pickleball Paddle Weights - Weighted Tungsten Tape Roll Non-Toxic Lead Alternative (30 g Strips)",
           "sponsored": false
         },
         {
-          "position": 14,
+          "position": 15,
           "asin": "B00I6RZGW6",
           "title": "Wilson Tungsten Tuning Tape",
           "sponsored": false
         },
         {
-          "position": 15,
+          "position": 16,
           "asin": "B0H7CS117V",
           "title": "Tungsten Tape for Pickleball Paddles 3g Strips 10 Pack Weighted",
-          "sponsored": false
-        },
-        {
-          "position": 16,
-          "asin": "B0GM7CJ9JY",
-          "title": "Tungsten Tape Strips for Pickleball Paddle Lead-Free Weights 3gx10",
           "sponsored": false
         },
         {
@@ -619,20 +619,20 @@
         },
         {
           "position": 18,
-          "asin": "B0DY6FQ9R9",
-          "title": "PRO-Grade Weighted Tungsten Tape for Pickleball Paddles, Tennis Rackets or Golf Clubs | Non-Toxic | 60inches",
-          "sponsored": false
-        },
-        {
-          "position": 19,
           "asin": "B0H42RV3XP",
           "title": "Paddle Tuning Tape for Pickleball Paddles, Ultra-Thin Weighted Tape for Power and Stability | 2X More Tape Than Strips | 1/2 g per inch | Non Toxic Alternative to Lead Tape",
           "sponsored": false
         },
         {
-          "position": 20,
+          "position": 19,
           "asin": "B0GJTZW6L2",
           "title": "Tungsten Weighted Tape for Pickleball Paddles Golf Clubs Fishing Tennis Racket \u2013 1 Gram per Inch - Weighted Tungsten Tape Roll Non -Toxic Lead Tape Alternative",
+          "sponsored": false
+        },
+        {
+          "position": 20,
+          "asin": "B0DSZL6PGQ",
+          "title": "ArlinaL Lead Tape for Pickleball Paddles, Adhesive Tennis Rackets Weight Lead Edge Tape, 1 Grams Per Inch, 97 Inch, 10 mil",
           "sponsored": false
         }
       ],
@@ -644,13 +644,13 @@
       "organic": [
         {
           "position": 1,
-          "asin": "B0D2PLZYW8",
+          "asin": "B0CNBFLF9N",
           "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
           "sponsored": false
         },
         {
           "position": 2,
-          "asin": "B0CNBFLF9N",
+          "asin": "B0D2PLZYW8",
           "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
           "sponsored": false
         },
@@ -662,98 +662,98 @@
         },
         {
           "position": 4,
-          "asin": "B0DJ5M2MMW",
-          "title": "Tungsten Weighted Tape for Pickleball Paddles Golf Clubs Fishing Tennis Racket \u2013 1 Gram per Inch - Weighted Tungsten Tape Roll Non -Toxic Lead Tape Alternative",
-          "sponsored": false
-        },
-        {
-          "position": 5,
           "asin": "B0H1BMN3T9",
           "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
           "sponsored": false
         },
         {
-          "position": 6,
-          "asin": "B0GDC2M73C",
-          "title": "Tungsten Weighted Tape Strips for Pickleball Paddles Pickleball Paddle Weights Pickleball Paddle Weights - Weighted Tungsten Tape Roll Non-Toxic Lead Alternative (30 g Strips)",
-          "sponsored": false
-        },
-        {
-          "position": 7,
+          "position": 5,
           "asin": "B0H1BVR98P",
           "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
           "sponsored": false
         },
         {
-          "position": 8,
-          "asin": "B0F9Y1CPCX",
-          "title": "Tungsten Weights for Pickleball Paddles, Safe Lead Tape Alternative",
-          "sponsored": false
-        },
-        {
-          "position": 9,
-          "asin": "B0FS7Z9R7K",
-          "title": "Weighted Tungsten Tape for Pickleball Paddles | Ultra Thin 1 Gram Per Inch | Twice as Much Tape as Tape Strips",
-          "sponsored": false
-        },
-        {
-          "position": 10,
-          "asin": "B0DNQ16W63",
-          "title": "THE GOLFER STORE Weighted Tungsten Tape for Pickleball Paddles -Enhance Pickleball Paddles Performance, Customizable Non-Toxic Tungsten Strap, Suitable for A Many Kinds of Racquets",
-          "sponsored": false
-        },
-        {
-          "position": 11,
-          "asin": "B0HBNCHXT2",
-          "title": "Vulcan Tungsten Weight Set \u2013 Pickleball Paddle Weight Tape \u2013 8 Tungsten Strips with 3M Adhesive, 3g Each \u2013 Weighted Tape for Pickleball Paddles \u2013 Precision Balance, Power & Swing Weight",
-          "sponsored": false
-        },
-        {
-          "position": 12,
-          "asin": "B0F2F8FBMV",
-          "title": "TRINKA 10pcs 3g Tungsten Tape Strips with Extra Strength 3M Adhesive",
-          "sponsored": false
-        },
-        {
-          "position": 13,
-          "asin": "B0H1DQ3MQR",
-          "title": "LiyaTech Tungsten Weighted Tape for Pickleball Paddles, 0.5 inch x 60 inch Roll - Lead-Free Lead Tape Alternative with High-Tack Adhesive Backing",
-          "sponsored": false
-        },
-        {
-          "position": 14,
-          "asin": "B0H1F3K8WJ",
-          "title": "LiyaTech Tungsten Weighted Tape for Pickleball Paddles, 0.5 inch x 60 inch Roll - Lead-Free Lead Tape Alternative with High-Tack Adhesive Backing",
-          "sponsored": false
-        },
-        {
-          "position": 15,
-          "asin": "B0H7CS117V",
-          "title": "Tungsten Tape for Pickleball Paddles 3g Strips 10 Pack Weighted",
-          "sponsored": false
-        },
-        {
-          "position": 16,
-          "asin": "B0GM7CJ9JY",
-          "title": "Tungsten Tape Strips for Pickleball Paddle Lead-Free Weights 3gx10",
-          "sponsored": false
-        },
-        {
-          "position": 17,
+          "position": 6,
           "asin": "B0F7CNT6HN",
           "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1/2 Gram Per Inch)",
           "sponsored": false
         },
         {
-          "position": 18,
+          "position": 7,
+          "asin": "B0H68WBYT8",
+          "title": "20 PCS Pickleball Paddle Weights, Lead-Free Alternative to Lead Tape",
+          "sponsored": false
+        },
+        {
+          "position": 8,
+          "asin": "B0DJ5M2MMW",
+          "title": "Tungsten Weighted Tape for Pickleball Paddles Golf Clubs Fishing Tennis Racket \u2013 1 Gram per Inch - Weighted Tungsten Tape Roll Non -Toxic Lead Tape Alternative",
+          "sponsored": false
+        },
+        {
+          "position": 9,
+          "asin": "B0GDC2M73C",
+          "title": "Tungsten Weighted Tape Strips for Pickleball Paddles Pickleball Paddle Weights Pickleball Paddle Weights - Weighted Tungsten Tape Roll Non-Toxic Lead Alternative (30 g Strips)",
+          "sponsored": false
+        },
+        {
+          "position": 10,
+          "asin": "B0F9Y1CPCX",
+          "title": "Tungsten Weights for Pickleball Paddles, Safe Lead Tape Alternative",
+          "sponsored": false
+        },
+        {
+          "position": 11,
+          "asin": "B0FS7Z9R7K",
+          "title": "Weighted Tungsten Tape for Pickleball Paddles | Ultra Thin 1 Gram Per Inch | Twice as Much Tape as Tape Strips",
+          "sponsored": false
+        },
+        {
+          "position": 12,
+          "asin": "B0DNQ16W63",
+          "title": "Weighted Tungsten Tape for Pickleball Paddles -Enhance Pickleball Paddles Performance, Customizable Non-Toxic Tungsten Strap, Suitable for A Many Kinds of Racquets",
+          "sponsored": false
+        },
+        {
+          "position": 13,
+          "asin": "B0F9WCZ72V",
+          "title": "30PCS Lead Tapes, 3g High Adhesive Lead Tape for Pickleballs,Tennis, Golf Clubs, Adjust The Paddle Weighted Lead Tape and Add Swing Weight",
+          "sponsored": false
+        },
+        {
+          "position": 14,
+          "asin": "B0HBNCHXT2",
+          "title": "Vulcan Tungsten Weight Set \u2013 Pickleball Paddle Weight Tape \u2013 8 Tungsten Strips with 3M Adhesive, 3g Each \u2013 Weighted Tape for Pickleball Paddles \u2013 Precision Balance, Power & Swing Weight",
+          "sponsored": false
+        },
+        {
+          "position": 15,
+          "asin": "B0F53LQ91L",
+          "title": "Weighted Tungsten Tape for Pickleball Paddles -Enhance Pickleball Paddles Performance, Customizable Non-Toxic Tungsten Strap, Suitable for A Many Kinds of Racquets",
+          "sponsored": false
+        },
+        {
+          "position": 16,
+          "asin": "B0F2F8FBMV",
+          "title": "TRINKA 10pcs 3g Tungsten Tape Strips with Extra Strength 3M Adhesive",
+          "sponsored": false
+        },
+        {
+          "position": 17,
           "asin": "B0FPDLPJKC",
           "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1 Gram Per Inch)",
           "sponsored": false
         },
         {
+          "position": 18,
+          "asin": "B0H42RV3XP",
+          "title": "Paddle Tuning Tape for Pickleball Paddles, Ultra-Thin Weighted Tape for Power and Stability | 2X More Tape Than Strips | 1/2 g per inch | Non Toxic Alternative to Lead Tape",
+          "sponsored": false
+        },
+        {
           "position": 19,
-          "asin": "B0H68WBYT8",
-          "title": "20 PCS Pickleball Paddle Weights, Lead-Free Alternative to Lead Tape",
+          "asin": "B0F8HN1SQL",
+          "title": "DZrudun Pickleball Paddle Weights, 10Pc Tungsten Tape for Pickleball Paddle",
           "sponsored": false
         },
         {
@@ -783,56 +783,56 @@
         },
         {
           "position": 3,
-          "asin": "B0H68WBYT8",
-          "title": "20 PCS Pickleball Paddle Weights, Lead-Free Alternative to Lead Tape",
+          "asin": "B0HJJPC46L",
+          "title": "Pickleball Weighted Tape Strips Variety Pack, 5g,3g and 1g Strips",
           "sponsored": false
         },
         {
           "position": 4,
-          "asin": "B0BYRRSN9R",
-          "title": "2 Grams Per Inch Golf Lead Tape | 1/2''x 60'' Adhesive Lead Tape | Add Swing Weight for Golf Tennis Racket Pickleball Paddle Adjust Weight",
-          "sponsored": false
-        },
-        {
-          "position": 5,
-          "asin": "B0H1BVR98P",
-          "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
-          "sponsored": false
-        },
-        {
-          "position": 6,
           "asin": "B0F7CNT6HN",
           "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1/2 Gram Per Inch)",
           "sponsored": false
         },
         {
+          "position": 5,
+          "asin": "B0CFG4NNFD",
+          "title": "CRBN Pickleball - Tungsten and Lead Tape for Pickleball Paddles",
+          "sponsored": false
+        },
+        {
+          "position": 6,
+          "asin": "B0H68WBYT8",
+          "title": "20 PCS Pickleball Paddle Weights, Lead-Free Alternative to Lead Tape",
+          "sponsored": false
+        },
+        {
           "position": 7,
-          "asin": "B0CT5KRN6B",
-          "title": "Lead Tape for Pickleball Paddles, Adhesive Lead Tape 0.5 Grams Per Inch",
+          "asin": "B0H1BVR98P",
+          "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
           "sponsored": false
         },
         {
           "position": 8,
+          "asin": "B0BYRRSN9R",
+          "title": "2 Grams Per Inch Golf Lead Tape | 1/2''x 60'' Adhesive Lead Tape | Add Swing Weight for Golf Tennis Racket Pickleball Paddle Adjust Weight",
+          "sponsored": false
+        },
+        {
+          "position": 9,
           "asin": "B0CNBFLF9N",
           "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
           "sponsored": false
         },
         {
-          "position": 9,
-          "asin": "B0FPDLPJKC",
-          "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1 Gram Per Inch)",
-          "sponsored": false
-        },
-        {
           "position": 10,
-          "asin": "B0CKDFNH66",
-          "title": "20pcs Pickleball Lead Tape - 3M Adhesive Lead Tape for Pickleball Paddles with Storage Box, Weighted 3g Adhesive Strips for Golf Clubs Tennis Racket Increase Control & Power",
+          "asin": "B0CT5KRN6B",
+          "title": "Lead Tape for Pickleball Paddles, Adhesive Lead Tape 0.5 Grams Per Inch",
           "sponsored": false
         },
         {
           "position": 11,
-          "asin": "B0CPLSBXKK",
-          "title": "20pcs Pickleball Lead Tape - 3M Adhesive Lead Tape for Pickleball Paddles with Storage Box, Weighted 3g Adhesive Strips for Golf Clubs Tennis Racket Increase Control & Power",
+          "asin": "B0FPDLPJKC",
+          "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1 Gram Per Inch)",
           "sponsored": false
         },
         {
@@ -843,50 +843,50 @@
         },
         {
           "position": 13,
-          "asin": "B0F1XQX351",
-          "title": "Lead Tape for Pickleball Paddles with High-Performance Adhesive.",
-          "sponsored": false
-        },
-        {
-          "position": 14,
           "asin": "B0CMD7VSS4",
           "title": "30pcs 3g Silver Lead Tape for Pickleball Paddles - Pickleball Lead Tape Golf Clubs/Tennis Racket/Squash Racquet",
           "sponsored": false
         },
         {
+          "position": 14,
+          "asin": "B0CPLSBXKK",
+          "title": "20pcs Pickleball Lead Tape - 3M Adhesive Lead Tape for Pickleball Paddles with Storage Box, Weighted 3g Adhesive Strips for Golf Clubs Tennis Racket Increase Control & Power",
+          "sponsored": false
+        },
+        {
           "position": 15,
-          "asin": "B000EEXYC8",
-          "title": "Gamma Lead Tape (0.5-Inch), Silver, 1/2-Inch",
+          "asin": "B0CKDFNH66",
+          "title": "20pcs Pickleball Lead Tape - 3M Adhesive Lead Tape for Pickleball Paddles with Storage Box, Weighted 3g Adhesive Strips for Golf Clubs Tennis Racket Increase Control & Power",
           "sponsored": false
         },
         {
           "position": 16,
+          "asin": "B0F1XQX351",
+          "title": "Lead Tape for Pickleball Paddles with High-Performance Adhesive.",
+          "sponsored": false
+        },
+        {
+          "position": 17,
           "asin": "B018LTIB1G",
           "title": "Pickleball Paddle Lead Tape",
           "sponsored": false
         },
         {
-          "position": 17,
+          "position": 18,
           "asin": "B0H1BMN3T9",
           "title": "Pickleball Paddle Weights \u2013 Lead-Free Alternative to Lead Tape",
           "sponsored": false
         },
         {
-          "position": 18,
+          "position": 19,
           "asin": "B0CJDW78DW",
           "title": "30pcs Lead Tape for Pickleball Paddles 3g Weighted Pickleball Lead Tape Strips for Paddle Edge Guard Adhesive Pickleball Tape Bars to Increase Power Swing Speed",
           "sponsored": false
         },
         {
-          "position": 19,
-          "asin": "B0DJ5M2MMW",
-          "title": "Tungsten Weighted Tape for Pickleball Paddles Golf Clubs Fishing Tennis Racket \u2013 1 Gram per Inch - Weighted Tungsten Tape Roll Non -Toxic Lead Tape Alternative",
-          "sponsored": false
-        },
-        {
           "position": 20,
-          "asin": "B0CBS9R6D2",
-          "title": "SPORTBIT Lead Tape for Pickleball Paddles with 3M Adhesive - 3g Weighted Bars Pickleball Lead Tape for Paddle - Maximize Power, Control, & Swing Speed - Premium Pickleball Edge Guard Tape",
+          "asin": "B0H8JXBC7L",
+          "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
           "sponsored": false
         }
       ],
@@ -934,62 +934,62 @@
         },
         {
           "position": 7,
-          "asin": "B0CT5KRN6B",
-          "title": "Lead Tape for Pickleball Paddles, Adhesive Lead Tape 0.5 Grams Per Inch",
+          "asin": "B0CFG4NNFD",
+          "title": "CRBN Pickleball - Tungsten and Lead Tape for Pickleball Paddles",
           "sponsored": false
         },
         {
           "position": 8,
-          "asin": "B0BYRRSN9R",
-          "title": "2 Grams Per Inch Golf Lead Tape | 1/2''x 60'' Adhesive Lead Tape | Add Swing Weight for Golf Tennis Racket Pickleball Paddle Adjust Weight",
-          "sponsored": false
-        },
-        {
-          "position": 9,
-          "asin": "B0FPDLPJKC",
-          "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1 Gram Per Inch)",
-          "sponsored": false
-        },
-        {
-          "position": 10,
           "asin": "B0F1XQX351",
           "title": "Lead Tape for Pickleball Paddles with High-Performance Adhesive.",
           "sponsored": false
         },
         {
-          "position": 11,
+          "position": 9,
           "asin": "B0CPLSBXKK",
           "title": "20pcs Pickleball Lead Tape - 3M Adhesive Lead Tape for Pickleball Paddles with Storage Box, Weighted 3g Adhesive Strips for Golf Clubs Tennis Racket Increase Control & Power",
           "sponsored": false
         },
         {
-          "position": 12,
-          "asin": "B0CMD7VSS4",
-          "title": "30pcs 3g Silver Lead Tape for Pickleball Paddles - Pickleball Lead Tape Golf Clubs/Tennis Racket/Squash Racquet",
+          "position": 10,
+          "asin": "B0CT5KRN6B",
+          "title": "Lead Tape for Pickleball Paddles, Adhesive Lead Tape 0.5 Grams Per Inch",
           "sponsored": false
         },
         {
-          "position": 13,
+          "position": 11,
           "asin": "B0CCVFTBLM",
           "title": "30pcs 3g Black Lead Tape for Pickleball Paddles - Pickleball Lead Tape/Golf Clubs/Tennis Racket/Squash Racquet",
           "sponsored": false
         },
         {
+          "position": 12,
+          "asin": "B0FPDLPJKC",
+          "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1 Gram Per Inch)",
+          "sponsored": false
+        },
+        {
+          "position": 13,
+          "asin": "B0CMD7VSS4",
+          "title": "30pcs 3g Silver Lead Tape for Pickleball Paddles - Pickleball Lead Tape Golf Clubs/Tennis Racket/Squash Racquet",
+          "sponsored": false
+        },
+        {
           "position": 14,
-          "asin": "B0CCHMF3K5",
-          "title": "0.5 Grams Per Inch High Density Lead Tape | 1/2''x 100'' Adhesive Lead Tape | Add Swing Weight for Golf Tennis Racket Pickleball Paddle Adjust Weight",
+          "asin": "B018LTIB1G",
+          "title": "Pickleball Paddle Lead Tape",
           "sponsored": false
         },
         {
           "position": 15,
-          "asin": "B0F9WBCN3D",
-          "title": "30PCS Lead Tapes, 3g High Adhesive Lead Tape for Pickleballs,Tennis, Golf Clubs, Adjust The Paddle Weighted Lead Tape and Add Swing Weight",
+          "asin": "B0BYRRSN9R",
+          "title": "2 Grams Per Inch Golf Lead Tape | 1/2''x 60'' Adhesive Lead Tape | Add Swing Weight for Golf Tennis Racket Pickleball Paddle Adjust Weight",
           "sponsored": false
         },
         {
           "position": 16,
-          "asin": "B018LTIB1G",
-          "title": "Pickleball Paddle Lead Tape",
+          "asin": "B0CCHMF3K5",
+          "title": "0.5 Grams Per Inch High Density Lead Tape | 1/2''x 100'' Adhesive Lead Tape | Add Swing Weight for Golf Tennis Racket Pickleball Paddle Adjust Weight",
           "sponsored": false
         },
         {
@@ -1006,8 +1006,8 @@
         },
         {
           "position": 19,
-          "asin": "B0CBS9R6D2",
-          "title": "SPORTBIT Lead Tape for Pickleball Paddles with 3M Adhesive - 3g Weighted Bars Pickleball Lead Tape for Paddle - Maximize Power, Control, & Swing Speed - Premium Pickleball Edge Guard Tape",
+          "asin": "B0DGL99K5W",
+          "title": "Lead Tape for Pickleball Paddles | Pre-Cut 3g Strips | Plastic-Coated, High-Performance Adhesive Weights",
           "sponsored": false
         },
         {
@@ -1025,14 +1025,14 @@
       "organic": [
         {
           "position": 1,
-          "asin": "B0GDC2M73C",
-          "title": "Tungsten Weighted Tape Strips for Pickleball Paddles Pickleball Paddle Weights Pickleball Paddle Weights - Weighted Tungsten Tape Roll Non-Toxic Lead Alternative (30 g Strips)",
+          "asin": "B0CNBFLF9N",
+          "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
           "sponsored": false
         },
         {
           "position": 2,
-          "asin": "B0CNBFLF9N",
-          "title": "Pickleball Effect Weighted Tungsten Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles",
+          "asin": "B0GDC2M73C",
+          "title": "Tungsten Weighted Tape Strips for Pickleball Paddles Pickleball Paddle Weights Pickleball Paddle Weights - Weighted Tungsten Tape Roll Non-Toxic Lead Alternative (30 g Strips)",
           "sponsored": false
         },
         {
@@ -1055,68 +1055,68 @@
         },
         {
           "position": 6,
+          "asin": "B0H68WBYT8",
+          "title": "20 PCS Pickleball Paddle Weights, Lead-Free Alternative to Lead Tape",
+          "sponsored": false
+        },
+        {
+          "position": 7,
           "asin": "B0F7CNT6HN",
           "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1/2 Gram Per Inch)",
           "sponsored": false
         },
         {
-          "position": 7,
-          "asin": "B0GRXLRJYH",
-          "title": "Pickleball Paddle Weights, 10 Pack 3g Tungsten Tape for Pickleball Paddles",
-          "sponsored": false
-        },
-        {
           "position": 8,
-          "asin": "B0GM7CJ9JY",
-          "title": "Tungsten Tape Strips for Pickleball Paddle Lead-Free Weights 3gx10",
-          "sponsored": false
-        },
-        {
-          "position": 9,
-          "asin": "B0DJ5M2MMW",
-          "title": "Tungsten Weighted Tape for Pickleball Paddles Golf Clubs Fishing Tennis Racket \u2013 1 Gram per Inch - Weighted Tungsten Tape Roll Non -Toxic Lead Tape Alternative",
-          "sponsored": false
-        },
-        {
-          "position": 10,
-          "asin": "B0F2F8FBMV",
-          "title": "TRINKA 10pcs 3g Tungsten Tape Strips with Extra Strength 3M Adhesive",
-          "sponsored": false
-        },
-        {
-          "position": 11,
           "asin": "B0FPDLPJKC",
           "title": "Paddle Tuning Tape for Pickleball Paddles | Non-Toxic & Customizable Alternative of Lead Tape for Pickleball Paddles (1 Gram Per Inch)",
           "sponsored": false
         },
         {
-          "position": 12,
-          "asin": "B0F9Y1CPCX",
-          "title": "Tungsten Weights for Pickleball Paddles, Safe Lead Tape Alternative",
+          "position": 9,
+          "asin": "B0F8HN1SQL",
+          "title": "DZrudun Pickleball Paddle Weights, 10Pc Tungsten Tape for Pickleball Paddle",
           "sponsored": false
         },
         {
-          "position": 13,
+          "position": 10,
           "asin": "B0HBNCHXT2",
           "title": "Vulcan Tungsten Weight Set \u2013 Pickleball Paddle Weight Tape \u2013 8 Tungsten Strips with 3M Adhesive, 3g Each \u2013 Weighted Tape for Pickleball Paddles \u2013 Precision Balance, Power & Swing Weight",
           "sponsored": false
         },
         {
+          "position": 11,
+          "asin": "B0DJ5M2MMW",
+          "title": "Tungsten Weighted Tape for Pickleball Paddles Golf Clubs Fishing Tennis Racket \u2013 1 Gram per Inch - Weighted Tungsten Tape Roll Non -Toxic Lead Tape Alternative",
+          "sponsored": false
+        },
+        {
+          "position": 12,
+          "asin": "B0F2F8FBMV",
+          "title": "TRINKA 10pcs 3g Tungsten Tape Strips with Extra Strength 3M Adhesive",
+          "sponsored": false
+        },
+        {
+          "position": 13,
+          "asin": "B0F9Y1CPCX",
+          "title": "Tungsten Weights for Pickleball Paddles, Safe Lead Tape Alternative",
+          "sponsored": false
+        },
+        {
           "position": 14,
+          "asin": "B0F9WCZ72V",
+          "title": "30PCS Lead Tapes, 3g High Adhesive Lead Tape for Pickleballs,Tennis, Golf Clubs, Adjust The Paddle Weighted Lead Tape and Add Swing Weight",
+          "sponsored": false
+        },
+        {
+          "position": 15,
           "asin": "B0FS7Z9R7K",
           "title": "Weighted Tungsten Tape for Pickleball Paddles | Ultra Thin 1 Gram Per Inch | Twice as Much Tape as Tape Strips",
           "sponsored": false
         },
         {
-          "position": 15,
-          "asin": "B0H7CS117V",
-          "title": "Tungsten Tape for Pickleball Paddles 3g Strips 10 Pack Weighted",
-          "sponsored": false
-        },
-        {
           "position": 16,
-          "asin": "B0H1F3K8WJ",
-          "title": "LiyaTech Tungsten Weighted Tape for Pickleball Paddles, 0.5 inch x 60 inch Roll - Lead-Free Lead Tape Alternative with High-Tack Adhesive Backing",
+          "asin": "B0GM7CJ9JY",
+          "title": "Tungsten Tape Strips for Pickleball Paddle Lead-Free Weights 3gx10",
           "sponsored": false
         },
         {
@@ -1127,14 +1127,14 @@
         },
         {
           "position": 18,
-          "asin": "B0F8HN1SQL",
-          "title": "DZrudun Pickleball Paddle Weights, 10Pc Tungsten Tape for Pickleball Paddle",
+          "asin": "B0CFG4NNFD",
+          "title": "CRBN Pickleball - Tungsten and Lead Tape for Pickleball Paddles",
           "sponsored": false
         },
         {
           "position": 19,
-          "asin": "B0H68WBYT8",
-          "title": "20 PCS Pickleball Paddle Weights, Lead-Free Alternative to Lead Tape",
+          "asin": "B0GRXLRJYH",
+          "title": "Pickleball Paddle Weights, 10 Pack 3g Tungsten Tape for Pickleball Paddles",
           "sponsored": false
         },
         {
@@ -1158,98 +1158,98 @@
         },
         {
           "position": 2,
-          "asin": "B0H3G7ZJ4X",
-          "title": "PG60 Lensless Pickleball Eyewear TR90 Sport Protective Glasses for Men",
-          "sponsored": false
-        },
-        {
-          "position": 3,
-          "asin": "B0H6MC6NYH",
-          "title": "Tellegloww Lensless Glasses Compatible with Pickleball W/case",
-          "sponsored": false
-        },
-        {
-          "position": 4,
-          "asin": "B0HBV2QYPT",
-          "title": "Tanwater Lensless Pickleball Glasses for Women, Light Transparent Gray No-Lens Pickleball Glasses, No-Fog Open-View Sports Eyewear with No-Slip Fit for Pickleball Tennis Indoor Outdoor Play",
-          "sponsored": false
-        },
-        {
-          "position": 5,
-          "asin": "B0H9WSBWWK",
-          "title": "Lensless Protective Sports Goggles with Storage Case",
-          "sponsored": false
-        },
-        {
-          "position": 6,
-          "asin": "B0GZP4BKWF",
-          "title": "Tallew Lensless Glasses Compatible with Pickleball Eye Protection",
-          "sponsored": false
-        },
-        {
-          "position": 7,
           "asin": "B0HJ5241Y2",
           "title": "BLUE CUT Lensless Pickleball Glasses \u2013 Lens-Free Protection Sports Eyewear",
           "sponsored": false
         },
         {
-          "position": 8,
-          "asin": "B0HH9GSR14",
-          "title": "Konohan 4 Pcs Lensless Pickleball Glasses Set Sport Goggle Eye Protection,",
+          "position": 3,
+          "asin": "B0H3G7ZJ4X",
+          "title": "PG60 Lensless Pickleball Eyewear TR90 Sport Protective Glasses for Men",
           "sponsored": false
         },
         {
-          "position": 9,
+          "position": 4,
+          "asin": "B0H6MC6NYH",
+          "title": "Tellegloww Lensless Glasses Compatible with Pickleball W/case",
+          "sponsored": false
+        },
+        {
+          "position": 5,
+          "asin": "B0HBV2QYPT",
+          "title": "Tanwater Lensless Pickleball Glasses for Women, Light Transparent Gray No-Lens Pickleball Glasses, No-Fog Open-View Sports Eyewear with No-Slip Fit for Pickleball Tennis Indoor Outdoor Play",
+          "sponsored": false
+        },
+        {
+          "position": 6,
           "asin": "B0HBVQXP79",
           "title": "Tanwater Lensless Pickleball Glasses for Women, Transparent Purple Frame No-Lens Pickleball Eye Guard, Lightweight No-Fog No-Slip Sports Eyewear for Pickleball Tennis Racquetball Indoor Outdoor Play",
           "sponsored": false
         },
         {
-          "position": 10,
-          "asin": "B0H2YY8JW9",
-          "title": "Tallew Lensless Sport Goggles with Case, Lightweight Tr90 Frame Protective Glasses, Detachable Temples and Adjustable Strap No-lens Protective Eyewear Compatible with Pickleball Tennis",
-          "sponsored": false
-        },
-        {
-          "position": 11,
-          "asin": "B0HJ7K9K9L",
-          "title": "Pickleball Glasses for Men Women, Removable PC Lens, TR90 Sports Eyewear",
-          "sponsored": false
-        },
-        {
-          "position": 12,
+          "position": 7,
           "asin": "B0HDMY5Q3M",
           "title": "Tanwater Lensless Pickleball Glasses for Women, Clear Transparent No-Lens Pickleball Eyewear with Blue Accents, No-Fog Open-View Lightweight No-Slip Sports Glasses for Indoor Outdoor Play",
           "sponsored": false
         },
         {
-          "position": 13,
-          "asin": "B0HDMQHNT5",
-          "title": "Tanwater Lensless Pickleball Glasses for Women, Black No-Lens Pickleball Eyewear with Gray Accents, No-Fog Open-View No-Slip Lightweight Sports Glasses for Pickleball Tennis Indoor Outdoor Play",
+          "position": 8,
+          "asin": "B0H9WXRXBY",
+          "title": "Lensless Protective Sports Goggles with Storage Case",
           "sponsored": false
         },
         {
-          "position": 14,
-          "asin": "B0HDMQH92V",
-          "title": "Tanwater Lensless Pickleball Glasses for Women, Beige No-Lens Pickleball Eyewear with Brown Accents, No-Fog Open-View Lightweight No-Slip Sports Glasses for Indoor Outdoor Play",
+          "position": 9,
+          "asin": "B0HH9GSR14",
+          "title": "Konohan 4 Pcs Lensless Pickleball Glasses Set Sport Goggle Eye Protection,",
           "sponsored": false
         },
         {
-          "position": 15,
+          "position": 10,
+          "asin": "B0GZP4BKWF",
+          "title": "Lensless Glasses Compatible with Pickleball Eye Protection",
+          "sponsored": false
+        },
+        {
+          "position": 11,
+          "asin": "B0HJ4FM6FV",
+          "title": "looptop Lensless Pickleball Glasses, Silver Frame with Black Nose Pads",
+          "sponsored": false
+        },
+        {
+          "position": 12,
           "asin": "B0HJ4FF2BS",
           "title": "looptop Lensless Pickleball Glasses with Foam Padding, White Frame",
           "sponsored": false
         },
         {
-          "position": 16,
+          "position": 13,
+          "asin": "B0HDMQH92V",
+          "title": "Tanwater Lensless Pickleball Glasses for Women, Beige No-Lens Pickleball Eyewear with Brown Accents, No-Fog Open-View Lightweight No-Slip Sports Glasses for Indoor Outdoor Play",
+          "sponsored": false
+        },
+        {
+          "position": 14,
+          "asin": "B0HDMQHNT5",
+          "title": "Tanwater Lensless Pickleball Glasses for Women, Black No-Lens Pickleball Eyewear with Gray Accents, No-Fog Open-View No-Slip Lightweight Sports Glasses for Pickleball Tennis Indoor Outdoor Play",
+          "sponsored": false
+        },
+        {
+          "position": 15,
           "asin": "B0GRBPNXSV",
           "title": "ProX1\u2122 Pickleball Performance Eyewear \u2013 Lensless Pickleball Eye Protection \u2014 Patent-Pending",
           "sponsored": false
         },
         {
+          "position": 16,
+          "asin": "B0HJ4FVP8Q",
+          "title": "Lensless Pickleball Glasses, Clear White Frame with Blue Temple Tips",
+          "sponsored": false
+        },
+        {
           "position": 17,
-          "asin": "B0HFHXSW4F",
-          "title": "1 Set Pickleball Glasses Sport Adjustable Goggles Eye Protection",
+          "asin": "B0H2YY8JW9",
+          "title": "Lensless Sport Goggles with Case, Lightweight Tr90 Frame Protective Glasses, Detachable Temples and Adjustable Strap No-lens Protective Eyewear Compatible with Pickleball Tennis",
           "sponsored": false
         },
         {
@@ -1260,14 +1260,14 @@
         },
         {
           "position": 19,
-          "asin": "B075LT7V3L",
-          "title": "Python Full Framed Racquetball/Pickleball/Squash Eye Protection",
+          "asin": "B0HJ4LDWVX",
+          "title": "Lensless Pickleball Glasses, Open-Frame Eyewear for Indoor and Outdoor Play",
           "sponsored": false
         },
         {
           "position": 20,
-          "asin": "B0HJ4FM6FV",
-          "title": "looptop Lensless Pickleball Glasses, Silver Frame with Black Nose Pads",
+          "asin": "B07GB8Y11G",
+          "title": "NoCry Clear Safety Glasses for Men and Women with Anti-Fog and Scratch Resistant Wrap Around Lenses, Adjustable Temples and Nose Pads \u2014 ANSI Z87 Certified Protective Eyewear with 100% UV Shielding",
           "sponsored": false
         }
       ],
@@ -1280,7 +1280,7 @@
         {
           "position": 1,
           "asin": "B0972GTS8W",
-          "title": "Mangrove Pickleball Bag with Fence Hook/Large Capacity/5 Dedicated Pockets",
+          "title": "Pickleball Bag with Fence Hook/Large Capacity/5 Dedicated Pockets",
           "sponsored": false
         },
         {
@@ -1303,8 +1303,8 @@
         },
         {
           "position": 5,
-          "asin": "B0G5HDLS1N",
-          "title": "SEAFEW Large Black Pickleball Crossbody Sling Bag for Men Women",
+          "asin": "B0CH86N7MV",
+          "title": "Pickleball Bag, Tactical Pickleball Backpack for Men Women",
           "sponsored": false
         },
         {
@@ -1315,8 +1315,8 @@
         },
         {
           "position": 7,
-          "asin": "B0FFCMH2CF",
-          "title": "KAVIGOR Pickleball Sling Bag, Convertible Ultra-Light Backpack with Skin-Soft Fabric & Wet/Dry Pocket, Fits 4 Paddles + Gear",
+          "asin": "B08FWXX2BW",
+          "title": "Pickleball Bag with Fence Hook/Large Capacity/5 Dedicated Pockets",
           "sponsored": false
         },
         {
@@ -1327,74 +1327,74 @@
         },
         {
           "position": 9,
-          "asin": "B0CLL38YRL",
-          "title": "G4Free Pickleball Bag, Crossbody Sling Bag for Men Women",
-          "sponsored": false
-        },
-        {
-          "position": 10,
           "asin": "B075W31JYV",
           "title": "Franklin Sports Pickleball Sling Bag Backpack",
           "sponsored": false
         },
         {
+          "position": 10,
+          "asin": "B0FFCMH2CF",
+          "title": "Pickleball Sling Bag, Convertible Ultra-Light Backpack with Skin-Soft Fabric & Wet/Dry Pocket, Fits 4 Paddles + Gear",
+          "sponsored": false
+        },
+        {
           "position": 11,
-          "asin": "B08FWXX2BW",
-          "title": "Mangrove Pickleball Bag with Fence Hook/Large Capacity/5 Dedicated Pockets",
+          "asin": "B0CLL38YRL",
+          "title": "G4Free Pickleball Bag, Crossbody Sling Bag for Men Women",
           "sponsored": false
         },
         {
           "position": 12,
+          "asin": "B0DFM4QVMK",
+          "title": "Pickleball Sling Bag for Men Women, Lightweight Pickleball Backpack with Fence Hook",
+          "sponsored": false
+        },
+        {
+          "position": 13,
           "asin": "B0FSDYNXZJ",
           "title": "Pickleball Sling Bag with Shoe Compartment - Crossbody Backpack Fits 2 Paddles, 32oz Bottle & Fence Hook, Sports Bag for Men & Women (Shoe Limit: up to US Men's 10 / Women's 11.5)",
           "sponsored": false
         },
         {
-          "position": 13,
-          "asin": "B0CH86N7MV",
-          "title": "Pickleball Bag, Tactical Pickleball Backpack for Men Women",
-          "sponsored": false
-        },
-        {
           "position": 14,
-          "asin": "B0DFM4QVMK",
-          "title": "Goloni Pickleball Sling Bag for Men Women, Lightweight Pickleball Backpack with Fence Hook",
+          "asin": "B01F7VC6MQ",
+          "title": "Selkirk Sport SLK Neo Pickleball Paddles Set of 2 + Pickleballs + Sling Bag",
           "sponsored": false
         },
         {
           "position": 15,
-          "asin": "B0FFC2Z745",
-          "title": "KAVIGOR Pickleball Sling Bag, Convertible Ultra-Light Backpack with Skin-Soft Fabric & Wet/Dry Pocket, Fits 4 Paddles + Gear",
+          "asin": "B0G5HDLS1N",
+          "title": "SEAFEW Large Black Pickleball Crossbody Sling Bag for Men Women",
           "sponsored": false
         },
         {
           "position": 16,
-          "asin": "B0FFC98T2K",
-          "title": "KAVIGOR Pickleball Sling Bag, Convertible Ultra-Light Backpack with Skin-Soft Fabric & Wet/Dry Pocket, Fits 4 Paddles + Gear",
-          "sponsored": false
-        },
-        {
-          "position": 17,
-          "asin": "B0F9DW2B5T",
-          "title": "Mangrove Pickleball Bag with Fence Hook/Large Capacity/5 Dedicated Pockets",
-          "sponsored": false
-        },
-        {
-          "position": 18,
-          "asin": "B08TBTSWSC",
-          "title": "Sucipi Pickleball Bag for Men & Women,Convertible Backpack with Fence Hook",
-          "sponsored": false
-        },
-        {
-          "position": 19,
           "asin": "B0FFSXG6PQ",
           "title": "JOOLA Everyday Sling Bag - Lightweight Pickleball Backpack Holds 2 Paddles - Crossbody Bag with Bottle Pocket & Carabiner",
           "sponsored": false
         },
         {
+          "position": 17,
+          "asin": "B07S8D3NPY",
+          "title": "Athletico Sling Bag - Crossbody Backpack for Pickleball, Tennis, Racketball, and Travel for Men and Women",
+          "sponsored": false
+        },
+        {
+          "position": 18,
+          "asin": "B0FFC2Z745",
+          "title": "Pickleball Sling Bag, Convertible Ultra-Light Backpack with Skin-Soft Fabric & Wet/Dry Pocket, Fits 4 Paddles + Gear",
+          "sponsored": false
+        },
+        {
+          "position": 19,
+          "asin": "B0FFCKHLN6",
+          "title": "Pickleball Sling Bag, Convertible Ultra-Light Backpack with Skin-Soft Fabric & Wet/Dry Pocket, Fits 4 Paddles + Gear",
+          "sponsored": false
+        },
+        {
           "position": 20,
-          "asin": "B0CH2SY1JH",
-          "title": "Sucipi Women's Pickleball Backpack - Quilted Crossbody Sling Bag for Tennis & Pickleball Paddle",
+          "asin": "B0H83PKWYM",
+          "title": "sportsnew Pickleball Sling Bag with Fence Hook/Paddle & Ball Compartments",
           "sponsored": false
         }
       ],
@@ -1406,44 +1406,44 @@
       "organic": [
         {
           "position": 1,
-          "asin": "B0FB8QR3HZ",
-          "title": "sportsnew Waterproof Pickleball Bag Men Women W/Shoe Compartment Fence Hook",
-          "sponsored": false
-        },
-        {
-          "position": 2,
           "asin": "B0DM4QRMP7",
           "title": "SDLINR Large Pickleball Bag Backpack Fits 4+ Paddles for Men & Women",
           "sponsored": false
         },
         {
+          "position": 2,
+          "asin": "B0FB8QR3HZ",
+          "title": "sportsnew Waterproof Pickleball Bag Men Women W/Shoe Compartment Fence Hook",
+          "sponsored": false
+        },
+        {
           "position": 3,
-          "asin": "B0GT4FJWM4",
-          "title": "Pickleball Backpack with Separate Shoe Compartment",
+          "asin": "B0H83JY6Y6",
+          "title": "sportsnew Pickleball Sling Bag with Fence Hook/Paddle & Ball Compartments",
           "sponsored": false
         },
         {
           "position": 4,
+          "asin": "B0972GTS8W",
+          "title": "Pickleball Bag with Fence Hook/Large Capacity/5 Dedicated Pockets",
+          "sponsored": false
+        },
+        {
+          "position": 5,
           "asin": "B0FB8SVKVX",
           "title": "sportsnew Waterproof Pickleball Bag Men Women W/Shoe Compartment Fence Hook",
           "sponsored": false
         },
         {
-          "position": 5,
-          "asin": "B0972GTS8W",
-          "title": "Mangrove Pickleball Bag with Fence Hook/Large Capacity/5 Dedicated Pockets",
-          "sponsored": false
-        },
-        {
           "position": 6,
-          "asin": "B0FB8WM8VV",
-          "title": "sportsnew Waterproof Pickleball Bag Men Women W/Shoe Compartment Fence Hook",
+          "asin": "B0BG1GQGFP",
+          "title": "Ytonet Tennis Bag Tennis Backpack for Women Men 2 Rackets",
           "sponsored": false
         },
         {
           "position": 7,
-          "asin": "B0FB8V7DX8",
-          "title": "sportsnew Waterproof Pickleball Bag Men Women W/Shoe Compartment Fence Hook",
+          "asin": "B0GT4FJWM4",
+          "title": "Pickleball Backpack with Separate Shoe Compartment",
           "sponsored": false
         },
         {
@@ -1454,8 +1454,8 @@
         },
         {
           "position": 9,
-          "asin": "B0F6L44CLC",
-          "title": "SDLINR Large Pickleball Bag Backpack Fits 4+ Paddles for Men & Women",
+          "asin": "B0FB8WM8VV",
+          "title": "sportsnew Waterproof Pickleball Bag Men Women W/Shoe Compartment Fence Hook",
           "sponsored": false
         },
         {
@@ -1466,26 +1466,26 @@
         },
         {
           "position": 11,
-          "asin": "B0DSQM5ZXQ",
-          "title": "KAVIGOR Pickleball Bag, Quilted Pickleball Backpack with Shoe Compartment & Waterproof Pocket, Pickle Ball Paddle Bag Fits 2 to 4 Paddles for Women and Men",
+          "asin": "B0CSDK3C8Z",
+          "title": "G4Free Pickleball Bag, Pickleball Backpack for Women and Men",
           "sponsored": false
         },
         {
           "position": 12,
-          "asin": "B0FW4RCNWS",
-          "title": "sportsnew Waterproof Pickleball Bag Men Women W/Shoe Compartment Fence Hook",
+          "asin": "B07S6BY5X1",
+          "title": "Athletico Sling Bag - Crossbody Backpack for Pickleball, Tennis, Racketball, and Travel for Men and Women",
           "sponsored": false
         },
         {
           "position": 13,
           "asin": "B08FWXX2BW",
-          "title": "Mangrove Pickleball Bag with Fence Hook/Large Capacity/5 Dedicated Pockets",
+          "title": "Pickleball Bag with Fence Hook/Large Capacity/5 Dedicated Pockets",
           "sponsored": false
         },
         {
           "position": 14,
-          "asin": "B0FR8CCPWH",
-          "title": "BAGSMART Tennis Gym Bag for Women, Quilted Pickleball 15.6\" Laptop Backpack",
+          "asin": "B0FB8V7DX8",
+          "title": "sportsnew Waterproof Pickleball Bag Men Women W/Shoe Compartment Fence Hook",
           "sponsored": false
         },
         {
@@ -1496,32 +1496,32 @@
         },
         {
           "position": 16,
-          "asin": "B0BG1GQGFP",
-          "title": "Ytonet Tennis Bag Tennis Backpack for Women Men 2 Rackets",
-          "sponsored": false
-        },
-        {
-          "position": 17,
-          "asin": "B0CSDK3C8Z",
-          "title": "G4Free Pickleball Bag, Pickleball Backpack for Women and Men",
-          "sponsored": false
-        },
-        {
-          "position": 18,
-          "asin": "B07S6BY5X1",
-          "title": "Athletico Sling Bag - Crossbody Backpack for Pickleball, Tennis, Racketball, and Travel for Men and Women",
-          "sponsored": false
-        },
-        {
-          "position": 19,
           "asin": "B0CH1ZB48G",
           "title": "Selkirk Sport Backpacks | Pickleball Bags for Paddles & Accessories",
           "sponsored": false
         },
         {
+          "position": 17,
+          "asin": "B0FH4JRZMH",
+          "title": "Pickleball Backpack for Men Women, Pickleball Bag Fits 4+ Paddles",
+          "sponsored": false
+        },
+        {
+          "position": 18,
+          "asin": "B0DSQM5ZXQ",
+          "title": "Pickleball Bag, Quilted Pickleball Backpack with Shoe Compartment & Waterproof Pocket, Pickle Ball Paddle Bag Fits 2 to 4 Paddles for Women and Men",
+          "sponsored": false
+        },
+        {
+          "position": 19,
+          "asin": "B0CYTHWF9B",
+          "title": "adidas Defender Sports Backpack 33L",
+          "sponsored": false
+        },
+        {
           "position": 20,
-          "asin": "B08TBTSWSC",
-          "title": "Sucipi Pickleball Bag for Men & Women,Convertible Backpack with Fence Hook",
+          "asin": "B0FW4RCNWS",
+          "title": "sportsnew Waterproof Pickleball Bag Men Women W/Shoe Compartment Fence Hook",
           "sponsored": false
         }
       ],
